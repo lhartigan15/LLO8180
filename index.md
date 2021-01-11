@@ -24,5 +24,5 @@ There may be a penalty for submissions not meeting these requirements.
 | [Assignment 1 pdf](./Assignment-1.pdf), [Assignment 1 .Rmd File](./Assignment 1.Rmd) | Wednesday 1/27 |
 
 ### Additional Useful Files
-* [Course Syllabus --FORTHCOMING]()
+* [Course Syllabus](./llo_8180_syllabus.pdf)
 * [Due dates for the semester --FORTHCOMING]()
