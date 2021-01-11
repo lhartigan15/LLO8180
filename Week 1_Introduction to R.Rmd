@@ -1,0 +1,185 @@
+---
+title: "Applied Statistics - Week 1: Introduction to R"
+author: "Lacey Hartigan"
+date: "1/13/21"
+
+output: pdf_document
+---
+
+## Welcome to R! 
+Throughout this term, we will use R Markdown (or .Rmd) files to keep our weekly 
+live session code and assignment code organized. Today, we'll start with our
+first .Rmd file. 
+
+Here, you can enter text that you want to print out in your final output file (just like in a Word document). Next, we're going to see where we can put our code... in things called "code chunks." These chunks tell R to interpret what's in them as code (rather than text).
+
+```{r}
+#You can also include notes in code chunks; however, to let R know that they are text and not code, they need to begin with the # symbol.
+
+#First we will see how R can perform simple calculations
+#Suppose we want to calculate 2+2
+2+2 #you can add notes anywhere
+```
+
+Let's try some more addition problems - R can do them all!
+```{r}
+184+32
+158976+2546
+```
+
+What about the square root of 9?
+```{r}
+sqrt(9) #sqrt is an example of a built-in R function - we'll learn a lot of these this semester
+```
+
+Additional calculations using R as a calculator
+```{r}
+9-2
+
+9^2 #the carrot ^ symbol is used to exponentiate
+
+3*6 #asterisk * is used for multiplication
+```
+
+## Defining objects in R
+
+R stores things (data, output, etc.) as objects. We will learn this term how to store the findings from statistical analyses as objects, but let's start with a simpler case. We can assign values to objects (let's call them x and y) and then do the calculations with those objects. this practice is especially handy if you're going to want to use the same number (or object) in numerous calculations.
+
+To assign an object in R, you choose a name for that object and then tell R what the object is equal to. 
+```{r}
+#let's assign the number 9 to an object named x
+x <- 9 #we can do this using a backwards arrow
+
+#you can also assign objects using the equals sign
+z = 4 
+
+y <- 2 #this assigns the number 2 to y
+
+#Note: you don't have to choose single-letter object names
+ollietheobject <- 52
+```
+
+When we run/execute the code chunk above, notice what appears in your global environment (top right box in RStudio). Objects are stored here. This way, you can use them again in future lines of code. 
+
+Let's use some of our stored objects in calculations.
+```{r}
+y+z #what numbers do these objects represent? What answers do we expect here? 
+
+sqrt(x)
+
+ollietheobject - y
+
+z^y
+```
+
+Next, we will learn how to create vectors and dataframes and store those as objects in R. 
+
+To create a vector of elements, we use the code: c(element, element, element,...)
+```{r}
+#Let's create a vector with the following numbers: 4 5 63 67 89
+vector1 <- c(4,5,63,67,89) 
+
+#Let's create another vector with the numbers: 88 92 71 69 99
+vector2 <- c(88, 92, 71, 69, 99)
+
+#now let's create a vector with string (or non-numeric) data: dog, cat, bunny
+vectorstring <- c("dog", "cat", "bunny") #for non-numeric data, we use "" to show R that these aren't numbers
+```
+
+To view (or "print") an object, you can simply enter the name of the object, and R will reveal what is assigned to the object.
+```{r}
+#print the ollietheobject object
+ollietheobject
+
+#print our string vector
+vectorstring
+
+#print our numeric vector
+vector1
+```
+
+Sometimes, we have two vectors that are related (i.e., they are from the same dataset) and we want to put them together in a single data frame. We can do this using another built-in R function.
+```{r}
+#Let's make a dataframe out of our two numeric vectors. We can do this because they're both
+#the same size (5 elements each). I'm going to store the dataframe in an object.
+week1dataframe <- data.frame(vector1, vector2)
+
+#print the dataframe
+week1dataframe
+```
+
+data.frame is a function -- we will be using a lot of functions. If you need help with a function you can just type help() with the name of the function in the ()
+```{r}
+help(data.frame)
+```
+
+Suppose we want to change the names of our vectors within in our dataframe so that
+they are meaningful and tell us something about the data. For the vectors we have, 
+let's say that vector 1 is the student ID and vector 2 is the student's last grade on an exam.
+```{r}
+names(week1dataframe) <- c("SID", "Score")
+
+week1dataframe
+```
+
+Let's say we also have data on student sex and want to add that to our existing dataframe. We can also do that. We're going to use the $ symbol after our dataframe name to let R know that we want to attach the new vector to the existing data. 
+```{r}
+#let's add a new variable: Sex
+week1dataframe$Sex <- c("M","F","F","M","F")
+
+week1dataframe
+```
+
+```{r}
+#let's add another variable: age
+week1dataframe$Age = c(29,20,25,27,35)
+
+week1dataframe
+```
+
+If we just want to view the values from one variable in a dataframe, you can use 
+call attention to just one variable (or column) with that same $ symbol.
+```{r}
+#let's just look at the scores data
+week1dataframe$Score
+```
+
+## Frequency Distributions
+
+Next, we're going to learn how to create an ungrouped frequency distribution.
+First, we will create a vector from the math ability data in async.
+```{r}
+mathability <- c(6,5,6,1,4,4,5,6,5,3,5,6,7,3,5,5,4,5,4,7,2,5,5,2,6,5,5,4,5,3,5,7,6,5,3)
+mathability
+```
+
+Then, we're going to use R's built in "table" function to create a frequency table.
+```{r}
+table(mathability)
+
+#Let's make the table look a little better using transform - this is like the transpose function in excel
+transform(table(mathability))
+```
+
+Now, let's add some information to the table (percent, cumulative frequency and cumulative percent)
+```{r}
+freq_table <- transform(table(mathability)) #save the pretty table to an object
+n <- length(mathability) #store the total number of elements in the original vector in the object n
+
+#built the table - adding relative frequency, cumulative frequency, and cumulative percent
+transform(freq_table, Rel_Freq=prop.table(Freq), Cum_Freq=cumsum(Freq), Cum_Percent=(cumsum(Freq)/n))
+```
+
+In addition to building tables and doing computations incredibly fast, R is also 
+DYNO-MITE at visual depictions of data. Let's start with a very simple example for this week and let's build a histogram. Let's use the Cash data from async.
+```{r}
+#First, enter in the data as a vector
+cash <- c(.05,6,30,0,65,4.75,50,0,100,.17,15,210,2,175,42,65,2,
+          200,0,10,0,15,20,30,
+          12,0,30,45,7,10,80,12,28,.75,100,33,1,14,5,23,45)
+
+#To create the histogram, we'll use the R function hist
+hist(cash)
+```
+
+As the final step - go ahead and "knit" this file and see what you get. Pretty cool, huh? 
