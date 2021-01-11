@@ -21,8 +21,8 @@ There may be a penalty for submissions not meeting these requirements.
 
 | File      | Due Date          |
 |:-------------|:------------------|
-| [Assignment 1](./Assignment1.pdf) | Wednesday 1/27 |
+| [Assignment 1 --FORTHCOMING](./Assignment1.pdf) | Wednesday 1/27 |
 
 ### Additional Useful Files
-* [Course Syllabus]()
-* [Due dates for the semester]()
+* [Course Syllabus --FORTHCOMING]()
+* [Due dates for the semester --FORTHCOMING]()
