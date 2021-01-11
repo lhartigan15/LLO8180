@@ -21,7 +21,7 @@ There may be a penalty for submissions not meeting these requirements.
 
 | File      | Due Date          |
 |:-------------|:------------------|
-| [Assignment 1 --FORTHCOMING](./Assignment1.pdf) | Wednesday 1/27 |
+| [Assignment 1](./Assignment-1.pdf), [Assignment 1 .Rmd File](./Assignment 1.Rmd) | Wednesday 1/27 |
 
 ### Additional Useful Files
 * [Course Syllabus --FORTHCOMING]()
