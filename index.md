@@ -10,7 +10,7 @@ These are the RStudio files and datasets that we will use for our live session m
 In most class sessions, we will begin with polling questions. You can find the questions and answers here (after each class session).
 
 ### Formula Slides
-For applicable weeks, I will upload slides with that weeks' important formulas.
+For applicable weeks, I will upload slides with that week's important formulas.
 
 ### Assignments
 Each assignment (problem set) is worth 100 points. The problem sets should be uploaded to the async before live session on their given due date. All assignment submissions should include two files:
