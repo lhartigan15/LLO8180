@@ -1,10 +1,10 @@
 ## Welcome to Applied Statistics (LLO8180), Spring 2021
 
-This is a supplementary page for Professor Hartigan's section of LLO 8180 - Applied Statistics. Make sure you bookmark and check this page frequently for the most up-to-date files to use for live sessions and assignments. You should have R and RStudio installed prior to the first day of class. Instructions for installing can be found [here](./Download_or_UpdateR.docx).
+This is a supplementary page for Professor Hartigan's section of LLO 8180 - Applied Statistics. Make sure you bookmark and check this page frequently for the most up-to-date files to use for live sessions and assignments. You should have R and RStudio installed prior to the first day of class. Instructions for installing can be found [here](./Downloading Installing Updating R and RStudio.pdf).
 
 ### Async Lecture RStudio (.Rmd) Files
 These are the RStudio files and datasets that we will use for our live session meetings each week. While you don't have to run the code in advance of class, some of you might prefer to do so. I will upload all code at least 24 hours before our class meetings.
-1. Week 1 - [Introduction Rmd File](./Async_Rmdfiles/01_Intro.Rmd)
+1. Week 1 - [Introduction Rmd File](./Week 1_Introduction to R.Rmd)
 
 ### Polling Questions (with answers)
 In most class sessions, we will begin with polling questions. You can find the questions and answers here (after each class session).
