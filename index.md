@@ -25,4 +25,4 @@ There may be a penalty for submissions not meeting these requirements.
 
 ### Additional Useful Files
 * [Course Syllabus](./llo_8180_syllabus.pdf)
-* [Due dates for the semester --FORTHCOMING]()
+* [Due dates for the semester](./Spring 2021 LLO8180 due dates.xlsx)
