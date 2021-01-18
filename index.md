@@ -5,12 +5,13 @@ This is a supplementary page for Professor Hartigan's section of LLO 8180 - Appl
 ### Live Session RStudio (.Rmd) Files
 These are the RStudio files and datasets that we will use for our live session meetings each week. While you don't have to run the code in advance of class, some of you might prefer to do so. I will upload all code at least 24 hours before our class meetings.
 1. Week 1 - [Introduction Rmd File](./Week 1_Introduction to R.Rmd)
+2. Week 2 - [Summary/Descriptive Statistics Rmd File](./Week 2_Summary Statistics.Rmd), [Week2 Data File](./week2data.txt)
 
 ### Polling Questions (with answers)
 In most class sessions, we will begin with polling questions. You can find the questions and answers here (after each class session).
 
 ### Formula Slides
-For applicable weeks, I will upload slides with that week's important formulas.
+* [Week 2 Formulas](./Week 2 Formulas.pptx)
 
 ### Assignments
 Each assignment (problem set) is worth 100 points. The problem sets should be uploaded to the async before live session on their given due date. All assignment submissions should include two files:
