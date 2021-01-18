@@ -1,0 +1,112 @@
+---
+title: "Applied Statistics - Week 2: Descriptive/Summary Statistics"
+author: "Lacey Hartigan"
+date: "1/20/21"
+output:
+  html_document
+---
+
+# More FUN with R Code! Descriptive/Summary Statistics and other important code.
+ 
+## Importing data
+Last week we talked about how we can hand-enter data into R. While this is something we definitely want you to know how to do, in most cases, you will not be entering data by hand, but instead, you'll be provided a data file and will want to import it directly into R. There are LOTS of ways to do this. 
+
+Tonight, we are going to begin by using the `read.table()` function to import data.
+
+It helps to store the data in a working directory (and that way you won't have to write out the file path each time). Think of this directory as the place that R will go to "look" for your data. You can have a different directory or folder each week, OR, you can save all your data files to the same folder (and then you always have the same director). 
+
+Let's go ahead and set our working directory for this week. NOTE, a directory is a path to a folder on YOUR computer. So, if you're using my code, MY directory will not work for you. You MUST change this. 
+```{r}
+setwd("C:/Users/Lacey/Google Drive/Teaching/Vanderbilt/LLO 8180 - Applied Stats/Week 2")
+```
+IMPORTANT NOTE for PC users -- when you copy/paste a file path, the slashes will be backwards. You will have to change these manually so that they go this way: `/` (not this way: `\`). 
+
+If you're unsure as to how to copy/paste a file path, here are some good resources:
+* [PC instructions here](https://www.howtogeek.com/670447/how-to-copy-the-full-path-of-a-file-on-windows-10/)
+* [Mac instructions here](https://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
+
+Once you set your working directory, you can read in any file saved in that folder, easily.
+```{r}
+wk2data <- read.table("week2data.txt", header=T, sep="\t")
+#if your dataset is comma delimited then use sep="," 
+#if your dataset is tab delimited then use sep="\t" 
+#NOTE: I will always send you tab-delimited files
+#if you have variable names in the first row of your dataset then put header=T, otherwise header=F
+```
+
+Make sure you View or Print the dataset after you read it in.
+```{r}
+wk2data
+```
+
+If you get into a bind, you can use the file.choose() command (this is NOT my recommended method).
+```{r}
+#Note: I am commenting this code out so that I can knit my file. 
+#wk2datachoose <- read.table(file.choose(), header=T, sep="\t")
+#wk2datachoose
+```
+
+There are additional functions in R for reading in all types of files.
+
+Now, let's learn a few more things about how to examine a data frame once we have it imported into our R environment. We can use the `str` command to obtain information about the dataset. 
+```{r}
+str(wk2data)
+```
+
+We can identifying the variable class/type using the `class` function.
+```{r}
+#Note - when I want to reference a variable in a data frame I have to reference the data frame name first
+class(wk2data$Ex2)
+```
+## Central tendency and variability
+
+We can use the `mean` function to calculate the mean of each variable in our dataset. 
+```{r}
+mean(wk2data$Ex1)
+mean(wk2data$Ex2)
+```
+
+We can use the `median` function to calculate the mean of each variable in our dataset. 
+```{r}
+median(wk2data$Ex1)
+median(wk2data$Ex2)
+```
+
+*Finding the mode is fairly complicated in R -- we will not be doing it here.*
+
+We can use the `sd` function to calculate the standard deviation of each variable in our dataset. 
+```{r}
+sd(wk2data$Ex1)
+sd(wk2data$Ex2)
+```
+
+Other handy built-in functions: `range` (identifies the numeric range) and `var` (calculates the variance)
+```{r}
+range(wk2data$Ex1)
+range(wk2data$Ex2)
+
+var(wk2data$Ex1)
+var(wk2data$Ex2)
+```
+
+In addition to the base package that come with R, we can also install other packages to introduce other functions we're interested in. One package is called `psych` and it allows us to run descriptive statistics quickly (and all at once). 
+
+You only need to install a package once. So, after we install this the first time, we will comment the line of code out (using a #) in the future. You may also choose to install packages by typing directly into your console, since you don't need that code saved in your .Rmd coding file. 
+```{r}
+#install.packages("psych") 
+#I have line 95 commented out because I've already installed this package and don't need to do so again. In order for you to install it, you should remove the # at the beginning of the line and run this code chunk. 
+```
+
+While we only need to install a package one time, we need to pull it from the library EVERY time we want to use it. We do this using the library command. 
+```{r}
+library(psych) 
+
+#Now that I have the psych library open, I can use its commands. In this case I'm interested in the describe function (that will give us descriptive stats on our variable).
+describe(wk2data$Ex1)
+describe(wk2data$Ex2)
+
+#Another neat feature of the describe command is that I can apply it to a whole dataset at once (rather than run it variable by variable). 
+describe(wk2data)
+```
+
+
