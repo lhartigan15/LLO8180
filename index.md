@@ -8,7 +8,7 @@ These are the RStudio files and datasets that we will use for our live session m
 2. Week 2 - [Summary/Descriptive Statistics Rmd File](./Week 2_Summary Statistics.Rmd), [Week2 Data File](./week2data.txt)
 
 ### Polling Questions (with answers)
-Questions and answers for in-class polling questions (updated after each class session).
+Answers to in-class polling questions (updated after each class session).
 * [Week 2 Polling](./Week 2 Polling.docx)
 
 ### Formula Slides
