@@ -1,0 +1,53 @@
+---
+title: 'A better way to plot Histograms'
+author: "Lacey Hartigan"
+date: "1/21/21"
+output:
+  html_document: default
+---
+
+Let's take the "cash" data from async/week 1 and use a more dynamic code to plot a better-looking
+histogram. 
+
+```{r}
+#First, enter the cash data
+cash <- c(.05,6,30,0,65,4.75,50,0,100,.17,15,210,2,175,42,65,2,
+          200,0,10,0,15,20,30,
+          12,0,30,45,7,10,80,12,28,.75,100,33,1,14,5,23,45)
+```
+
+To create the histogram, we're going to use ggplot2, which is a really dynamic plotting package that we will use a LOT this semester and next. This means you need to install the ggplot2 package. Go down to your console below and type: install.packages("ggplot2"). Hit enter. This will install ggplot2 (remember, you can check your package list in the bottom right block in R studio to see if it installed). 
+
+```{r}
+#To actually USE ggplot, we need to make sure the library is open. 
+library(ggplot2)
+```
+
+Now, we're ready to plot our histogram (or anything else we want to plot!).
+```{r}
+#One IMPORTANT note -- ggplot doesn't like dealing with lone vectors... it expects you to pass it a data.frame. All we have to do is save our "cash" vector as a dataframe using our trusty data.frame function.
+cashdata <- data.frame(val=cash)
+
+#NOW for the plotting!
+histplot <- ggplot(cashdata, aes(x=val)) +  
+  geom_histogram(binwidth=5, color="blue", fill="pink") 
+#line 32 specifies our dataframe and then the variable we want to plot (look at your dataframe to get the name of your variable, in this case it is "val"). ggplot tells R we're building a plot, and "aes" stands for aesthetics. The beginning of the line will SAVE our plot as "histplot" (remember, you choose the name!)
+#line 22 tells R that I want it to plot a histogram (geom_histogram), I want my bin widths to be 5 (you can change this to whatever number you want) and I want my bars to be blue (you can change this) and the bars to be filled in pink (you can change this).
+
+#Q: Now, what if I want to "print" this plot? What would I type next? (scroll down to see the answer)
+```
+
+
+
+
+
+
+
+
+
+A: I would just type the name of the plot! That's how I "print" it!
+```{r}
+histplot
+```
+
+NOTE: If I don't "print" my plot, it won't actually show up in my knit output file. 
