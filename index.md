@@ -31,4 +31,5 @@ There may be a penalty for submissions not meeting these requirements.
 * [Due dates for the semester](./Spring 2021 LLO8180 due dates_011121.xlsx)
 * [Base R Reference Card - Common Commands](./Base R Cheat Sheet.pdf)
 * [R Markdown Reference Card](./rmarkdown-reference.pdf)
-* [Another R Markdown Reference Card)(./rmarkdown-cheatsheet.pdf)
+* [Another R Markdown Reference Card](./rmarkdown-cheatsheet.pdf)
+
