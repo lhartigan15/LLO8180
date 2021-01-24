@@ -15,7 +15,7 @@ Answers to in-class polling questions (updated after each class session).
 
 ### Formula Slides
 * [Week 2 Formulas](./Week 2 Formulas.pptx)
-* [Week 3 Formulaes](./Week 3 Formulas.pptx)
+* [Week 3 Formulas](./Week 3 Formulas.pptx)
 
 ### Assignments
 Each assignment (problem set) is worth 100 points. The problem sets should be uploaded to the async before live session on their given due date. All assignment submissions should include two files:
