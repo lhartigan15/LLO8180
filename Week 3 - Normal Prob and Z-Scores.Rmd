@@ -1,0 +1,124 @@
+---
+title: "Week 3 - Basic Probability; Normal Distribution; Z-Scores"
+author: "Lacey Hartigan"
+date: "1/27/21"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+```{r  include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Load any needed libraries here
+#library(tidyverse)
+```
+
+## Z-Scores
+
+This week we will learn how to compute normal probabilities. First, let's learn how to compute z-scores from raw scores.
+```{r}
+GPA <- c(3.2, 2.5, 4.0, 2.7, 3.4)
+GPA
+```
+
+### Method 1: "By hand"
+We can calculate z-scores "by hand" using R to compute the mean and standard deviation.
+```{r}
+mean(GPA)
+sd(GPA)
+```
+We see that the mean is 3.16 and standard deviation is 0.594138. So we could calculate any z-score we wanted to for these data using these. 
+
+For example, let's find the z-score for a GPA score of 3.2.
+```{r}
+(3.2-3.16)/.594138
+```
+
+Or we could program R to compute them all for us at once (this will calculate a z-score for every element in our vector). 
+```{r}
+(GPA-mean(GPA))/sd(GPA)
+```
+
+## Method 2: Using R Functions
+We can use the scale function in R to compute the z-scores for us. 
+```{r}
+scale(GPA, scale=TRUE, center=TRUE)
+```
+
+## Normal Probabilities
+
+Now, let's learn how to compute normal probabilities in R (this means we won't need to look things up manually on the standard normal table).
+
+To find normal probabilities in R we use the pnorm function. If you have the z-score computed then you can plug that into the pnorm function. R also needs to know whether you want the probability for the upper `(lower.tail=FALSE)` or lower `(lower.tail=TRUE)` tail.
+
+Let's try the examples from async.
+
+Find p(z > 1.5)
+```{r}
+#Note this is for an upper tail so we will put lower.tail=FALSE
+pnorm(1.5, lower.tail=FALSE)
+```
+*Q: How would we interpret this?*
+*A: There is a 6.68% probability of finding a score greater than z=1.5.*
+
+Find p(z < 1.5)
+```{r}
+pnorm(1.5, lower.tail=TRUE)
+```
+*Interpretation: There is a 93.32% probability of finding a score less than z=1.5.*
+
+Find p(Z < -1.5)
+```{r}
+#Note this is for a lower tail so we will put lower.tail=TRUE
+pnorm(-1.5, lower.tail=TRUE)
+```
+*Interpretation: there is a 6.68% probability of finding a score less than -1.5.*
+
+Find P(-1<z<1)
+```{r}
+#Using the pnorm function here requires us to do things differently than we did in async to find this probability. Think through this code and how/why it works.
+pnorm(1, lower.tail=TRUE) - pnorm(-1, lower.tail=TRUE)
+```
+
+Find p(z < -1.96) OR p(z > 1.96)
+```{r}
+pnorm(-1.96, lower.tail=TRUE) + pnorm(1.96, lower.tail=FALSE)
+
+#another way
+2*pnorm(1.96, lower.tail=FALSE)
+
+#another way
+2*pnorm(-1.96, lower.tail=TRUE)
+```
+
+IQ test example
+
+IQ tests are normed to have a mean of 100 and standard deviation of 15. What is the probability an individual scores greater than 110?
+
+Method 1 to answer this question:
+```{r}
+#First let's compute the z-score - formula: z = (x-Mu)/sigma
+(110-100)/15
+
+#Now let's find the probability an individual scores greater than 110, p(z>.667)
+pnorm(0.6666667, lower.tail=FALSE)
+#The probability that an individual scores greater than 110 is 25.25%.
+```
+
+Method 2 to answer this question:
+```{r}
+#Alternatively, we could have just programmed this into one step by telling pnorm the mean and sd. But be very careful here. If you plug in the z-score then you do NOT need mean = __ and sd = __ because the default is mean = 0 and sd = 1.
+
+#Only include mean = __ and sd = __ when you are plugging in the RAW score and NOT the z-score. Think of this as a shortcut because we do not have to compute the z-score first.
+pnorm(110, mean=100, sd=15, lower.tail=FALSE) 
+```
+
+*Interpretation: There is a 25% probability of an individual scoring greater than 110.*
+
+What is the probability an individual scores less than a 125?
+```{r}
+pnorm(125, mean=100, sd=15, lower.tail=TRUE)
+```
+*Interpretation: The probability that an individual scores less than 125 is 95.22%.*
