@@ -1,3 +1,7 @@
+```{r}
+## REMOVE THIS CHUNK BEFORE BEGINNING!!!! 
+##The --- in your header should be on line 1 of this Rmd file
+```
 ---
 title: "Assignment 1"
 author: ""
