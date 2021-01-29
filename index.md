@@ -12,6 +12,7 @@ These are the RStudio files and datasets that we will use for our live session m
 ### Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
 * [Week 2 Polling](./Week 2 Polling.docx)
+* [Week 3 Polling](./Week 3 Polling.docx)
 
 ### Formula Slides
 * [Week 2 Formulas](./Week 2 Formulas.pptx)
@@ -26,7 +27,8 @@ There may be a penalty for submissions not meeting these requirements.
 
 | File      | Due Date          |
 |:-------------|:------------------|
-| [Assignment 1 pdf](./Assignment-1.pdf), [Assignment 1 Rmd starter file](./Assignment 1.Rmd), [Assignment 1 data file](./phd.txt) | Wednesday 1/27 |
+| [Assignment 1 pdf](./Assignment-1.pdf), [Assignment 1 Rmd starter file](./Assignment 1.Rmd), [Assignment 1 data file](./phd.txt) | Wednesday 1/27/21 |
+| [Assignment 2 pdf](./Assignment-2.pdf), [Assignment 2 Rmd starter](./Assignment 2 Starter.Rmd) | Wednesday 2/3/21 |
 
 ### Additional Useful Files
 * [Course Syllabus](./llo_8180_syllabus.pdf)
