@@ -1,0 +1,90 @@
+---
+title: "Applied Statistics - Assignment 2"
+author: "YOUR NAME HERE"
+date: "due 2/3/20"
+output: 
+  pdf_document: default
+  html_document: default
+---
+This is due prior to the beginning of live session on the due date. Please submit your .Rmd file AND one knit file (you can use html, pdf, or word) to the LMS. Round all reported statistics (when applicable) to the nearest hundredths place (i.e., two decimal places). 
+
+Please identify students with whom you worked on this assignment here (MAX of four to a group):
+
+
+
+## 	1. [Week 3] Each participant in an experiment was given one of three tasks. Let these three tasks be symbolized by A~1~, A~2~, and A~3~. The number of errors each participant made in performing the task was recorded by use of the categories “0 errors,” “1 error,” and “2 or more errors.” Thus, every participant was classified in two ways, by task and by number of errors. The following table shows the probabilities for these joint events for any participant drawn at random. 
+![](Capture.JPG)
+
+## Use these probabilities to find:
+\setlength{\leftskip}{1cm}
+### a. The marginal probabilities of the task events A~1~, A~2~, and A~3~
+
+### b. The marginal probabilities for the error events 0 error, 1 error, and 2 or more errors
+
+### c. 	The conditional probability for zero errors given task A~1~
+
+### d. 	The conditional probability for two or more errors given task A~2~
+
+### e. 	The conditional probability of task A~3~ given no errors
+
+
+
+\setlength{\leftskip}{0pt}
+## 2.	[Week 4] Explain in your own words what the central limit theorem means.
+
+
+
+
+## 3.	[Week 3:(a)-(d), Week 4:(e)-(i)] Assume a normally distributed population of resting heart rates with $\mu = 76$ and $\sigma = 5$. *Please use R code to do each of these sub-questions (when possible).*
+
+\setlength{\leftskip}{1cm}
+### a.	Compute the z-score for a heart rate of 73. 
+```{r}
+
+```
+
+### b.	What is the probability of randomly selecting someone whose heart rate is below 73?  
+```{r}
+
+```
+
+### c.	What is the probability of randomly selecting someone whose heart rate above 79?
+```{r}
+
+```
+
+### d.	What is the probability of randomly selecting someone whose heart rate either below 60 or above 90?
+```{r}
+
+```
+
+### e.	Compute the standard error for a sample size of 10.
+```{r}
+
+```
+
+### f.	What does the standard error measure?
+
+### g.	What is the probability of selecting a random sample of 10 individuals whose mean heart rate is below 73?
+```{r}
+
+```
+
+### h.	What is the probability of selecting a random sample of 20 individuals whose mean heart rate is below 73?
+```{r}
+
+```
+
+### i.	What is happening to the probabilities as the sample size increases? Briefly explain why.
+
+
+
+\setlength{\leftskip}{0cm}
+## 4. [Week 4] Consider a population of size 10 and samples of size 4.
+\setlength{\leftskip}{1cm}
+### a.	Compute the total possible samples using theoretical sampling.
+
+### b.	Compute the total possible samples using experimental sampling.
+
+
+
