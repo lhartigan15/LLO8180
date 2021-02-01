@@ -27,7 +27,7 @@ There may be a penalty for submissions not meeting these requirements.
 
 | File      | Due Date          |
 |:-------------|:------------------|
-| [Assignment 1 pdf](./Assignment-1.pdf), [Assignment 1 Rmd starter file](./Assignment 1 Starter.Rmd), [Assignment 1 data file](./phd.txt) | Wednesday 1/27/21 |
+| [Assignment 1 pdf](./Assignment-1.pdf), [Assignment 1 Rmd starter](./Assignment 1 Starter.Rmd), [Assignment 1 data file](./phd.txt) | Wednesday 1/27/21 |
 | [Assignment 2 pdf](./Assignment-2.pdf), [Assignment 2 Rmd starter](./Assignment 2 Starter.Rmd) | Wednesday 2/10/21 |
 
 ### Additional Useful Files
