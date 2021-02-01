@@ -1,0 +1,132 @@
+```{r}
+REMOVE THIS CODE CHUNK BEFORE KNITTING!!!!
+```
+---
+title: "Assignment 1"
+author: ""
+date: "due 1/27/20"
+
+output: pdf_document
+---
+
+# Assignment 1
+This is due prior to the beginning of live session on the due date. Please submit as 
+a knit file (you can use html, pdf, or word - just upload one). Round all reported statistics (when applicable) to the nearest hundredths place (i.e., two decimal places). 
+
+Please identify students with whom you worked on this assignment here (MAX of four to a group):
+
+
+
+## 1. [Week 1] Researchers at the University of Utah use a driving simulator in experiments to study the effects of divided attention. In one of their experiments, participants were randomly assigned to one of two conditions. One condition was called the single-task condition, and participants’ task was to follow a course in the driving simulator. The other condition was called the dual-task condition, and participants’ had to follow the course in the driving simulator while at the same time engaged in a hands-free cell phone conversation. The driving simulator recorded each participant’s reaction time (in milliseconds) to an obstacle that appeared unexpectedly. The average reaction time was significantly greater in the dual-task condition. Therefore, the researchers concluded that divided attention had a detrimental effect on driving performance.
+
+### a. Identify the independent variable in the study. Is this variable continuous or discrete? 
+
+
+
+### b. Identify the dependent variable in the study. Is this variable continuous or discrete?
+
+
+
+## 2. [Week 2] Consider the following frequency distribution:
+
+Score | Frequency
+------------- | -------------
+7 | 18
+6 | 77
+5 | 20
+4 | 7
+3 | 3
+2 | 1
+1 | 3
+
+### a. What is the sample size?
+
+
+
+### b. What percent of participants had a score of 4?
+
+
+
+### c. What is the percentile rank for a score of 5? 
+
+
+
+### d. What score corresponds to the 80th percentile?
+
+
+
+## 3. [Week 1] Define objects for values 5 and 1. *Use the objects* to compute the following:
+### a. 5+1
+
+```{r}
+
+```
+
+### b. 5^2
+
+```{r}
+
+```
+
+### c. $\sqrt{5-1}$
+
+```{r}
+
+```
+
+## 4.	[Week 1] A math teacher asked 18 of her students to rate how much they like math on a 1 - 7 Likert-scale (1 = not at all, 7 = very much). She received the following responses: 3, 7, 5, 3, 5, 6, 3, 2, 6, 4, 4, 3, 4, 2, 3, 6, 4, 7
+### a. Enter the data into R as a vector with a name (of your choosing). Print the vector.
+
+```{r}
+
+```
+
+### b. Create a histogram.
+
+```{r}
+
+```
+
+### c. Describe the shape of the distribution using terminology learned in class.
+
+
+
+## 5.	[Week 1] The teacher also collected the final average in her math class for each of the 18 students: 84, 97, 88, 73, 81, 85, 63, 76, 85, 79, 83, 66, 76, 66, 82, 73, 81, 92
+### a. Enter the data into R as a vector with a name. Print the vector.
+
+```{r}
+
+```
+
+### b. Create a histogram.
+
+```{r}
+
+```
+
+### c. Describe the shape of the distribution using terminology learned in class.
+
+
+
+## 6.	[Week 1] Create a data frame using the two vectors created in problems (4) and (5). Print the data frame.
+
+```{r}
+
+```
+
+
+## 7.	[Week 2] Consider two variables from a sample of 15 professors: the number of years since obtaining Ph.D. (time) and number of publications (pubs). 
+### a. Import the phd.txt dataset into R and print out the dataset.
+
+```{r}
+
+```
+
+### b. Calculate and report the mean, median, and standard deviation for each variable in the dataset.
+
+```{r}
+
+```
+
+### c. Interpret the meaning of the mean, median, and standard deviation for pubs in the *context of this problem.* I'm not looking for definitions here, but for what each statistic means for this data.
+
