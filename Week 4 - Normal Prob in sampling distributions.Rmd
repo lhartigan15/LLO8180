@@ -1,6 +1,3 @@
-```{r}
-REMOVE ME BEFORE BEGINNING!
-```
 ---
 title: "Week 4 - Normal Probabilities in Sampling Distributions"
 author: "Lacey Hartigan"
@@ -22,7 +19,7 @@ Let's first use R as a calculator to compute total possible samples for theoreti
 How many samples of four participants (n = 4) from a population of ten people (N = 10) would we have using THEORETICAL sampling?
 ```{r}
 #The formula here is: N^n
-10&4
+10^4
 ```
 
 How many samples of four participants (n = 4) from a population of ten people (N = 10) would we have using  EXPERIMENTAL sampling?
