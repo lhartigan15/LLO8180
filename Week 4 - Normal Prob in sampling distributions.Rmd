@@ -1,0 +1,97 @@
+---
+title: "Week 4 - Normal Probabilities in Sampling Distributions"
+author: "Lacey Hartigan"
+date: "2/3/21"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+```{r  include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This week we will learn how to compute normal probabilities in sampling distributions. 
+
+Let's first use R as a calculator to compute total possible samples for theoretical sampling and then for experimental sampling.
+
+How many samples of four participants (n = 4) from a population of ten people (N = 10) would we have using THEORETICAL sampling?
+```{r}
+#The formula here is: N^n
+10&4
+```
+
+How many samples of four participants (n = 4) from a population of ten people (N = 10) would we have using  EXPERIMENTAL sampling?
+```{r}
+#The formula here is: N!/n!(N-n)!
+factorial(10)/(factorial(4)*factorial(10-4))
+```
+
+### Recall the IQ test example from last week. 
+
+IQ tests are normed to have a mean of 100 and standard deviation (sd) of 15. Last week, we found the probability that an individual socres greater than 120 using two different methods.
+```{r}
+#Method 1 - using the z-score in pnorm
+(120-100)/15 #this finds the z-score
+pnorm(1.33, lower.tail=FALSE)
+
+#Method 2 - using the raw score in pnorm
+pnorm(120, mean=100, sd=15, lower.tail=FALSE)
+```
+
+### This week, we're going to work with a SAMPLING DISTRIBUTION. 
+
+IQ tests are normed to have a mean of 100 and standard deviation of 15. What is the probability that a sample of 9 individuals has a mean greater than 110 on an IQ test? [key word in this question is SAMPLE]
+
+First, we need to compute the standard error (se), then the z-score using the standard error.
+```{r}
+#standard error formula = sigma/sqrt(n)
+15/sqrt(9)
+
+#find the z-score using the se 
+(110-100)/5
+
+#then use pnorm just like before
+pnorm(2, lower.tail=FALSE)
+```
+
+Interpretation: There is as 2.28% probability that a sample of 9 individuals has a mean greater than 110 on this IQ test.
+
+Just like last week, we could have skipped computing the z-score and coded in the mean and se
+```{r}
+#note: the code still says "sd" even though, we're using the standard error and that's ok... because the se is the sd of the sampling distribution. It is up to YOU to put the se in here, though, and not the sd, when working with sampling distributions. 
+pnorm(110, mean=100, sd=5, lower.tail=FALSE)
+```
+
+Also, we could have done this whole thing in one step (calculate the se within the code)
+```{r}
+pnorm(110, mean=100, sd=15/sqrt(9), lower.tail=F)
+```
+
+
+Try the following questions out with some NEW DATA: 
+IQ tests are normed to have a mean of 140 and standard deviation of 12.
+
+What is the probability that a sample of 5 individuals has a mean less than 130 on an IQ test?
+```{r}
+pnorm(130, mean=140, sd=12/sqrt(5), lower.tail=TRUE)
+```
+Interpretation: The probability of a sample of 5 individuals having a mean less than 130 is 3.12%.
+
+What's the probability that a sample of 10 has a mean greater than 150 on the same IQ test?
+```{r}
+pnorm(150, mean=140, sd=12/sqrt(10), lower.tail=F)
+```
+Interpretation: The probability of a sample of 10 individuals having a mean greater than 150 is 0.42%.
+
+MORE NEW DATA:
+Suppose we have state standardized test that's normed to have a mean of 170 and an sd of 15. 
+
+What is the probability that a sample of 7 students has a mean greater than 175?
+```{r}
+pnorm(175, mean=170, sd=15/sqrt(7), lower.tail=F)
+```
+Interpretation: The probability of a sample of 7 student having a mean greater than 175 is 18.89%.
+
+
