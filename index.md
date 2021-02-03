@@ -8,6 +8,7 @@ These are the RStudio files and datasets that we will use for our live session m
     * [Plotting a prettier histogram Rmd](./Week 1_plotting a prettier histogram.Rmd)
 2. Week 2 - [Summary/Descriptive Statistics Rmd File](./Week 2_Summary Statistics.Rmd), [Week2 Data File](./week2data.txt)
 3. Week 3 - [Normal Probabilities and Z-Scores Rmd File](./Week 3 - Normal Prob and Z-Scores.Rmd)
+4. Week 4 - [Normal Probabilities in Sampling Distributions)(./Week 4 - Normal Prob in sampling distributions.Rmd)
 
 ### Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
@@ -17,6 +18,7 @@ Answers to in-class polling questions (updated after each class session).
 ### Formula Slides
 * [Week 2 Formulas](./Week 2 Formulas.pptx)
 * [Week 3 Formulas](./Week 3 Formulas.pptx)
+* [Week 4 Formulas](./Week 4 Formulas.pptx)
 
 ### Assignments
 Each assignment (problem set) is worth 100 points. The problem sets should be uploaded to the async before live session on their given due date. All assignment submissions should include two files:
