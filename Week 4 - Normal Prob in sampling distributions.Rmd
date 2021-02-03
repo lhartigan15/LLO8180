@@ -1,3 +1,6 @@
+```{r}
+REMOVE ME BEFORE BEGINNING!
+```
 ---
 title: "Week 4 - Normal Probabilities in Sampling Distributions"
 author: "Lacey Hartigan"
