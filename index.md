@@ -10,12 +10,13 @@ These are the RStudio files and datasets that we will use for our live session m
 3. Week 3 - [Normal Probabilities and Z-Scores Rmd File](./Week 3 - Normal Prob and Z-Scores.Rmd)
 4. Week 4 - [Normal Probabilities in Sampling Distributions](./Week 4 - Normal Prob in sampling distributions.Rmd)
 
-### Polling Questions (with answers)
+### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
 * [Week 2 Polling](./Week 2 Polling.docx)
 * [Week 3 Polling](./Week 3 Polling.docx)
+* [Week 4 Polling](./Week 4 polling - answers.pdf)
 
-### Formula Slides
+### Weekly Formula Slides
 * [Week 2 Formulas](./Week 2 Formulas.pptx)
 * [Week 3 Formulas](./Week 3 Formulas.pptx)
 * [Week 4 Formulas](./Week 4 Formulas.pptx)
