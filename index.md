@@ -9,6 +9,7 @@ These are the RStudio files and datasets that we will use for our live session m
 2. Week 2 - [Summary/Descriptive Statistics Rmd File](./Week 2_Summary Statistics.Rmd), [Week2 Data File](./week2data.txt)
 3. Week 3 - [Normal Probabilities and Z-Scores Rmd File](./Week 3 - Normal Prob and Z-Scores.Rmd)
 4. Week 4 - [Normal Probabilities in Sampling Distributions](./Week 4 - Normal Prob in sampling distributions.Rmd)
+5. Week 5 - [Test Statistics and P-Values](./Week 5 - Test Stats and P-Values.Rmd)
 
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
@@ -20,6 +21,7 @@ Answers to in-class polling questions (updated after each class session).
 * [Week 2 Formulas](./Week 2 Formulas.pptx)
 * [Week 3 Formulas](./Week 3 Formulas.pptx)
 * [Week 4 Formulas](./Week 4 Formulas.pptx)
+* [Week 5 Formulas](./Week 5 Formulas.pptx)
 
 ### Assignments
 Each assignment (problem set) is worth 100 points. The problem sets should be uploaded to the async before live session on their given due date. All assignment submissions should include two files:
@@ -32,6 +34,7 @@ There may be a penalty for submissions not meeting these requirements.
 |:-------------|:------------------|
 | [Assignment 1 pdf](./Assignment-1.pdf), [Assignment 1 Rmd starter](./Assignment 1 Starter.Rmd), [Assignment 1 data file](./phd.txt) | Wednesday 1/27/21 |
 | [Assignment 2 pdf](./Assignment-2.pdf), [Assignment 2 Rmd starter](./Assignment 2 Starter.Rmd) | Wednesday 2/10/21 |
+| [Assignment 3 pdf](./.pdf), [Assignment 3 Rmd starter](./.Rmd) | Wednesday 2/24/21 |
 
 ### Additional Useful Files
 * [Course Syllabus](./llo_8180_syllabus.pdf)
