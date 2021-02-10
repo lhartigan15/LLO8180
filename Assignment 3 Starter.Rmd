@@ -1,0 +1,100 @@
+```{r}
+## REMOVE THIS CHUNK BEFORE BEGINNING!!!! 
+##The --- in your header should be on line 1 of this Rmd file
+```
+---
+title: "Applied Statistics - Assignment 3"
+author: "YOUR NAME HERE"
+date: "due 2/24/21"
+output: 
+  pdf_document: default
+---
+
+```{r  include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is due prior to the beginning of live session on the due date. Please submit your .Rmd file AND one knit file (you can use html, pdf, or word) to the LMS. Round all reported statistics (when applicable) to the nearest hundredths place (i.e., two decimal places). 
+
+Please identify students with whom you worked on this assignment here (MAX of four to a group):
+
+## 	1. [Week 5] According to ETS, the Graduate Record Exams (GRE) quantitative section has a population mean of 152.6 and population standard deviation of 8.8. Suppose a test prep company claims that test takers who have taken their quantitative prep courses score higher on the quantitative section. To evaluate the claim, you decided to take a random sample of 48 individuals who took the quantitative prep courses. You calculated the mean GRE quantitative section of the sample to be 155. For the following questions, assume we are conducting a two-tailed hypothesis test at an alpha = .05 level. 
+\setlength{\leftskip}{1cm}
+### a.	Write the null hypothesis in symbols and words
+
+
+### b.	Write the alternative hypothesis in symbols and words
+
+
+### c.	Calculate the test statistic using R
+```{r}
+
+```
+
+### d.	Compute the p-value using R
+```{r}
+
+```
+
+### e.	Make a decision about the null using the critical value approach
+
+
+### f.	Make a decision about the null using the p-value approach
+
+
+\setlength{\leftskip}{0pt}
+## 2. [Week 5] Suppose in the last question we decided to use a one-tailed test instead of a two-tailed test.
+\setlength{\leftskip}{1cm}
+### a.	Rewrite the alternative hypothesis (in words and symbols) to reflect a one-tailed test
+
+
+### b.	What would the p-value be? 
+
+
+### c.	What decision would you make? 
+
+
+### d.	Does this agree with the decision from the two-tailed test?
+
+
+\setlength{\leftskip}{0pt}
+## 3.	[Week 6] A quality control division at a company is responsible for ensuring the weight of packages meets standards. To do this, the division routinely measures randomly selected packages. A random sample of 35 packages, whose packaging states that the contents weigh 10 pounds, is collected and weights are recorded (see weights.txt). For the following questions, assume we are conducting a two-tailed hypothesis test and the alpha = .05 level. 
+\setlength{\leftskip}{1cm}
+### a.	Write the null hypothesis in symbols and words
+
+
+### b.	Write the alternative hypothesis in symbols and words
+
+
+### c.	Compute the test statistic using R (you can use R to find the mean and standard deviation)
+```{r}
+
+```
+
+### d.	What is the degrees of freedom value in this case?
+
+
+### e.	Use R (the pt function) to compute the p-value
+```{r}
+
+```
+
+### f.	Use the t-test function in R to confirm results in parts (c) and (d)
+```{r}
+
+```
+
+### g.	Make a decision about the null using the p-value approach
+
+
+### h.	Calculate Cohen’s d by hand or in R, if appropriate. If not, state why.
+
+
+### i.	Write the conclusion in APA style
+
+
+### j.	Explain what a Type I and Type II error would mean *in the context of this problem.*
+
+
+
+
