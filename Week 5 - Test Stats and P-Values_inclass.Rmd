@@ -1,13 +1,13 @@
 ```{r}
-REMOVE ME BEFORE BEGINNING
+REMOVE ME BEFORE BEGINNING!
 ```
 ---
 title: "Week 5 - Test Statistics & P-values"
 author: "Lacey Hartigan"
 date: "2/10/21"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
   word_document: default
 ---
 
@@ -24,15 +24,15 @@ Let's say we have a population mean of 1400 and standard dev of 80. Our sample m
 First, let's write out our Null and Alternative hypotheses (in words AND in symbols):
 
 \[
-\begin{eqnarray}
+\begin{aligned}
 H_0: \mu_{satprep} = \mu_0 \\
-\end{eqnarray}
+\end{aligned}
 \]
 There will be no difference in the means between students who took the SAT prep course and the general population of test takers.
 \[
-\begin{eqnarray}
+\begin{aligned}
 H_1: \mu_{satprep} \neq \mu_0 \\ 
-\end{eqnarray}
+\end{aligned}
 \]
 There will be a difference in the means between students who took the SAT prep course and the general population of test takers.
 
