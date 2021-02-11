@@ -9,7 +9,7 @@ These are the RStudio files and datasets that we will use for our live session m
 2. Week 2 - [Summary/Descriptive Statistics Rmd File](./Week 2_Summary Statistics.Rmd), [Week2 Data File](./week2data.txt)
 3. Week 3 - [Normal Probabilities and Z-Scores Rmd File](./Week 3 - Normal Prob and Z-Scores.Rmd)
 4. Week 4 - [Normal Probabilities in Sampling Distributions](./Week 4 - Normal Prob in sampling distributions.Rmd)
-5. Week 5 - [Test Statistics and P-Values](./Week 5 - Test Stats and P-Values.Rmd)
+5. Week 5 - [Test Statistics and P-Values - UPDATED](./Week 5 - Test Stats and P-Values_inclass.Rmd)
 
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
