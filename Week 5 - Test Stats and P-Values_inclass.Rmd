@@ -1,0 +1,109 @@
+```{r}
+REMOVE ME BEFORE BEGINNING
+```
+---
+title: "Week 5 - Test Statistics & P-values"
+author: "Lacey Hartigan"
+date: "2/10/21"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+```{r  include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This week we will not do much with R other than calculate test statistics and compute p-values.
+
+Given a one sample z-test, two-tailed, alpha level .05. 
+
+Let's say we have a population mean of 1400 and standard dev of 80. Our sample mean is 1350 for a sample of students who took an SAT prep course. Does our sample of 28 students statistically significantly differ from the population?
+
+First, let's write out our Null and Alternative hypotheses (in words AND in symbols):
+
+\[
+\begin{eqnarray}
+H_0: \mu_{satprep} = \mu_0 \\
+\end{eqnarray}
+\]
+There will be no difference in the means between students who took the SAT prep course and the general population of test takers.
+\[
+\begin{eqnarray}
+H_1: \mu_{satprep} \neq \mu_0 \\ 
+\end{eqnarray}
+\]
+There will be a difference in the means between students who took the SAT prep course and the general population of test takers.
+
+### METHOD 1: Critical Value
+Use the critical value method to determine whether the difference between students who took the SAT prep course and the general population is statistically significant.
+
+1a. Calculate the test statistic (Z)
+```{r}
+(1350-1400)/(80/sqrt(28))
+```
+1b. Compare the test statistic to the critical value (CV) for alpha=.05, 2-tailed test (1.96). Is our test statistic MORE extreme than +/- 1.96? 
+
+A: Yes. -3.3 is MORE extreme than the CV of -1.96. So, we reject the null. We DID find a statistically significant difference.
+
+### METHOD 2: P-Value
+Let's now use the p-value method to determine whether the difference between students who took the SAT prep course and the general population is statistically significant.
+
+2a. Calculate the p-value using pnorm. Make sure you use the correct lower.tail argument (lower.tail=T for negative test statistics; lower.tail=F for positive test statistics)
+```{r}
+2*pnorm(-3.307189, lower.tail = T)
+```
+
+2b. Compare the p-value to our alpha (in this, and MOST cases, it's .05). Is p LESS than alpha? 
+
+A: Yes, p is < .05. So, we reject the null. We DID find a statistically significant difference. Note: Does this answer agree with your answer from using the CV method (IT BETTER!).
+
+2b-1. We COULD have also entered all data into pnorm without calculating the test statistic first, right? 
+```{r}
+2*pnorm(1350, mean=1400, sd=145/sqrt(28), lower.tail=T)
+```
+Of course, this gets us the exact same answer.
+
+
+### USING R FOR THE GROUP PROBLEM IN CLASS (after breakout groups)
+
+a. Identify each value given in the problem and write it with corresponding symbols.
+  Mu = 1050
+  sigma = 200
+  n = 40
+  M = 1080
+
+b. Calculate the standard error.
+```{r}
+se <- 200/sqrt(40); se
+```
+
+c. State the null and alt. hypothesis in symbols & in words
+  H0: Mu_satprep = 1050. The sat prep mean was not different than the population mean (1050).
+  H1: Mu_satprep (not=) 1050. The sat prep mean was different than the population mean (1050). 
+
+d. Perform a one-sample z-test using the CV method.
+  CV = 1.96
+  
+```{r}
+z <- (1080-1050)/se
+z
+```
+  Fail to reject the Null, because our test statistic is < 1.96 (less extreme).
+
+
+e. Perform a one-sample z-test using the p-value approach. 
+```{r}
+2*pnorm(1080, mean=1050, sd=se, lower.tail=FALSE)
+```
+  p > 0.05, so we fail to reject the Null. 
+
+f. What was our decision about the null? 
+  Fail to reject.
+
+g. Did we find statistical significance?
+  NO, we did not.
+
+
+
