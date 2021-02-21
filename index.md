@@ -34,7 +34,7 @@ There may be a penalty for submissions not meeting these requirements.
 |:-------------|:------------------|
 | [Assignment 1 pdf](./Assignment-1.pdf), [Assignment 1 Rmd starter](./Assignment 1 Starter.Rmd), [Assignment 1 data file](./phd.txt) | Wednesday, 1/27/21 |
 | [Assignment 2 pdf](./Assignment-2.pdf), [Assignment 2 Rmd starter](./Assignment 2 Starter.Rmd) | Wednesday, 2/10/21 |
-| [Assignment 3 pdf](./Assignment-3-Starter.pdf), [Assignment 3 Rmd starter](./Assignment 3 Starter.Rmd), [Assignment 3 data file](./weight.txt) | Wednesday, 2/24/21 |
+| [Assignment 3 pdf](./Assignment-3-Starter.pdf), [Assignment 3 Rmd starter](./Assignment 3 Starter.Rmd), [Assignment 3 data file](./weight.txt) | Wednesday, 3/3/21 |
 
 ### Additional Useful Files
 * [Course Syllabus](./llo_8180_syllabus.pdf)
