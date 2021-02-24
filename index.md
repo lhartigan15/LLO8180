@@ -10,18 +10,21 @@ These are the RStudio files and datasets that we will use for our live session m
 3. Week 3 - [Normal Probabilities and Z-Scores Rmd File](./Week 3 - Normal Prob and Z-Scores.Rmd)
 4. Week 4 - [Normal Probabilities in Sampling Distributions](./Week 4 - Normal Prob in sampling distributions.Rmd)
 5. Week 5 - [Test Statistics and P-Values - UPDATED](./Week 5 - Test Stats and P-Values_inclass.Rmd)
+6. Week 6 - [One-sample T-Test](./Week 6 - One-sample t-test.Rmd), [OCD Data](/.OCD_data.csv)
 
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
 * [Week 2 Polling](./Week 2 Polling.docx)
 * [Week 3 Polling](./Week 3 Polling.docx)
 * [Week 4 Polling](./Week 4 polling - answers.pdf)
+* [Week 5 Polling](./Week 5 Polling.pdf)
 
 ### Weekly Formula Slides
 * [Week 2 Formulas](./Week 2 Formulas.pptx)
 * [Week 3 Formulas](./Week 3 Formulas.pptx)
 * [Week 4 Formulas](./Week 4 Formulas.pptx)
 * [Week 5 Formulas](./Week 5 Formulas.pptx)
+* [Week 6 Formulas](./Week 6 Formulas.pptx)
 
 ### Assignments
 Each assignment (problem set) is worth 100 points. The problem sets should be uploaded to the async before live session on their given due date. All assignment submissions should include two files:
