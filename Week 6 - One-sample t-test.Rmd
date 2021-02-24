@@ -1,3 +1,6 @@
+```{r}
+REMOVE ME 
+```
 ---
 title: "Week 6 - One-sample t-test"
 author: "Lacey Hartigan"
