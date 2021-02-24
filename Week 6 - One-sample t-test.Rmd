@@ -1,0 +1,98 @@
+---
+title: "Week 6 - One-sample t-test"
+author: "Lacey Hartigan"
+date: "2/24/21"
+output:
+  pdf_document: default
+---
+
+```{r  include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#NOTE: if you don't have tidyverse installed yet, you need to install it. 
+#Type the following code into your console and hit "enter": install.packages('tidyverse')
+library(tidyverse)
+```
+
+## One-sample T-Test in R
+
+Let's use R to perform calculations for the "couples" example, comparing the amount of time American couples spend discussing marital problems to the amount of time European couples spend discussing marital problems. 
+
+First, let's write out our Null and Alternative hypotheses (in words AND in symbols):
+
+\[
+\begin{aligned}
+H_0: \mu_{American} = \mu_{European} \\
+\end{aligned}
+\]
+American couples spend the same amount of time discussing marital problems as European couples.
+\[
+\begin{aligned}
+H_1: \mu_{American} \neq \mu_{European} \\ 
+\end{aligned}
+\]
+#American couples spend a different amount of time discussing marital problems as compared to Euro couples.
+
+First, let's calculate the t-statistic "by hand"
+```{r}
+(2.6-3)/(1.9/sqrt(70))
+```
+Next, we can calculate the p-value. Instead of `pnorm`, we will use `pt`.
+The only difference is that  have to specify the df. We still have to multiply the probability for two-tailed tests (note: the t-table makes this easier). We still need to be careful with the lower.tail command (because we have a negative t-statistic we need to use TRUE).
+
+```{r}
+2*pt(-1.76,df=69, lower.tail=TRUE)
+
+#or we could have used the positive value (because of symmetry)
+2*pt(1.76,df=69, lower.tail=FALSE)
+```
+Decision: Fail to reject the H0.
+Conclusion: A one-sample t-test revealed that there was no SS difference between American Couples (M=2.6) and Euro couples (M=3) on time spent discussing marital problems; t(69) = -1.76, p > 0.05.
+
+
+Now, let's learn how to conduct a t-test when given a dataset. Let's look at sample data given for example 9.1 in the book. We're going to import this data (so taht we get the practice). 
+
+This file is a .csv (comma separated values) file.
+```{r}
+#Import the file
+OCD<-read_csv(file="OCD_data.csv")
+OCD
+
+#Run a one-sample t-test
+t.test(OCD,mu=77.43, conf.level=.95)
+```
+
+Decision: Reject the null, b/c p<.05. So, BECAUSE we rejected the null, we can now use R to calculate the effect size "by hand."
+
+```{r}
+#Calculate Cohen's d:
+(62-77.43)/20.94
+```
+
+FINDINGS/CONCLUSION (in APA style):
+A one-sample two-tailed t-test at alpha level .05 revealed a statistically significant difference between our sample mean (M=62) and our population (Mu=77.43), t(17) = -3.13, p < 0.05, d = -0.74. Cohen's d signified a moderate effect. 
+
+Set-up for reporting stats in APA (one-sample t-test): 
+t(DF)=TSTAT, p(lessthanorgreaterthan).05, [if significant] d=COHENSVALUE.
+
+
+
+
+
+
+### BONUS
+
+If we wanted to get really fancy, we could write our own function to calculate cohen's d. This way, we can use this again and again, for one-sample t-tests. 
+```{r}
+Mu=77.43
+
+cohensd <- function(x) {
+  result <- (mean(x)-Mu)/sd(x)
+}
+
+d<-cohensd(OCD$OCD)
+d
+```
+
+
+
