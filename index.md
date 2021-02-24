@@ -10,7 +10,7 @@ These are the RStudio files and datasets that we will use for our live session m
 3. Week 3 - [Normal Probabilities and Z-Scores Rmd File](./Week 3 - Normal Prob and Z-Scores.Rmd)
 4. Week 4 - [Normal Probabilities in Sampling Distributions](./Week 4 - Normal Prob in sampling distributions.Rmd)
 5. Week 5 - [Test Statistics and P-Values - UPDATED](./Week 5 - Test Stats and P-Values_inclass.Rmd)
-6. Week 6 - [One-sample T-Test](./Week 6 - One-sample t-test.Rmd), [OCD Data](/.OCD_data.csv)
+6. Week 6 - [One-Sample t-test](./Week 6 - One-sample t-test.Rmd), [OCD Data](/.OCD_data.csv)
 
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
