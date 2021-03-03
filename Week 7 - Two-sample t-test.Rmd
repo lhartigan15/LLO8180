@@ -1,0 +1,130 @@
+```{r}
+REMOVE ME 
+```
+---
+title: "Week 7 - Two-sample t-tests"
+author: "Lacey Hartigan"
+date: "3/3/21"
+output:
+  pdf_document: default
+---
+
+```{r  include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+## Two-sample T-Tests in R
+
+### Independent samples t-test
+
+Let's look at sample data given for example 9.2 (p. 297) in the book. This data includes the number of calories consumed in a meal between two groups: one group asked to eat slowly and one group asked to eat quickly.
+
+```{r}
+#First, let's read in the data. Since we were given this data from the textbook, we're going to read it in by hand
+calories <- data.frame(Slow=c(700,450,850,600,450,550),
+                       Fast=c(450,800,750,700,550,650))
+```
+
+```{r}
+#Now, we're going to use our t.test function to see if these two groups differ
+t.test(calories$Fast, calories$Slow, var.equal=T)
+```
+
+What about  using the formulas we learned in the async?
+
+Calculating the t-statistic "by hand" (I have created the formula for you, all you need to do is type in the values). 
+```{r}
+#First I will get the mean and sd for each group
+mean(calories$Slow)
+mean(calories$Fast)
+sd(calories$Slow)
+sd(calories$Fast)
+
+#Then I will plug them into the objects and run the code to obtain the t-value using the formula from async
+M1 <- 650 #sample mean of fast
+M2 <- 600 #sample mean of slow
+s1 <- 130.384 #sd of fast
+s2 <- 154.919 #sd of slow
+n1 <- 6 #sample size of fast
+n2 <- 6 #sample size of slow
+t <- (M1-M2)/sqrt((((n1-1)*s1^2+(n2-1)*s2^2)/(n1+n2-2))*((1/n1)+(1/n2)))
+```
+
+Calculating the p-value
+```{r}
+#We still have to multiply the probability for two-tailed tests (note: the t-table makes this easier)
+#We still need to be careful with the lower.tail command (because I have a positive t-statistic I am using FALSE)
+#remember df = 6 + 6 - 2 = 10
+
+2*pt(t, df=10, lower.tail=FALSE)
+```
+
+We can also use this data to calculate effect size (IF WE SHOULD!). Note, we're doing it here for demonstration and so that you have the code, but given our results above, we would NOT calculate effect size, right? 
+
+```{r}
+#Here again, I created the formula for you but for these to work the objects above have to be defined. 
+
+#Calculate Cohen's d
+(M1-M2)/sqrt((((n1-1)*s1^2+(n2-1)*s2^2)/(n1+n2-2)))
+
+#Calculate eta squared
+(t^2)/(t^2+(n1 + n2 - 2))
+```
+
+Conclusion: An independent-samples t-test revealed no statistically significant difference between the number of calories consumed between the fast eaters (M=650, s=130.38) and the slow eaters (M=600, s=154.92); t(10)=0.60, p>0.05. 
+
+### Related/dependent samples t-test
+
+```{r}
+#We're going to use the grades data from the async example.
+grades <- data.frame(Pretest=c(68,74,55,81,72,59,78,65,80), 
+                   Posttest=c(78,79,68,92,72,65,74,71,90))
+```
+
+```{r}
+#we're still using the t.test function, we just have to modify it to tell R that our data is PAIRED (or related)
+t.test(grades$Posttest, grades$Pretest, var.equal=FALSE, paired=TRUE)
+```
+
+We can also calculate this "by hand."
+
+```{r}
+#First I will create the difference scores (i.e., Posttest - Pretest) 
+grades$difference <- c(grades$Posttest - grades$Pretest)
+
+#Look at the data and see the difference scores
+grades
+```
+
+```{r}
+#Now I will find the mean and sd of the difference scores and use them to compute t using the formula from async
+mean(grades$difference) #this is Dbar
+sd(grades$difference)
+```
+
+```{r}
+teststatforrelated <- 6.33/(5.5/sqrt(9))
+```
+
+```{r}
+#now, let's find the p-value
+2*pt(teststatforrelated, df=8, lower.tail=FALSE)
+```
+
+```{r}
+#let's calculate cohen's d, since we found statistical significance
+#Dbar/SDdiff
+6.33/5.5 #d = 1.15 large effect
+```
+
+Now, let's find the means and SDs for our APA conclusion.
+```{r}
+mean(grades$Pretest)
+sd(grades$Pretest)
+mean(grades$Posttest)
+sd(grades$Posttest)
+```
+
+Conclusion: A related-samples t-test revealed a statistically significant difference between the pre-test (M=70.22, SD=9.22) and post-test (M=76.56, SD=9.30); t(8)=3.45, p<0.05, d=1.15. Cohen's d revealed a large effect.
