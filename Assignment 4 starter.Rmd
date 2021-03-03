@@ -1,0 +1,59 @@
+```{r}
+REMOVE ME BEFORE KNITTING
+```
+---
+title: "Applied Statistics - Assignment 4"
+author: "YOUR NAME HERE"
+date: "due 3/17/21"
+output: 
+  pdf_document: default
+---
+
+This is due prior to the beginning of live session on the due date. Please submit your .Rmd file and one knit file (you can use html, pdf, or word) to the LMS. 
+
+Please identify students with whom you worked on this assignment here (MAX of four to a group):
+
+## 1.[Week 7: (a)-(f), Week 8: (g)-(j)] A researcher wants to test whether color can influence recall of words in a list. To test this, the researcher displays 20 words on a computer screen. Ten words are in color, and 10 words are in black. All words are presented on a white background. Participants are given 1 minute to view the list, and then the list is taken away and participants are allowed 1 additional minute to write down as many words as they can recall. The researcher records the number of colored versus black words accurately recalled. The results are in color.txt. Conduct a related samples t-test to test whether the color of words in the list influenced recall. Use R to a two-tailed test, alpha = .05.
+\setlength{\leftskip}{1cm}
+### a. Write the null hypothesis in symbols and words
+### b. Write the alternative hypothesis in symbols and words
+### c. By hand, calculate the degrees of freedom. Show calculation.
+```{r}
+
+```
+### d. Use the t-test function in R to obtain the test statistic and p-value
+```{r}
+
+```
+### e. Make a decision about the null using the p-value approach.
+### f. Write the conclusion in APA style.
+### g. Using R, compute and report the 95% CI.
+```{r}
+
+```
+### h. Interpret the 95% CI.
+### i. Using the CI, make a decision about the null hypothesis. Be sure to explain your reasoning.
+### j. Does this agree with your decision from part (e)?
+
+\setlength{\leftskip}{0cm}
+## 2.[Week 7: (a)-(f), Week 8: (g)-(j)] Researchers were interested in the effect of sleep on memory consolidation. Twenty-four participants were randomly assigned to either a “Sleep” or “No-Sleep” group, such that there were 12 participants in each group. On the first day, all participants were flashed pictures of 15 different objects on a computer screen and asked to remember as many objects as possible. That night, the “Sleep” group got an ordinary night’s sleep. The “No-Sleep” group was kept awake until the second night. All participants got an ordinary night’s sleep on the second and third nights. On the fourth day, all participants were tested to see how many of the original 15 objects they remembered. The data are in sleep.txt. Conduct an independent samples t-test, two-tailed, alpha = .05. 
+\setlength{\leftskip}{1cm}
+### a. Write the null hypothesis in symbols and words.
+### b. Write the alternative hypothesis in symbols and words.
+### c. By hand, calculate the degrees of freedom. Show calculation.
+```{r}
+
+```
+### d. Use the t-test function in R to obtain the test statistic and p-value.
+```{r}
+
+```
+### e. Make a decision about the null using the p-value approach.
+### f. Write the conclusion in APA style.
+### g. Using R, compute and report the 95% CI.
+```{r}
+
+```
+### h. Interpret the 95% CI.
+### i. Using the CI, make a decision about the null hypothesis. Be sure to explain your reasoning.
+### j. Does this agree with your decision from part (e)?
