@@ -20,6 +20,7 @@ Answers to in-class polling questions (updated after each class session).
 * [Week 4 Polling](./Week 4 polling - answers.pdf)
 * [Week 5 Polling](./Week 5 Polling.pdf)
 * [Week 6 Polling](./Week 6 polling - answers.pdf) & [Week 6 Question](./Week 6 question - with answers.docx)
+* [Week 7 Polling](./Week 7 Polling - with answers.pdf)
 
 ### Weekly Formula Slides
 * [Week 2 Formulas](./Week 2 Formulas.pptx)
