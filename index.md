@@ -12,6 +12,7 @@ These are the RStudio files and datasets that we will use for our live session m
 5. Week 5 - [Test Statistics and P-Values - UPDATED](./Week 5 - Test Stats and P-Values_inclass.Rmd)
 6. Week 6 - [One-Sample t-test](./Week 6 - One-sample t-test.Rmd), [OCD Data](./OCD_data.csv)
 7. Week 7 - [Two-Sample t-test](./Week 7 - Two-sample t-test.Rmd)
+8. Week 8 - [Confidence Intervals for t-tests](./Week 8 - Confidence Intervals.Rmd), [Calories-char data](./calorieschar.txt), [Calories-num data](./caloriesnum.txt), [Grades data](./grades.txt), [OCD data](./OCD.txt)
 
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
@@ -29,6 +30,7 @@ Answers to in-class polling questions (updated after each class session).
 * [Week 5 Formulas](./Week 5 Formulas.pptx)
 * [Week 6 Formulas](./Week 6 Formulas.pptx)
 * [Week 7 Formulas](./Week 7 Formulas.pptx)
+* [Week 8 Formulas](./Week 8 Formulas.pptx)
 
 ### Assignments
 Each assignment (problem set) is worth 100 points. The problem sets should be uploaded to the async before live session on their given due date. All assignment submissions should include two files:
