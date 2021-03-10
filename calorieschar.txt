@@ -1,0 +1,13 @@
+Group	Calories
+Slow	700
+Slow	450
+Slow	850
+Slow	600
+Slow	450
+Slow	550
+Fast	450
+Fast	800
+Fast	750
+Fast	700
+Fast	550
+Fast	650
