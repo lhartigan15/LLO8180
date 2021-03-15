@@ -1,0 +1,69 @@
+```{r}
+REMOVE ME
+```
+---
+title: "Week 9 - One-Way ANOVAs"
+author: "Lacey Hartigan"
+date: "3/17/21"
+output:
+  pdf_document: default
+---
+  
+```{r include=FALSE}
+rm(list=ls())
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(effectsize) #if you don't have this installed yet, you'll need to install it
+```
+
+This week we will learn how to conduct a one-way ANOVA in R. 
+
+We are going to use the depression data for our example. 
+```{r}
+#load the depression data
+dep_data <- read.table("week9_Depression.txt", header=T, sep="\t")
+```
+
+We are interested in seeing whether there was a difference in the outcome (depression scale score) based on what treatment group a participant was a part of (Med, CBT, Combo, Placebo). To do this, we are going to run a one-way ANOVA. 
+```{r}
+#Here's the general code (everything in all caps gets modified each time you run it)
+#MODELNAME <- aov(DV ~ IV, data=DATASETNAME)
+anova1 <- aov(Depression ~ Treatment, data=dep_data)
+summary(anova1)
+```
+Look at the ANOVA output table. What does R give us? What is missing from what R gives us? How does R label the pieces of the output? 
+
+Because we found statistical significance, let's conduct a post hoc test to see WHERE those differences are. 
+
+```{r}
+#We're going to use Tukey's HSD for our post hoc analysis (Tukey, NOT turkey)
+TukeyHSD(anova1)
+```
+
+Next let's calculate the effect size of the model by calcuating eta squared.
+```{r}
+#the longhand formula is SSbetween/SStotal
+ES_treatment <- 132.9/(132.9 + 151.6)
+ES_treatment
+
+#but R also has a package that does this - sjstats (which we loaded above in line 15)
+effectsize::eta_squared(anova1)
+```
+
+APA Conclusion: A one-way ANOVA revealed a statistically significant difference in depression scale scores based on treatment group; F(3,16)=4.68, p<0.05, etasquared=0.47. Forty-seven percent of the variation in depression score was attributable to treatment group. Examining the pairwise treatment group differences, we found that each of the treatment groups (Combo, CBT, Medication) had lower depression scale scores than the placebo group. There were no other statistically significant pairwise differences. The group means were as follows: Combo=13.0, CBT=12.6, Medicine=12.4, Placebo=18.6.  
+
+Finding group means (for the write-up above):
+```{r}
+mean(dep_data$Depression[dep_data$Treatment=="Comb"])
+mean(dep_data$Depression[dep_data$Treatment=="CBT"])
+mean(dep_data$Depression[dep_data$Treatment=="Med"])
+mean(dep_data$Depression[dep_data$Treatment=="Placebo"])
+```
+
+
+IF we had NOT found significance, here's an example of an APA Conclusion: 
+A one-way ANOVA (alpha .05) revealed no statistically significant differences between depression scores by the type of treatment group an individual was in, F(3,16)=0.68, p>0.05.
+
+
