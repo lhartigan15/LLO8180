@@ -1,0 +1,27 @@
+Consequences	Adult	Time
+Reward	Parent	15
+Reward	Parent	16
+Reward	Parent	14
+Reward	Parent	13
+Reward	Sibling	22
+Reward	Sibling	16
+Reward	Sibling	19
+Reward	Sibling	14
+Reward	Stranger	14
+Reward	Stranger	15
+Reward	Stranger	18
+Reward	Stranger	23
+Punishment	Parent	45
+Punishment	Parent	43
+Punishment	Parent	46
+Punishment	Parent	50
+Punishment	Sibling	41
+Punishment	Sibling	38
+Punishment	Sibling	49
+Punishment	Sibling	52
+Punishment	Stranger	25
+Punishment	Stranger	29
+Punishment	Stranger	32
+Punishment	Stranger	39
+
+
