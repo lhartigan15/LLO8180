@@ -14,6 +14,7 @@ These are the RStudio files and datasets that we will use for our live session m
 7. Week 7 - [Two-Sample t-test](./Week 7 - Two-sample t-test.Rmd)
 8. Week 8 - [Confidence Intervals for t-tests](./Week 8 - Confidence Intervals.Rmd), [Calories-char data](./calorieschar.txt), [Calories-num data](./caloriesnum.txt), [Grades data](./grades.txt), [OCD data](./OCD.txt)
 9. Week 9 - [One-way ANOVA](./Week 9 - One-wayANOVA.Rmd), [Depression data](./week9_Depression.txt)
+10. Week 10 - [Two-way ANOVA](./Week 10 - Two-wayANOVA.Rmd), [Sleep data](./week10_sleepdata.txt)
 
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
