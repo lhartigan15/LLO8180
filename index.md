@@ -24,6 +24,7 @@ Answers to in-class polling questions (updated after each class session).
 * [Week 6 Polling](./Week 6 polling - answers.pdf) & [Week 6 Question](./Week 6 question - with answers.docx)
 * [Week 7 Polling](./Week 7 Polling - with answers.pdf)
 * [Week 8 Polling](./Week 8 polling - with answers.pdf)
+* [Week 9 Polling](./Week 9 polling_answers.pdf)
 
 ### Weekly Formula Slides
 * [Week 2 Formulas](./Week 2 Formulas.pptx)
@@ -33,6 +34,7 @@ Answers to in-class polling questions (updated after each class session).
 * [Week 6 Formulas](./Week 6 Formulas.pptx)
 * [Week 7 Formulas](./Week 7 Formulas.pptx)
 * [Week 8 Formulas](./Week 8 Formulas.pptx)
+* [Week 10 Formulas](./Week 10 Formulas.pptx)
 
 ### Assignments
 Each assignment (problem set) is worth 100 points. The problem sets should be uploaded to the async before live session on their given due date. All assignment submissions should include two files:
