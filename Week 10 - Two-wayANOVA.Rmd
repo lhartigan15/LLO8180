@@ -1,0 +1,113 @@
+```{r}
+REMOVE ME
+```
+---
+title: "Week 10 - Two-Way ANOVAs"
+author: "Lacey Hartigan"
+date: "3/24/21"
+output:
+  pdf_document: default
+---
+  
+```{r include=FALSE}
+rm(list=ls())
+
+knitr::opts_chunk$set(echo = TRUE)
+
+#library(tidyverse)
+```
+
+This week we will learn how to conduct a two-way ANOVA in R.
+
+We are going to use the sleep data for our example. 
+```{r}
+#load the depression data
+sleepy <- read.table("week10_sleepdata.txt", header=T, sep="\t")
+```
+
+We are interested in seeing whether timing and intensity of exercise has an impact on time it takes to get to sleep at night. To do this, we are going to run a two-way ANOVA. 
+```{r}
+#NAMEOFANOVA <- aov(DV~FACTOR_A + FACTOR_B + INTERACTION_AxB, data=DATASETNAME)
+sleep_aov <- aov(Sleep ~ Timing + Intensity + Timing:Intensity, data=sleepy)
+summary(sleep_aov)
+```
+Look at the ANOVA output table. What does R give us? What is missing from what R gives us? How does R label the pieces of the output? 
+
+Let's create an interaction plot using R
+```{r}
+#interaction.plot(DATASET$FACTORB, DATASET$FACTORA, DATSET$DV,
+                #ylim=range(DATARANGE MIN,MAX), xlab="LABEL FOR X",
+                #ylab="LABEL FOR Y - should be your DV",
+                #col=c("red","blue"), main="Interaction Plot")
+interaction.plot(sleepy$Intensity, sleepy$Timing, sleepy$Sleep,
+                 ylim=range(15, 45), xlab="Intensity",
+                 ylab="Sleep",
+                 col=c("blue","red"), main="Plot of Timing x Intensity")
+```
+
+There is a problem because R is ordering Low, Medium and High in alphabetical order but that doesn't make sense. However, we can force R to create it how we want it -- Low, Medium and High by using the reorder function
+```{r}
+reorder <- factor(sleepy$Intensity, levels=c("Low","Medium","High"))
+
+#Now, we will modify the interaction.plot code to have reordered Intensity in place of where we originally have intensity 
+interaction.plot(reorder, sleepy$Timing,  sleepy$Sleep,
+                 ylim=range(15,45), 
+                 xlab="Intensity", ylab="Sleep",
+                 col=c("red","blue"), main="Plot of Timing x Intensity")
+```
+
+Let's calculated effect size for the main effect of timing on sleep 
+```{r}
+etasqtiming <- 1613.3/(1613.3+261.7+731.7+1258) 
+etasqtiming 
+```
+
+Interpretation: 42% of the variation in time to get to sleep (Sleep) can be accounted for by Timing of Exercise.
+
+We have significance here, but we don't necessarily know where the impact is (when we're talking about the interaction). We can split our dataset into two and run one-way ANOVAs to see HOW the interaction is really affecting our data. This is also referred to as a "simple main effects" test.
+```{r}
+#Let's look at each level Timing. We will use the subset function to create datasets containing only 
+#one level of Timing and examine each one of those. 
+
+#This code creates a subset of your data that only includes "morning" exercisers & one for "evening"
+#NEWDATASETNAME <- subset(FULLDATASETNAME, DVNAME=="LEVEL OF DV")
+morningexercisers <- subset(sleepy, Timing == "Morning")
+eveningexercisers <- subset(sleepy, Timing == "Evening")
+#LOOK at the datasets after you create them!
+```
+
+* One-way ANOVA on just the Morning data - this is the effect of intensity on sleep for ONLY morning exercisers
+```{r}
+morninganova <- aov(Sleep ~ Intensity, data=morningexercisers)
+summary(morninganova)
+```
+
+* One-way ANOVA on just the Evening data - this is the effect of intensity on sleep for ONLY evening exercisers
+```{r}
+eveninganova <- aov(Sleep ~ Intensity, data=eveningexercisers)
+summary(eveninganova)
+```
+IMPORTANT NOTE! For our follow-up simple main effects, we must adjust our p-value (R doesn't do it for us in 
+this case). We divide our p-value up by how many comparisons (or one-way ANOVAs) we're running. In this case - we're running two (one for evening, one for morning). So, in this case we get .05/2 = .025. THAT is the p-value we will judge our simple main effects tests by (NOT p<.05). NOTE: We ONLY use this adjusted p-value for these follow-up (or post hoc) one-way anova tests... we still use p<.05 for our main effects two-way ANOVA that we did initially.
+
+Looking at our one-way ANOVAs we see that the morning subset DID contain a significant effect (p<.025) of intensity
+on sleep, but the evening subset did NOT (p>.025). Now, because the morning subset DID have this effect, I want
+to know exactly what the relationship was... so, I'm going to find the means of sleep within each intensity group
+in the morning subset, so I can see what the relationship was.
+
+```{r}
+#this finds the mean for SLEEP in the low intensity group within the SleepMorning data subset
+mean(morningexercisers$Sleep[morningexercisers$Intensity=="Low"])
+
+#this finds the mean for SLEEP in the medium intensity group within the SleepMorning data subset
+mean(morningexercisers$Sleep[morningexercisers$Intensity=="Medium"])
+
+#this finds the mean for SLEEP in the high intensity group within the SleepMorning data subset
+mean(morningexercisers$Sleep[morningexercisers$Intensity=="High"])
+```
+
+APA Conclusion:
+A two-way ANOVA at alpha level .05 revealed that timing of exercise had a significant main effect on sleep, F(1,24)=30.78, p<.05 (etasquared = 0.42) and a significant timing by intensity interaction, F(2,24)=6.98, p<.05. There was no main effect for intensity (F(2,24)=2.50, p>.05).
+
+Given the significant interaction, I conducted post hoc simple main effects tests for each level of the timing variable. At an adjusted alpha level of .025 (because I conducted two tests), the intensity effect in the morning group was significant (p<.025 -- or I could write the actual p-value here), but the intensity effect was not significant for the evening group (p=0.27). In the morning group, the mean time to get to sleep was 35 minutes for low intensity exercisers, 20 minutes for medium intensity, and 17 minutes for high intensity. This would lead me to believe that the more intense one exercises in the morning, the faster one will get to sleep that night.
+
