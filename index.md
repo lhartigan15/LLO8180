@@ -15,6 +15,7 @@ These are the RStudio files and datasets that we will use for our live session m
 8. Week 8 - [Confidence Intervals for t-tests](./Week 8 - Confidence Intervals.Rmd), [Calories-char data](./calorieschar.txt), [Calories-num data](./caloriesnum.txt), [Grades data](./grades.txt), [OCD data](./OCD.txt)
 9. Week 9 - [One-way ANOVA](./Week 9 - One-wayANOVA.Rmd), [Depression data](./week9_Depression.txt)
 10. Week 10 - [Two-way ANOVA](./Week 10 - Two-wayANOVA.Rmd), [Sleep data](./week10_sleepdata.txt)
+11. Week 11 - [Correlations](./Week 11 - Correlations.Rmd), [BYOD data](./week11_byod.txt), [English data](./week11_english.txt), [Graduate data](./week11_graduate.txt), [PhD data](./week11_phd.txt)
 
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
@@ -36,6 +37,7 @@ Answers to in-class polling questions (updated after each class session).
 * [Week 7 Formulas](./Week 7 Formulas.pptx)
 * [Week 8 Formulas](./Week 8 Formulas.pptx)
 * [Week 10 Formulas](./Week 10 Formulas.pptx)
+* [Week 11 Formulas](./Week 11 Formulas.pptx)
 
 ### Assignments
 Each assignment (problem set) is worth 100 points. The problem sets should be uploaded to the async before live session on their given due date. All assignment submissions should include two files:
@@ -51,6 +53,7 @@ There may be a penalty for submissions not meeting these requirements.
 | [Assignment 3 pdf](./Assignment-3-Starter.pdf), [Assignment 3 Rmd starter](./Assignment 3 Starter.Rmd), [Assignment 3 data file](./weight.txt) | Wednesday, 3/3/21 |
 | [Assignment 4 pdf](./Assignment-4-starter.pdf), [Assignment 4 Rmd starter](./Assignment 4 starter.Rmd), [Assignment 4 color data](./color.txt), [Assignment 4 sleep data](./sleep.txt) | Wednesday, 3/17/21 |
 | [Assignment 5 pdf](./Assignment-5.pdf), [Assignment 5 Rmd starter](./Assignment 5_starter.Rmd), [Assignment 5 behavior data](./behavior.txt), [Assignment 5 difficulty data](./difficulty.txt) | Wednesday, 3/31/21 |
+| [Assignment 6 pdf](./Assignment-6.pdf), [Assignment 6 Rmd starter](./Assignment 6_starter.Rmd), [Assignment 6 activity data](./activity.txt), [Assignment 6 laptop data](./laptop.txt) | Wednesday, 4/14/21 |
 
 
 ### Additional Useful Files
