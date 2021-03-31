@@ -1,0 +1,64 @@
+```{r}
+REMOVE ME
+```
+---
+title: "Applied Statistics - Assignment 6"
+author: "YOUR NAME HERE"
+date: "due 4/14/21"
+output:
+  pdf_document: default
+---
+
+This is due prior to the beginning of live session on the due date. Please submit your .Rmd file and one knit file to the LMS (knit to PDF if possible) Round all reported statistics (when applicable) to the nearest hundredths place (i.e., two decimal places). 
+
+Please identify students with whom you worked on this assignment here (MAX of four to a group):
+
+## 1. [Week 11] A professor notices that more and more students are using their laptop computers in class to take notes. He wonders if this may improve academic success. To test this, the professor records the number of times each student uses his or her laptop during a class for one semester (Laptop) and the final grade in the class out of 100 points (Grade). The data are in laptop.txt.
+### a. Using R, create a scatterplot and interpret. Does it seem to suggest there is a relationship?
+```{r}
+
+```
+
+
+## 2. [Week 11] The professor wants to conduct a hypothesis test to test whether or not there is a significant relationship between Laptop and Grade at the .05 level of significance.
+### a. Write the null hypothesis and alternative hypothesis in symbols
+### b. Using R, obtain the correlation coefficient and report the output for the hypothesis test
+```{r}
+
+```
+
+### c. Make a decision about the null hypotheses using the p-value approach
+### d. Write conclusion in APA style
+### e. If appropriate, calculate the effect size. If not, state why.
+
+## 3. [Week 12] A psychologist believed that as children get older, they engage in more “inactive activities” such as playing computer games, watching TV and surfing the internet. She collected data from 10 children. She recorded the age of each child and the amount of activity (in hours) the child engaged in per week. The file activity.txt contains the data.
+### a. Using R, obtain a scatterplot of the data. Discuss the relationship between age and activity based on the scatterplot.
+```{r}
+
+```
+
+### b. Using R, obtain the simple linear regression linear regression line predicting activity from age.
+```{r}
+
+```
+
+### c. Interpret the intercept and slope of the regression line
+### d. By hand, predict the amount of activity for age = 14
+### e. By hand, calculate the residual for age = 14
+### f. Using R output, test the null hypothesis that the slope coefficient is zero using the p-value approach. Write one sentence interpreting the meaning of this result. Make sure to report the test statistic and p-value. 
+```{r}
+
+```
+
+### g. Using R, obtain and report the 95% CI for the slope coefficient. Explain how we can use it to make a decision about the null hypothesis from part (f).
+```{r}
+
+```
+
+### h. Using R output, test the null hypothesis that the population coefficient of determination is zero using the p-value approach, and write one sentence interpreting your result. Make sure to report the test statistic and p-value. 
+```{r}
+
+```
+
+### i. How do the test statistics in (f) and (h) mathematically relate to each other?
+
