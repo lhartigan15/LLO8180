@@ -1,0 +1,70 @@
+```{r}
+REMOVE ME
+```
+---
+title: "Week 11 - Correlation"
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This week we will learn how to compute and analyze correlations
+
+Let's look at the phd data from async. First, import the data.
+```{r}
+phd_data <- read.table("week11_phd.txt", header=TRUE, sep="\t")
+```
+LOOK at your data after you import it! How many vars? How many obs? Note variable names, etc.
+
+Now let's make make a scatterplot (IV on x-axis; DV on y-axis)
+```{r}
+plot(phd_data$Time, phd_data$Pubs, 
+     main="Scatterplot of Time & Publications",
+     xlab="Time Since PhD Grad (in years)", 
+     ylab="Publications", pch=12)
+```
+
+We can use R to compute the Pearson Correlation and obtain other values for the hypothesis test
+```{r}
+cor.test(phd_data$Time, phd_data$Pubs, method=c("pearson"))
+```
+
+Calculate effect size (R^2)
+```{r}
+0.6566546^2
+```
+
+Now, let's look the example from asyc for the spearman correlation.
+```{r}
+english_data <- read.table("week11_english.txt", header=TRUE, sep="\t")
+
+cor.test(english_data$Words, english_data$Grade, method=c("spearman"))
+```
+
+Point-Biserial Correlation (note that this code is the same as Pearson's, but the data setup differs)
+```{r}
+byod_data <- read.table("week11_byod.txt", header=TRUE, sep="\t")
+
+cor.test(byod_data$Byod, byod_data$Grade) #pt-biserial
+
+#calculate effect size - R^2
+0.378822^2
+```
+
+Phi Correlation (note that this code is the same as Pearson's, but the data setup differs)
+```{r}
+grad_data <- read.table("week11_graduate.txt", header=TRUE, sep="\t")
+
+table(grad_data)
+
+cor.test(grad_data$Business, grad_data$Doctorate) #phi 
+
+#calculate effect size
+(-0.2228072)^2
+```
+
