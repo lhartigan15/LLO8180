@@ -1,0 +1,84 @@
+```{r}
+REMOVE ME
+```
+---
+title: "Week 12 - Linear Regression"
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This week we will learn how to conduct a SLR (simple linear regression; aka ONE predictor variable) in R. 
+
+Let's look at the phd data from async. First, import the data.
+```{r}
+phd_data <- read.table("week12_phd.txt", header=TRUE, sep="\t")
+```
+Remember - LOOK AT THE DATA after you read it in!!!
+
+First, let's make a scatterplot to examine the data visually.
+```{r}
+plot(phd_data$Time, phd_data$Pubs ,
+     main="Scatterplot of Time & Pubs", 
+     xlab="Time Since Grad (in Years)", ylab="Publications", pch=9)
+```
+
+Let's run an Simple Linear Regression (SLR) with Pubs as DV and Time as IV; we will save it to an object called phd.regression
+```{r}
+#REGRESSIONOBJECTNAME <- lm(YVARIABLE ~ XVARIABLE, data=DATASETNAME)
+phd.regression <- lm(Pubs ~ Time, data=phd_data)
+```
+
+Now pull the results from R's memory:
+```{r}
+#Parameter estimates
+phd.regression
+
+#More information for hypothesis tests
+summary(phd.regression)
+
+#confidence intervals for parameter estimates
+confint(phd.regression)
+```
+
+What if we wanted to plot the regression line on our scatterplot? R makes that easy. 
+```{r}
+plot(phd_data$Time, phd_data$Pubs ,
+     main="Scatterplot of Time & Pubs", 
+     xlab="Time Since Grad (in Years)", ylab="Publications", pch=9)
+abline(phd.regression, col="blue")
+```
+
+Now let's do another example (using data that is stored in R). You should ALWAYS look at the data first. Let's look at the mtcars dataset that comes with R.
+```{r}
+summary(mtcars)
+```
+
+Let's examine a possible relationship between car weight & miles per gallon
+```{r}
+plot(mtcars$wt, mtcars$mpg, 
+     main="Scatterplot of Weight and MPG", 
+     xlab="Weight in 1000s", ylab="MPG", pch=19)
+```
+Does it look like there may be a relationship? Why or why not?
+
+Now let's see if we can predict MPG from car weight.
+```{r}
+cars.regression <- lm(mpg ~ wt, data=mtcars)
+summary(cars.regression)
+```
+
+Add the regression line of best fit.
+```{r}
+plot(mtcars$wt, mtcars$mpg, 
+     main="Scatterplot of Weight and MPG", 
+     xlab="Weight in 1000s", ylab="MPG", pch=19)
+
+abline(cars.regression, col="orange")
+```
+
