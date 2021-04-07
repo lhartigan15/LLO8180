@@ -16,6 +16,7 @@ These are the RStudio files and datasets that we will use for our live session m
 9. Week 9 - [One-way ANOVA](./Week 9 - One-wayANOVA.Rmd), [Depression data](./week9_Depression.txt)
 10. Week 10 - [Two-way ANOVA](./Week 10 - Two-wayANOVA.Rmd), [Sleep data](./week10_sleepdata.txt)
 11. Week 11 - [Correlations](./Week 11 - Correlations.Rmd), [BYOD data](./week11_byod.txt), [English data](./week11_english.txt), [Graduate data](./week11_graduate.txt), [PhD data](./week11_phd.txt)
+12. Week 12 - [Linear Regression](./Week 12 - Simple Linear Regression.Rmd), [PhD data](./week12_phd.txt), [Week 12 Slides with OLS](./Week_12_slides_withOLS.pdf)
 
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
@@ -27,6 +28,8 @@ Answers to in-class polling questions (updated after each class session).
 * [Week 7 Polling](./Week 7 Polling - with answers.pdf)
 * [Week 8 Polling](./Week 8 polling - with answers.pdf)
 * [Week 9 Polling](./Week 9 polling_answers.pdf)
+* [Week 10 Polling](./Week 10 polling - with answers.pdf)
+* [Week 11 Polling](./Week 11 polling_with answers.pdf)
 
 ### Weekly Formula Slides
 * [Week 2 Formulas](./Week 2 Formulas.pptx)
@@ -38,6 +41,7 @@ Answers to in-class polling questions (updated after each class session).
 * [Week 8 Formulas](./Week 8 Formulas.pptx)
 * [Week 10 Formulas](./Week 10 Formulas.pptx)
 * [Week 11 Formulas](./Week 11 Formulas.pptx)
+* [Week 12 Formulas](./Week 12 formulas.pptx)
 
 ### Assignments
 Each assignment (problem set) is worth 100 points. The problem sets should be uploaded to the async before live session on their given due date. All assignment submissions should include two files:
