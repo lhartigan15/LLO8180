@@ -1,0 +1,161 @@
+```{r}
+REMOVE ME
+```
+---
+title: "Week 13 - Multiple Linear Regression"
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This week we will learn how to conduct a multiple linear regression (MLR) in R.
+
+Let's look at the phd data from async. First, import the data.
+```{r}
+phd_mlr <- read.table("week13_phd2.txt", header=TRUE, sep="\t")
+```
+Remember - LOOK AT THE DATA after you read it in!!!
+
+In case you're interested here is the code to run the 3D scatterplot from async. We will not review this code in class, but this way you have it if you want to tinker with it. If you do want to run it yourself, remember to un-comment out line 26 and install the necessary package.
+```{r}
+#install.packages("plot3D")
+require(plot3D)
+attach(phd_mlr)
+
+fit <- lm(PUBS ~ TIME+SALARY)
+
+TIME.pred <- seq(0, 20, length.out = 30)
+SALARY.pred <- seq(40000, 80000, length.out = 30)
+xy <- expand.grid(TIME = TIME.pred, 
+                  SALARY = SALARY.pred)
+PUBS.pred <- matrix (nrow = 30, ncol = 30, 
+                     data = predict(fit, newdata = data.frame(xy), interval = "prediction"))
+
+fitpoints <- predict(fit) 
+
+scatter3D(z = PUBS, x = TIME, y = SALARY, pch = 18, cex = 2, 
+          theta = 20, phi = 20, ticktype = "detailed",
+          xlab = "time", ylab = "salary", zlab = "pubs", clab = "pubs", 
+          surf = list(x = TIME.pred, y = SALARY.pred, z = PUBS.pred, 
+                      facets = NA, fit = fitpoints),
+          colkey = list(length = 0.8, width = 0.4),            
+          main = "phd")
+detach(phd_mlr)
+```
+
+Now let's work on using time since graduation, salary, and the number of citations as predictors for the number of publications a PhD holder will have. 
+
+```{r}
+#Recall in async we mean centered salary, let's do that first. WHY would we want to mean-center salary (HINT: think about what the intercept would mean for salary here if we don't mean center). 
+#(You may want to review the week 1 R code on how to add a variable to an existing dataset)
+#dataset$NEWVARNAME <- DATASET$VARWEWANTTOCENTER - mean(DATASET$VARWEWANTTOCENTER)
+phd_mlr$SALARY_mc <- phd_mlr$SALARY - mean(phd_mlr$SALARY) #add mean-centered salary to dataset
+#MEAN CENTERING IS NOT THE SAME AS STANDARDIZING!!!!!!!! (and yes, I am yelling)
+```
+
+Now, let's run an MLR with Time, Salary (mean-centered) and citations as predictors for # of pubs
+```{r}
+phd.mlrreg <- lm(PUBS ~ TIME + SALARY_mc + CITS, data=phd_mlr)
+
+summary(phd.mlrreg)
+```
+
+Let's write the regression line equation. Note, I am using mathematical notation for .Rmd files here. For more info on that, you can go [here](https://rpruim.github.io/s341/S19/from-class/MathinRmd.html). Also, if you click on and then hover over the notation, you get a preview of what it will look like in the knit document. 
+
+$\hat{Y}$ = 4.55 + 1.77$x_{time}$ + 0.0002$x_{salary-54815.76}$ + 0.04$x_{citations}$
+
+Here's another way to write the equation, if you prefer to NOT include the mean subtraction from salary. You STILL need to indicate that it was mean centered!
+
+$\hat{Y}$ = 4.55 + 1.77$x_{time}$ + 0.0002$x_{meancenteredsalary}$ + 0.04$x_{citations}$
+
+Now let's interpret our findings.
+
+*Intercept*
+The predicted number of publications is 4.55 when time equals 0, citations equal 0, and the salary is at its mean ($54,815.76).
+
+*Slope for citations*
+For each additional citation a PhD holder receives, there is a predicted increase in publications of 0.04, holding all other variables in the model constant.
+
+*Slope for time*
+For each additional year since PhD graduation, there was a predicted increase in pubs of 1.77, holding all other variables in the model constant.
+
+*Slope for salary*
+For each additional dollar above the mean salary, there was a predicted increase in publications of 0.0002, holding all other variables in the model constant. 
+Note: you may want to transpose salary into 1000 or 10000 dollar units as that may make more sense here. For instance, it may make a bit more sense to multiply by 1,000. Here's our updated interpretation if we do that:
+For each additional $1000 in salary, there was a predicted increase of .2 publications, holding other variables in the model constant.
+
+*Final APA conclusion for the model*
+An MLR revealed that time, salary, and citations significantly predicted the number of publications a PhD holder had, F(3,58)=15.46, p<0.05, R2=0.42. 42% of the variation in number of publications was accounted for by time since graduation, salary, and citations. 
+
+```{r}
+#if you want to pull the CIs for your estimates you can use
+confint(phd.mlrreg)
+```
+
+If we want to obtain **standardized** regression coefficients, then we can use the QuantPsyc package (uncomment out line 102 to install the package). Think about WHY we might want to standardize. Again, this is NOT the same thing as mean centering. How come? 
+```{r}
+#install.packages("QuantPsyc")
+library(QuantPsyc)
+```
+
+```{r}
+#pull standardized betas
+lm.beta(phd.mlrreg)
+```
+Now, let's write the standardized regression equation.
+$\hat{Z_{y}}$ = 0.54$Z_{x_{time}}$ + 0.15$Z_{x_{salary}}$ + 0.05$Z_{x_{citations}}$
+
+In addition to R squared (which tells us the total variance in Y accounted for by our preditors, maybe we also want to understand the UNIQUE contribution of each predictor. There are two different calculations we can use for this (depending on what we want): the squared semi-partial correlations and squared partial correlations. We need the ppcor package to find these (uncomment line 115 to install).
+```{r}
+#install.packages("ppcor")
+library(ppcor)
+```
+
+*Semi-partial correlations*
+```{r}
+spcor(phd_mlr[,c("PUBS","SALARY_mc","TIME","CITS")])
+```
+
+We can see the semi-partial correlations for pubs with the IVS is 
+                PUBS    SALARY_mc         TIME        CITS
+PUBS     1.00000000    0.1073541    0.4286871  0.04087143
+
+To get the squared semi-partial correlations then we just square each value:
+```{r}
+sr_salary = .1073541^2 ; sr_salary
+sr_time = .4286871^2 ; sr_time
+sr_cits = .04087143^2 ; sr_cits
+```
+Interpretations:
+1.15% of the variation in publications was accounted for by salary, beyond that which was accounted for by time & citations.
+
+18.38% of the variation in publications was accounted for by time, beyond that which was accounted for by salary & citations.
+
+0.17% of the variation in publications was accounted for by citations, beyond taht which was accounted for by time & salary.
+
+Likewise, we can use the ppcor package to get the partial correlations among the variables.
+```{r}
+pcor(phd_mlr[,c("PUBS","SALARY_mc","TIME","CITS")])
+```
+               PUBS  SALARY_c       TIME       CITS
+PUBS     1.00000000 0.1425430 0.49852073 0.05474607
+
+To get the squared partial correlations then we just square each value:
+```{r}
+pr_salary_c = .1425430^2 ; pr_salary_c
+pr_time = .49852073^2 ; pr_time
+pr_cits = .05474607^2 ; pr_cits
+```
+Interpretations:
+Of the variation in publications not explained by time and citations, 2.03% was explained by salary.
+
+Of the variation in publications not explained by salary and citations, 24.85% was explained by time.
+
+Of the variation in publications not explained by salary and time, 0.30% was explained by citations. 
+
+
