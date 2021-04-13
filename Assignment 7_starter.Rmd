@@ -4,7 +4,7 @@ REMOVE ME
 ---
 title: "Applied Statistics - Assignment 7"
 author: "YOUR NAME HERE"
-date: "due 4/27/21"
+date: "due 4/28/21"
 output:
   pdf_document: default
 ---
