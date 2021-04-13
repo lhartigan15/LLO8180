@@ -61,6 +61,7 @@ There may be a penalty for submissions not meeting these requirements.
 | [Assignment 4 pdf](./Assignment-4-starter.pdf), [Assignment 4 Rmd starter](./Assignment 4 starter.Rmd), [Assignment 4 color data](./color.txt), [Assignment 4 sleep data](./sleep.txt) | Wednesday, 3/17/21 |
 | [Assignment 5 pdf](./Assignment-5.pdf), [Assignment 5 Rmd starter](./Assignment 5_starter.Rmd), [Assignment 5 behavior data](./behavior.txt), [Assignment 5 difficulty data](./difficulty.txt) | Wednesday, 3/31/21 |
 | [Assignment 6 pdf](./Assignment-6.pdf), [Assignment 6 Rmd starter](./Assignment 6_starter.Rmd), [Assignment 6 activity data](./activity.txt), [Assignment 6 laptop data](./laptop.txt) | Wednesday, 4/14/21 |
+| [Assignment 7 pdf](./Assignment-7_starter.pdf), [Assignment 7 Rmd starter](./Assignment 7_starter.Rmd), [Assignment 7 blood pressure data](./Bloodpressure.txt), [Assignment 7 political data](./political.txt) | Wednesday, 4/28/21 |
 
 
 ### Additional Useful Files
