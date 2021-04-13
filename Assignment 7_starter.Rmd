@@ -1,0 +1,79 @@
+```{r}
+REMOVE ME
+```
+---
+title: "Applied Statistics - Assignment 7"
+author: "YOUR NAME HERE"
+date: "due 4/27/21"
+output:
+  pdf_document: default
+---
+
+This is due prior to the beginning of live session on the due date. Please submit your knit file (you can use html, pdf, or word) to the LMS. Round all reported statistics (when applicable) to the nearest hundredths place (i.e., two decimal places). 
+
+Please identify students with whom you worked on this assignment here (MAX of four to a group):
+
+## 1. [Week 13] The data (bloodpressure.txt) represent measures on a random sample of 25 individuals with high cholesterol levels. The variables are as follows: 
+## Dependent variable Y: Systolic Blood Pressure (SBP)
+## Independent variable X_1: Body Size, measured by Quetelet (QUET) Index 100(weight/height2)
+## Independent variable X_2: Age
+
+### a. Using R, carry out MLR analyses to obtain raw and standardized regression coefficients. **Mean center age and QUET.**
+```{r}
+
+```
+
+#### i. Write the regression equation.
+
+#### ii. Interpret the intercept.
+
+#### iii. Interpret the slope for QUET.
+
+#### iv. Interpret the slope for age.
+
+#### v. Interpret the hypothesis tests for each regression coefficient.
+
+### b. Report the coefficient of multiple determination obtained in your MLR analysis and interpret the associated hypothesis test.
+
+### c. For an individual of age 51 and QUET 3.30, obtain by hand calculation the predicted level of SBP (remember they should be mean centered). If that individual’s actual SBP was found to be 130, obtain the residual.
+
+### d. Using R, obtain the squared semi-partial correlation of Age and SBP and interpret the value.
+```{r}
+
+```
+
+### e. Using R, obtain the squared partial correlation of Age and SBP and interpret the value.
+```{r}
+
+```
+
+## 2. [Week 14] The Better Business Bureau (BBB) wants to determine whether a certain business is engaging in fair hiring practices. The BBB finds that a local business employs 66 men and 34 women. The general population of workers in this industry is 60% men and 40% women. Conduct a chi-square goodness-of-fit test at the alpha = .05 significance level.
+
+### a. Write the null and alternative hypotheses.
+
+### b. Using the chisq.test function in R, calculate the tests statistic and p-value.
+```{r}
+
+```
+
+### c. Make a decision about each null hypotheses using the p-value approach.
+
+### d. Write a conclusion in APA format.
+
+## 3. [Week 14] A researcher tests whether the political affliction of individuals is related to or independent of whether they have positive views of the economy. The researcher records the political affiliations and economic viewpoints of 105 participants. The data are contained in political.txt (Affiliation: 1 = Democrat, 0 = Republican, Economy: 1 = Positive, 0 = Negative).
+
+### a. Using R, make a table summarizing the data (just need to report the table).
+```{r}
+
+```
+
+### b. Write the null and alternative hypotheses.
+
+### c. Using the chisq.test function in R, calculate the tests statistic and p-value.
+```{r}
+
+```
+
+### d. Make a decision about each null hypotheses using the critical value approach.
+
+### e. Write a conclusion in APA format.
