@@ -1,0 +1,80 @@
+```{r}
+REMOVE ME
+```
+---
+title: "Week 14 - Chi-Square"
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This week we will learn how to conduct a chi-square test in R. 
+
+We will start with the goodness-of-fit test (only ONE discrete var compared to expected information). 
+
+Let's look at the test format data from async
+```{r}
+format <- c(17,54,64)
+```
+
+We will run the chi-square test using chisq.test. We need to plug in the expected proportions for each group (all equally weighted in this example). 
+
+We have three groups; so we have 1/3 expected in each group. 
+```{r}
+chisq.test(format, p=c(1/3, 1/3, 1/3))
+#Note: unless you're given data for the expected frequencies, use an equal distribution of data
+```
+
+```{r}
+anotherexample <-c(36, 38, 27, 33) #note - there are four groups here
+chisq.test(anotherexample, p=c(1/4, 1/4, 1/4, 1/4))
+```
+
+Now, let's look at the chi-square test for independence (this one is the one we use more commonly). Here we're trying to answer the question: is there an association between two discrete variables?
+
+Import the data
+```{r}
+graduate <- read.table("week14_graduate.txt", header=TRUE, sep="\t")
+```
+
+Let's label the levels of the variables for the table we're building (this is optional - but helpful to read your table)
+```{r}
+graduate$Business <- factor(graduate$Business, levels= c("0","1"), labels = c("Non-biz", "Biz"))
+graduate$Doctorate <- factor(graduate$Doctorate, levels= c("0","1"), labels = c("Masters", "Doctorate"))
+```
+
+Now, let's summarize the data in a table (call it gradtable)
+```{r}
+gradtable <- table(graduate$Business, graduate$Doctorate) #look at the table after you create it
+gradtable
+```
+
+Chi-square test for independence
+```{r}
+chisq.test(gradtable, correct=F)
+#Note: we use correct = F to get the same test statistic we computed by hand (no continuity correction)
+#for some future analyses you may want the continuity correction/you should do research to determine when this may be the case
+```
+
+Or we could input the values into the table
+```{r}
+gradtable2 <- data.frame(c(574,176), c(185,3))
+
+chisq.test(gradtable2, correct=F)
+```
+
+APA Conclusion:
+Based upon using a chi-square test for independence, we determined that there was a statistically significant association between whether you have a business degree and whether you pursue a masters or a doctoral #degree, X2(1)=46.57, p<0.05.
+
+Now let's calculate the odds ratio for odds of conferring masters for biz vs. non-bus majors
+```{r}
+(185/(188-185))/(574/(750-574))
+(185/3)/(574/176) 
+```
+
+The odds of pursuing a masters degree in business are 18.91 times higher than the odds of pursuing a masters degree in non-business. 
