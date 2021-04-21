@@ -18,6 +18,7 @@ These are the RStudio files and datasets that we will use for our live session m
 11. Week 11 - [Correlations](./Week 11 - Correlations.Rmd), [BYOD data](./week11_byod.txt), [English data](./week11_english.txt), [Graduate data](./week11_graduate.txt), [PhD data](./week11_phd.txt)
 12. Week 12 - [Linear Regression](./Week 12 - Simple Linear Regression.Rmd), [PhD data](./week12_phd.txt), [Week 12 Slides with OLS](./Week_12_slides_withOLS.pdf)
 13. Week 13 - [Multiple Linear Regression](./Week 13 - Multiple Linear Regression.Rmd), [PhD data](./week13_phd2.txt)
+14. Week 14 - [Chi Square](./Week 14 - Chisquare.Rmd), [Grad data](./week14_graduate.txt)
 
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
@@ -46,6 +47,7 @@ Answers to in-class polling questions (updated after each class session).
 * [Week 11 Formulas](./Week 11 Formulas.pptx)
 * [Week 12 Formulas](./Week 12 formulas.pptx)
 * [Week 13 Formulas](./Week 13 formulas.pptx)
+* [Week 14 Formulas](./Week 14 formulas.pptx)
 
 ### Assignments
 Each assignment (problem set) is worth 100 points. The problem sets should be uploaded to the async before live session on their given due date. All assignment submissions should include two files:
