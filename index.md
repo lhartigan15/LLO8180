@@ -1,4 +1,4 @@
-## Welcome to Applied Statistics (LLO8180), Spring 2021
+## Welcome to Applied Statistics (LLO8180), Fall 2021
 
 This is a supplementary page for Professor Hartigan's section of LLO 8180 - Applied Statistics. Make sure you bookmark and check this page frequently for the most up-to-date files to use for live sessions and assignments. You should have R and RStudio installed prior to the first day of class. Instructions for installing/updating can be found [here](./Downloading Installing Updating R and RStudio.pdf).
 
@@ -22,18 +22,18 @@ These are the RStudio files and datasets that we will use for our live session m
 
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
-* [Week 2 Polling](./Week 2 Polling.docx)
-* [Week 3 Polling](./Week 3 Polling.docx)
-* [Week 4 Polling](./Week 4 polling - answers.pdf)
-* [Week 5 Polling](./Week 5 Polling.pdf)
-* [Week 6 Polling](./Week 6 polling - answers.pdf) & [Week 6 Question](./Week 6 question - with answers.docx)
-* [Week 7 Polling](./Week 7 Polling - with answers.pdf)
-* [Week 8 Polling](./Week 8 polling - with answers.pdf)
-* [Week 9 Polling](./Week 9 polling_answers.pdf)
-* [Week 10 Polling](./Week 10 polling - with answers.pdf)
-* [Week 11 Polling](./Week 11 polling_with answers.pdf)
-* [Week 12 Polling](./Week 12 polling_answers.pdf)
-* [Week 13 Polling](./Week 13 polling answers.pdf)
+* [Week 2 Polling]
+* [Week 3 Polling]
+* [Week 4 Polling]
+* [Week 5 Polling]
+* [Week 6 Polling] & [Week 6 Question]
+* [Week 7 Polling]
+* [Week 8 Polling]
+* [Week 9 Polling]
+* [Week 10 Polling]
+* [Week 11 Polling]
+* [Week 12 Polling]
+* [Week 13 Polling]
 
 ### Weekly Formula Slides
 * [Week 2 Formulas](./Week 2 Formulas.pptx)
@@ -58,13 +58,6 @@ There may be a penalty for submissions not meeting these requirements.
 
 | File      | Due Date          |
 |:-------------|:------------------|
-| [Assignment 1 pdf](./Assignment-1.pdf), [Assignment 1 Rmd starter](./Assignment 1 Starter.Rmd), [Assignment 1 data file](./phd.txt) | Wednesday, 1/27/21 |
-| [Assignment 2 pdf](./Assignment-2.pdf), [Assignment 2 Rmd starter](./Assignment 2 Starter.Rmd) | Wednesday, 2/10/21 |
-| [Assignment 3 pdf](./Assignment-3-Starter.pdf), [Assignment 3 Rmd starter](./Assignment 3 Starter.Rmd), [Assignment 3 data file](./weight.txt) | Wednesday, 3/3/21 |
-| [Assignment 4 pdf](./Assignment-4-starter.pdf), [Assignment 4 Rmd starter](./Assignment 4 starter.Rmd), [Assignment 4 color data](./color.txt), [Assignment 4 sleep data](./sleep.txt) | Wednesday, 3/17/21 |
-| [Assignment 5 pdf](./Assignment-5.pdf), [Assignment 5 Rmd starter](./Assignment 5_starter.Rmd), [Assignment 5 behavior data](./behavior.txt), [Assignment 5 difficulty data](./difficulty.txt) | Wednesday, 3/31/21 |
-| [Assignment 6 pdf](./Assignment-6.pdf), [Assignment 6 Rmd starter](./Assignment 6_starter.Rmd), [Assignment 6 activity data](./activity.txt), [Assignment 6 laptop data](./laptop.txt) | Wednesday, 4/14/21 |
-| [Assignment 7 pdf](./Assignment-7_starter.pdf), [Assignment 7 Rmd starter](./Assignment 7_starter.Rmd), [Assignment 7 blood pressure data](./Bloodpressure.txt), [Assignment 7 political data](./political.txt) | Wednesday, 4/28/21 |
 
 
 ### Additional Useful Files
