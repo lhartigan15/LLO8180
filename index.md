@@ -1,7 +1,10 @@
 ## Welcome to Applied Statistics (LLO8180), Fall 2021
 
-This is a supplementary page for Professor Hartigan's section of LLO 8180 - Applied Statistics. Make sure you bookmark and check this page frequently for the most up-to-date files to use for live sessions and assignments. You should have R and RStudio installed prior to the first day of class. Instructions for installing/updating can be found [here](./Downloading Installing Updating R and RStudio.pdf). You can find the course syllabus [here](./llo_8180_syllabus.pdf). Additionally, you can find a spreadsheet with all quiz/assignment due dates for the sememster [here](./Fall 2021 LLO8180 due dates.xlsx).
+This is a supplementary page for Professor Hartigan's section of LLO 8180 - Applied Statistics. Make sure you bookmark and check this page frequently for the most up-to-date files to use for live sessions and assignments. You should have R and RStudio installed prior to the first day of class. Instructions for installing/updating can be found [here](./Downloading Installing Updating R and RStudio.pdf). 
 
+You can find the course syllabus [here](./llo_8180_syllabus.pdf). Additionally, you can find a spreadsheet with all quiz/assignment due dates for the semester [here](./Fall 2021 LLO8180 due dates.xlsx).
+
+If you want to set up email alerts for updates/additions to this site, you can use the free version of a third-party program: [Distill](https://distill.io/). The free version will check for updates every 6 hours and send you alerts. Note: this is a platform that is not owned by Vanderbilt or me and you should review their data privacy and security to ensure you are comfortable with their practices.
 
 ### Live Session RStudio (.Rmd) Files
 These are the RStudio files and datasets that we will use for our live session meetings each week. While you don't have to run the code in advance of class, some of you might prefer to do so. I will upload all code at least 24 hours before our class meetings.
