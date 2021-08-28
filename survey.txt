@@ -1,0 +1,501 @@
+Year	CollegeGPA	HSGPA	EduQuality	FacQuality	ResQuality	EnvQuality	SocExpect	Recommend	BestAspect	ImpAspect	ImpQuality	ImpImage
+3rd Year	4.88	4.4	5	5	4	4	5	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+4th Year	4.56	4.5	5	4	4	4	5	5	Faculty	Teaching/Learning	Yes	Yes
+3rd Year	4.25	3	5	5	4	4	5	3	Teaching/Learning	Faculty	Yes	Yes
+3rd Year	3.38	3.6	5	5	4	3	4	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+4th Year	5	4.7	5	5	4	4	3	2	Teaching/Learning	Overall learning environment	Yes	Yes
+4th Year	4.44	4.4	5	5	3	4	5	5	Faculty	Faculty	Yes	Yes
+3rd Year	2.75	3.1	4	5	3	4	4	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+2nd Year	4.06	3.6	5	5	4	4	5	5	Faculty	Faculty	Yes	Yes
+2nd Year	4.13	4.4	5	5	4	4	4	5	Resources	Resources	Yes	Yes
+2nd Year	4.5	4.9	5	5	4	4	4	4	Resources	Resources	Yes	Yes
+3rd Year	4.88	4.6	5	4	3	3	3	5	Faculty	Resources	Yes	Yes
+3rd Year	4.81	5	4	3	2	3	3	3	Teaching/Learning	"Faculty, Resources, Overall learning environment"	Yes	No
+2nd Year	3.81	4	5	4	3	4	4	3	Teaching/Learning	Resources	Yes	Yes
+2nd Year	3.75	3.7	5	5	3	4	4	3	Teaching/Learning	Overall learning environment	Yes	Yes
+2nd Year	4.1	4	5	5	2	3	5	3	Teaching/Learning	Overall learning environment	Yes	Yes
+3rd Year	4.19	4.7	5	3	1	4	3	5	Faculty	Resources	No	No
+2nd Year	3.81	3.3	5	3	3	3	3	5	Faculty	Teaching/Learning	No	Yes
+2nd Year	5	4.75	4	4	3	3	3	5	Faculty	"Faculty, Teaching/Learning, Overall learning environment"	No	Yes
+2nd Year	3.5	3.3		4	3	3	3	2	Teaching/Learning	"Resources, Teaching/Learning"	Yes	Yes
+1st Year	3.05	3.35	4	4	2	2	4	5	Faculty	Overall learning environment	Yes	Yes
+1st Year	5	4.7	4	4	2	2	4	5	Faculty	"Resources, Teaching/Learning, Overall learning environment"	Yes	Yes
+1st Year	5	4	4	4	3	3	3	3	Teaching/Learning	Faculty		
+1st Year	5	5	5	4	3	3	4	2	Faculty	Resources		
+1st Year	5	4.8	5	4	3	4	3	2	Faculty	Overall learning environment		
+	4.5	4.3	5	4	4	4	4	2	Teaching/Learning	Overall learning environment		
+4th Year	3.9	3.8	5	3	2	2	3	3	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment"	Yes	Yes
+	3.25	3.5	4	3	3	3	4	3	Other	Teaching/Learning	Yes	Yes
+1st Year	5	4.2	5	4	2	2	5	3	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment, Other"	Yes	Yes
+4th Year	3.75	3.4	4	4	3	3	3	4	Faculty	Faculty	Yes	Yes
+1st Year	4.69	3.4	5	3	3	3	4	3	Faculty	Overall learning environment		
+4th Year	4.06	4.9	1	4	4	4	4	4	Teaching/Learning	Faculty		
+1st Year	4.5	5	5	5	4	4	3	5	Faculty	Resources		
+1st Year	3.75	4	4	3	2	2	4	5	Faculty	Resources		
+1st Year	4.56	3.69	5	5	4	4	5	5	Faculty	Resources		
+1st Year	5	4.7	5	4	4	3	5	5	Teaching/Learning	Overall learning environment		
+2nd Year	4.94	4.2	5	4	4	4	4	3	Teaching/Learning	Other	Yes	Yes
+2nd Year	3.38	3.7	5	4	3	3	4	3	Teaching/Learning	Other	Yes	Yes
+2nd Year	5	5	5	5	3	4	4	5	Teaching/Learning	Faculty	Yes	Yes
+1st Year	4.63	3.4	5	4	4	4	4	5	Faculty	"Faculty, Teaching/Learning, Overall learning environment"	Yes	Yes
+2nd Year	4.65	4.8	5	5	3	4	5	5	Teaching/Learning	Overall learning environment	Yes	Yes
+2nd Year	5	4.4	5	3	2	2	4	2	Teaching/Learning	Resources	Yes	Yes
+2nd Year	3.32	3.5	4	4	4	4	5	5	Faculty	Teaching/Learning	Yes	Yes
+2nd Year	5	3.5	5	5	4	4	5	5	Teaching/Learning	Resources	Yes	Yes
+2nd Year	4.38	4.86	4	5	4	3	4	3	Teaching/Learning	Resources	Yes	Yes
+2nd Year	4.38	4.5	4	4	4	4	4	5	Teaching/Learning	Overall learning environment	Yes	Yes
+2nd Year	4.75	4.1	5	5	4	4	5	5	Teaching/Learning	Resources	Yes	Yes
+2nd Year	4.69	4.4	4	5	4		5	5	Teaching/Learning	Resources	Yes	Yes
+2nd Year	4.25	4.2	5	4	3	4	4	2	Faculty	Teaching/Learning	Yes	Yes
+4th Year	4	4	5	5	3	3	4	3	Faculty	Overall learning environment	Yes	Yes
+4th Year	4.69	3.8	4	3	2	3	4	3		Resources	Yes	
+4th Year	3.13	3.8	5	4	3	3	4	5	Faculty	"Faculty, Teaching/Learning"	Yes	Yes
+4th Year	3.5	3	3	3	4	3	4		Teaching/Learning	Overall learning environment	Yes	Yes
+4th Year	4.18	3.2	3	1	2	3	2	3	Other	Faculty	Yes	No
+4th Year	2.88	5	5	1	2	3	1	1	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment"	No	No
+4th Year	4.69	4.5	5	5	4	4	5	5	Teaching/Learning	"Teaching/Learning, Overall learning environment"	Yes	Yes
+4th Year	3.83	3.38	5	5	4	4	3	2	Faculty	"Faculty, Resources, Teaching/Learning, Overall learning environment"	Yes	Yes
+3rd Year	4.63	4	5	5	2	3	5	4	Faculty	Faculty	Yes	No
+3rd Year	3.56	3.8	3	4	3	2	3	3	Faculty	Overall learning environment	No	No
+4th Year	4.81	3.9	5		4	4	2	3	Teaching/Learning	Faculty	Yes	Yes
+4th Year	3.75	3.8	5	5	4	3	3	3	Teaching/Learning	Overall learning environment		Yes
+4th Year	4.09	4	5	4	4	4	4	5	Teaching/Learning	"Faculty, Teaching/Learning, Overall learning environment"	No	Yes
+4th Year	4.38	4.7	5	4	3	3	4	5	Faculty	Resources	Yes	Yes
+	4.63	3.7	5	5	4	3	5	5	Faculty	Resources	Yes	Yes
+3rd Year	5	5	5	4	3	3	4	5	Faculty	Other	Yes	Yes
+3rd Year	2.8	4	5	3	2	4	4	3	Teaching/Learning	Resources	Yes	Yes
+3rd Year	4.5	4.5	4	4	3	4	4	2	Faculty	Resources	Yes	Yes
+3rd Year	3.3	3.25	4	4	3	3	4	4	Teaching/Learning	Teaching/Learning	No	Yes
+4th Year	4	4.6	5	4	3	4	4	5	Faculty	Other	Yes	Yes
+4th Year	4.75	4.6	4	4	4	4	5	5	Teaching/Learning	"Faculty, Teaching/Learning"	Yes	Yes
+3rd Year	3.13	3.4	5	4	4	3	5	2	Teaching/Learning	Faculty	Yes	Yes
+4th Year	3.94	3.4	5	2	2	3	3	2	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment"	Yes	No
+2nd Year	4.63	3.8	5	5	4	4	5	5	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment, Other"	Yes	Yes
+2nd Year	3	4									Yes	Yes
+4th Year	4.38	4	5	5	4	3	4	5	Teaching/Learning	Resources	Yes	Yes
+4th Year	4.44	5	4	4	3	3	3	3	Faculty	Overall learning environment	Yes	Yes
+4th Year	4	4	4	5	3	4	4	5	Teaching/Learning	Overall learning environment	Yes	Yes
+4th Year	4.63	4.2		5	4	4	5	5	Faculty	Other	Yes	Yes
+2nd Year	4.5	4.7	5	5	4	4	5	5	Teaching/Learning	Faculty	Yes	Yes
+2nd Year	4.79	4.5	5	3	3	3	4	5	Faculty	Other	Yes	Yes
+2nd Year	4	4	3	3	3	3	3	4	Faculty	"Faculty, Resources, Other"	Yes	Yes
+2nd Year	5	5	5	3	4	4	3	3	Faculty	"Faculty, Overall learning environment"	Yes	Yes
+2nd Year	5	4.5	5	5	4	4	5	5	Teaching/Learning	Faculty	Yes	Yes
+3rd Year	3.94	3.1	5	3	1	1	2	2	Teaching/Learning	Faculty	Yes	Yes
+4th Year	4.88	4.4	5	2	3	3	2	5	Other	"Faculty, Resources, Teaching/Learning"	No	No
+2nd Year	3.69	4.7	4	3	2	4	5	5	Faculty	Faculty	Yes	Yes
+2nd Year	5	5	5	4	3	3	4	2	Teaching/Learning	Faculty	Yes	Yes
+	4.88	4.73	5	3	4		3	4	Teaching/Learning	Teaching/Learning	Yes	Yes
+	5	5	5	3	2	3	3	3	Teaching/Learning	"Faculty, Resources, Teaching/Learning"		No
+	3.38	3.5	5	5	4	4	3	3	Teaching/Learning	Overall learning environment		
+	1	1	5	5	4	4	5	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+	4.06	4.3	5	4	3	3	4	3	Teaching/Learning	"Resources, Overall learning environment"		
+	4.25	3.6	5	5	4	4	5	5	Teaching/Learning	Faculty	Yes	Yes
+	4.31	4.1	4	3	3	2	4	2	Faculty	Faculty	Yes	No
+	5	5	5	5	4	4	4	3	Teaching/Learning	Overall learning environment		
+	5	5		5	4	4	4	3	Teaching/Learning	Overall learning environment		
+	3.94	3.9	4	5	3	4	4	2	Other	Faculty		
+	5	4.7	4	3	3	3	3	2	Teaching/Learning	Faculty		
+	3.56	3.31	3		3	3		4	Resources	Teaching/Learning	Yes	Yes
+	3.44	3.6	4	3	3	3	3	2	Teaching/Learning	"Faculty, Resources"		
+	4.13	3.4	3	4	2	3	2	3	Teaching/Learning	Overall learning environment	No	No
+	5	4.8	4	3	2	3	4	2	Other	Teaching/Learning	No	No
+	3.69	3.7	5	4	3	3	4	3	Faculty	Overall learning environment	No	Yes
+1st Year	4.38	4.44	3	5	4	3	4	2	Faculty	"Resources, Teaching/Learning"		
+3rd Year	4.63	4	4	4	3	3	4	4	Faculty	Teaching/Learning	No	No
+4th Year	3.44	4.8	5	4	4	4	4	3	Teaching/Learning	"Resources, Overall learning environment"	Yes	Yes
+1st Year	3.31	3.2	5	3	2	3	4	4	Teaching/Learning	Faculty	Yes	Yes
+1st Year	3.75	4	5	4	4	4	4	2	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Other"		
+1st Year	4.69	3.3	5	4	4	4	4	2	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Other"		
+1st Year	3.5	4	4	5	4	4	4	3	Teaching/Learning	Resources	Yes	Yes
+	3.38	2.6	5	3	1	1	2	5	Faculty	"Faculty, Resources, Teaching/Learning, Overall learning environment, Other"		
+	5	4.92	4	4	2	2	4	4	Faculty	Overall learning environment		
+1st Year	3.8	2	4	4	3	3	4	5	Faculty	Faculty	Yes	Yes
+1st Year	3.31	3.83		3	4	4	5	5	Teaching/Learning	Other	Yes	Yes
+1st Year	5	5	4	4	3	3	5	5	Faculty	Other	Yes	Yes
+1st Year	3.69	3.75	5	3	3	4	4	4	Teaching/Learning	Resources		
+2nd Year	5	4	5	4	3	4	4	5	Faculty	"Faculty, Resources"	Yes	Yes
+1st Year	4.31	3.9	4	4	4	3	4	5		Faculty	Yes	No
+2nd Year	4	4	5	5	4	4	4	4	Faculty	"Faculty, Resources, Teaching/Learning, Overall learning environment"	No	Yes
+2nd Year	5	5	5	2	3	4	4	3	Teaching/Learning	"Faculty, Overall learning environment"	Yes	Yes
+1st Year	4.88	5	5	4	3	3	4	3	Teaching/Learning	Resources	Yes	Yes
+1st Year	4.3	4.28	5	5	3	4	5	4	Teaching/Learning	Resources	Yes	Yes
+4th Year	3.88	4.6	4	5	3	4	4	4	Faculty	Resources	Yes	No
+3rd Year	4.06	4.5	5	4	3	2	4	4	Teaching/Learning	Overall learning environment	No	Yes
+4th Year	4.56	3.5	5	3	4	4	2	4	Teaching/Learning	"Faculty, Resources, Overall learning environment, Other"	No	Yes
+4th Year	3.81	4	5	5	4	4	5	5	Faculty	Overall learning environment	Yes	Yes
+4th Year	4.75	4.1	4	3	3	3	3	2	Resources	"Teaching/Learning, Overall learning environment"	Yes	Yes
+2nd Year	4.06	3.3	5	2	2	2	3	2	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment"	Yes	Yes
+2nd Year	4	4	5	3	4	4	4	4	Resources	Teaching/Learning	No	Yes
+2nd Year	4.25	4.5	5	5	4	4	3	4	Resources	"Faculty, Resources, Teaching/Learning, Overall learning environment"	Yes	Yes
+4th Year	3.88	4.5	5	5		4	5	5	Teaching/Learning	"Teaching/Learning, Overall learning environment"	Yes	Yes
+2nd Year	5	4.3	4	5	3	4	4	5	Faculty	Overall learning environment	Yes	Yes
+2nd Year	4.75	4.4	5	4	2	3	4	4	Faculty	Overall learning environment	Yes	Yes
+2nd Year	4.25	4.2	5	3	2	2	4	3	Faculty	Overall learning environment	Yes	Yes
+4th Year	5	4.3	5		4	4	4	5	Teaching/Learning	Resources	Yes	Yes
+4th Year	3.94	4.2	5	5	3	3	4	2	Teaching/Learning	Overall learning environment	No	Yes
+4th Year	4.13	3.8	4	4	3	4	3	2	Faculty	Other	Yes	Yes
+2nd Year	4.94	4.6	5	4	3	3	4	5	Faculty	Overall learning environment	Yes	Yes
+2nd Year	3.63	3.83	5	5	3	4	4	5	Faculty	"Resources, Overall learning environment, Other"	Yes	Yes
+1st Year	4.06	3.5	5	5	4	3	4	5	Faculty	Teaching/Learning	Yes	Yes
+1st Year	4.75	4	5	5	4	4	5	5	Faculty	Teaching/Learning	Yes	Yes
+1st Year	4.31	4.1	5	4	3	4	4	2	Teaching/Learning	Resources		
+3rd Year	4.06	2.6	5	5	4	4	4	4	Faculty	Overall learning environment	Yes	Yes
+1st Year	5	5	5	5	4	4	4	5	Teaching/Learning	Resources		
+3rd Year	4	4.7	5	3	2	2	4	5	Faculty	"Resources, Overall learning environment"	Yes	Yes
+3rd Year	4.31	2.9	5	5	4	4	4	3	Teaching/Learning	Resources	Yes	Yes
+1st Year	4.31	3.8	5	3	3	3	4	2	Teaching/Learning	Overall learning environment		
+3rd Year	4.56	4.5	5	5	4	4	4	3	Teaching/Learning		Yes	Yes
+1st Year	4.13	4.4	5	5	2	3	4	3	Faculty	Resources		
+1st Year	5	4.9		5	4	4	5	3	Teaching/Learning	"Faculty, Resources, Teaching/Learning"	Yes	Yes
+1st Year	4.69	3.8	4	5	4	3	5	4	Teaching/Learning	Overall learning environment	Yes	Yes
+4th Year	4.81	3.8	5	5	4	4	5	5	Faculty	Other	Yes	Yes
+4th Year	5	4	3	2	2	2	1	1	Faculty	"Faculty, Resources, Teaching/Learning, Overall learning environment, Other"	Yes	Yes
+4th Year	3.88	4.2	4	3	3	4	3	3	Teaching/Learning	Resources	Yes	Yes
+4th Year	3	3	5	5	4	3	4	3	Teaching/Learning	Overall learning environment	Yes	Yes
+2nd Year	4.06	3.6	4	4	3	3	5	5	Teaching/Learning	Other	Yes	Yes
+2nd Year	4.25	4.4	5	2	2	2	3	2	Resources	Teaching/Learning	Yes	Yes
+4th Year	3.38	3.6		5	4	3	3	4	Teaching/Learning	Other	Yes	Yes
+2nd Year	5	4.9	5	5	4	4	4	2	Teaching/Learning	"Faculty, Resources"	No	Yes
+2nd Year	4.88	4.9	5	3	4	4	4	3	Faculty	Overall learning environment	Yes	Yes
+2nd Year	4.44	3.5	5	4	4	4	5	2	Faculty	Other	Yes	Yes
+1st Year	4.19	4.5	3	3		3	4	3	Other	Faculty	No	No
+3rd Year	4.06	4.5	5	4	3	3	4	3	Faculty	Faculty	Yes	Yes
+1st Year	5	5	5	3	3	4	4	5	Faculty	"Teaching/Learning, Overall learning environment, Other"	Yes	
+4th Year	5	4.5	5	4	3	2	2	1	Other	Teaching/Learning	Yes	No
+	4.56	4.7	5	3	3	3		2	Faculty	Other	Yes	Yes
+1st Year	4.5	3.2	5	3	3	4	3	2	Faculty	"Resources, Teaching/Learning, Overall learning environment"		
+	4.5	3.9	5	5	4	3	4	5	Faculty	Teaching/Learning	Yes	Yes
+4th Year	4.88	4.4	5	4	3	4	5	5		Faculty	Yes	No
+2nd Year	3.96	3.96	5	5	4	4	5	5	Faculty	Faculty	Yes	Yes
+2nd Year	4.38	4.7	5	5	4	4	5	4	Faculty	Faculty	Yes	No
+2nd Year	4.25	4.1	5	4	4	4	5	5	Teaching/Learning	Faculty	Yes	Yes
+2nd Year	3.94	4.2	4	4	4	4	3	5	Faculty	"Resources, Teaching/Learning, Overall learning environment, Other"	Yes	Yes
+2nd Year	4.31	2.81	4	4	3	3	3	4	Teaching/Learning	Faculty	Yes	Yes
+2nd Year	4.38	4.1	5	3	4	3	5	4	Faculty	Faculty	Yes	Yes
+2nd Year	3.63	3.15	4	3	2	3	3	3	Teaching/Learning	Overall learning environment	Yes	Yes
+2nd Year	4.44	4.4	4	4	3	3	4	4	Teaching/Learning	Faculty		
+2nd Year	4.69	4.7	3	3	2	3	3	5	Teaching/Learning	"Faculty, Resources, Other"	No	Yes
+3rd Year	4.88	4.4	5	4	4	3	5	3	Teaching/Learning	Resources	Yes	Yes
+2nd Year	4.88	5	4	4	3	4	4	5	Teaching/Learning	"Faculty, Resources, Other"	Yes	Yes
+	4.69	3.8	4	4	3	3	3	5	Faculty	Overall learning environment	Yes	Yes
+	3.5	3.8	5	5	4	4	5	5	Teaching/Learning	Overall learning environment	Yes	Yes
+	3.5	3.5	3	4	4	3	4	4	Other	"Teaching/Learning, Overall learning environment"	No	Yes
+	4.63	4.6	4	4	3	3	4	4	Teaching/Learning	Resources	Yes	Yes
+	5	5	4	4	3	3	4	5	Faculty	Resources		
+	3.94	4.1	4	4	4	4	4	2	Faculty	Teaching/Learning	Yes	No
+	4.88	5	5	4	2	2	3	3	Faculty	Resources	No	No
+	3.25	4.2	4	5	4	4	4	5	Teaching/Learning	Resources	Yes	Yes
+	4.88	4.8	5	5	2	3	5	3	Teaching/Learning	"Faculty, Overall learning environment"	Yes	No
+	3.38	3.8	5	4	4	4	4	4	Teaching/Learning	Faculty		
+	3.3	3	5	5	4	4	4	5	Teaching/Learning	"Teaching/Learning, Overall learning environment"	Yes	Yes
+	3.63	3.8	5	4	4	4	3	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+	3.38	4	5	5	3	3	4	3	Faculty	Teaching/Learning	Yes	Yes
+	3.83	3.04	5	5	4	4	5	5	Teaching/Learning	Overall learning environment	Yes	Yes
+	4.88	4.7	5	4	3	3	4	5	Faculty	Overall learning environment		
+	4.75	3.6	3	3	3	3	3	3	Teaching/Learning	Teaching/Learning	Yes	Yes
+	3.5	3.8	4	3	3	3	4	3	Teaching/Learning	"Teaching/Learning, Overall learning environment"	Yes	Yes
+	3.88	2.9	4	4	4	4	4	5	Teaching/Learning	"Faculty, Overall learning environment"	Yes	Yes
+	4.39	3.9	4	4	4	4	4	4	Teaching/Learning	Faculty	Yes	Yes
+	4.88	4	5	5	4	4	4	5	Faculty	Resources		Yes
+	3.75	3.7	5	5	3	4	5	5	Other	Teaching/Learning	Yes	Yes
+	5	5	4	4	2	3	4	5	Faculty	Overall learning environment		
+	4.31	4.2	3	3	2	3	3	5	Faculty	Other		
+	4.06	4.3	5	3	3	3	3	3	Teaching/Learning	Faculty	Yes	No
+	3.88	3.1	5	5	3	4	5	3	Faculty	Other	Yes	Yes
+	3.5	3.78	5	5	3	4	4	5	Other	Overall learning environment	Yes	Yes
+	3.94	3.5	4	4	3	3	4	5	Teaching/Learning	Overall learning environment	Yes	Yes
+	4.06	2.6	5	3	2	4	3	3	Resources	Overall learning environment	Yes	Yes
+	3.25	3	5	3	3	4	5	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+	4	3.9	5	5	4	4	5	5	Faculty	"Faculty, Resources, Teaching/Learning, Overall learning environment"	Yes	Yes
+	5	5	5	4	4	4	4	3	Teaching/Learning	"Faculty, Teaching/Learning"	Yes	Yes
+	5	5	4	3	3	3	3	5	Teaching/Learning	Resources	Yes	Yes
+	4.81	4.7	5	5	3	3	4	2	Teaching/Learning	Overall learning environment	Yes	Yes
+	3	3	5	5	4	4	4	5	Teaching/Learning	Other		
+	4.13	4.5	5	5	4	4	4	5	Teaching/Learning	Resources		
+	4.38	5	4	3	3	4	5	3	Faculty	"Faculty, Overall learning environment"	Yes	Yes
+	4	4	4	4	3	3	4	4	Teaching/Learning	Faculty		
+	3.94	4.4	5	5	4	4	5	5	Teaching/Learning	"Faculty, Overall learning environment"	No	No
+	4.63	4.4	5	5	4	4	5	5	Faculty	Resources	No	No
+	4.44	3.6	5	5	4	4	1	3	Other	"Faculty, Resources, Teaching/Learning, Overall learning environment"	No	No
+	4	4.8	5	4	4	4	4	5	Teaching/Learning	Resources	Yes	Yes
+1st Year	4.38	4.44	5	4	3	3	4	4	Faculty	Teaching/Learning	Yes	Yes
+	3.13	3.3	5	5	4	4	5	2	Teaching/Learning	Overall learning environment		Yes
+	3.63	4.1	5	3	2	2	3	5	Faculty	"Faculty, Resources, Overall learning environment"	Yes	Yes
+	3.81	4.4	4	4	3	4	4	4	Teaching/Learning	Resources	Yes	No
+	4	3	5	4	3	4	3	3	Teaching/Learning	"Faculty, Resources"	Yes	Yes
+	4.17	4.58	4	4	3	4	4	3	Faculty	Faculty	Yes	No
+		4.9	5	3	3	4	4	3	Teaching/Learning	Resources	Yes	Yes
+	3	3	5	3	2	2	3	5	Faculty	Faculty	Yes	Yes
+	3.44	3.2	5	5	4	4	4	4	Faculty	Teaching/Learning		
+	3.31	3.4	5	5	4	4	4	2	Teaching/Learning	Teaching/Learning		
+	3.69	3.7	4	5	4	4	2	5	Faculty	"Faculty, Teaching/Learning, Overall learning environment"	Yes	Yes
+	3.88	3.2	5	4	3	4	4	5	Faculty	Resources	Yes	
+	4.44	4.2	5	4	4	4	5	5	Faculty	Resources	Yes	Yes
+	4.5	4.64	5	4	3	2	4	2	Faculty	Teaching/Learning	Yes	Yes
+	3.31	3.1	5	4	3	4	4	4	Teaching/Learning	"Faculty, Teaching/Learning"	Yes	Yes
+	3.5	3.6	5	3	3	4	4	4	Teaching/Learning	Resources	Yes	Yes
+	3	3	5	4	4	3	4	4	Teaching/Learning	Teaching/Learning	Yes	Yes
+4th Year	4.94	4.5	5	4	4	4	5	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+4th Year	3.41	5	5	3	3	3	3	3	Teaching/Learning	Faculty	No	Yes
+1st Year	4.25	3.9	5	4	3	3	3	3	Teaching/Learning	Overall learning environment		
+1st Year	3	3.17	5	5	4	4	5	5	Faculty	Resources	Yes	Yes
+1st Year	5	5	5	5	4	4	5	4	Faculty	Faculty	Yes	No
+1st Year	4.88	4.63	5	5	3	3	3	4	Teaching/Learning	Faculty	No	No
+2nd Year	4.56	4.2	5	5	4	4	5	5	Faculty	Teaching/Learning	Yes	Yes
+2nd Year	4.06	4.3	5	3	4	4	5	2	Faculty	Overall learning environment	Yes	Yes
+2nd Year	4.63	4.5	4	3	3	3	4	5	Teaching/Learning	Overall learning environment	Yes	Yes
+4th Year	3.5	4.6	4	3	3	3	4	3	Teaching/Learning	Faculty	Yes	Yes
+3rd Year	4.5	4.4	3	3	2	3	3	5	Faculty	"Faculty, Teaching/Learning"	Yes	No
+2nd Year	4.25	4.6	5	4	3	4	5	5	Faculty	Overall learning environment	Yes	Yes
+2nd Year	3.63	3.2	4	4	4	4	4	2	Teaching/Learning	Faculty	Yes	Yes
+2nd Year	3.94	3.8	5	4	3	4	4	5	Faculty	Teaching/Learning	Yes	Yes
+4th Year	5	4.5	4	2	2	2	4	4	Teaching/Learning	Faculty	Yes	Yes
+4th Year	3	2.75		2	2	2	2	3	Resources	Teaching/Learning	Yes	Yes
+3rd Year	3.5	5	5	3	2	2	3	3	Teaching/Learning	Teaching/Learning	Yes	Yes
+4th Year	3.81	4.8	5	3	4	3	4	5	Faculty	Resources	Yes	Yes
+3rd Year	3.38	4.4	5	4	3	4	3	2	Teaching/Learning	Resources	Yes	Yes
+3rd Year	4.25	3.2	5	5	3	3	4	5	Faculty	Resources	Yes	Yes
+4th Year	3.56	4.4	4	4	4	4	4	3	Faculty	Faculty	Yes	Yes
+4th Year	4.88	4.4	3	3	3	3	3	3	Faculty	Faculty	Yes	Yes
+4th Year	4.88	4.4	4	4	3	3	4	5	Faculty	Teaching/Learning	No	No
+4th Year	3	3	4	4	4	3	3	4	Faculty	Faculty	Yes	Yes
+4th Year	4	4.1	5	5	3	3	4	4	Faculty	Overall learning environment	Yes	Yes
+4th Year	3.87	3.54	3	3	2	2	3	3	Faculty	Overall learning environment	No	Yes
+4th Year	4.25	4.7	5	3	1	2	2	3	Teaching/Learning	Resources	No	No
+4th Year	4.1	4.13	4	2	2	2	1	5	Faculty	Overall learning environment	Yes	Yes
+4th Year	3.69	3.9	4	5	3	2	4	3	Faculty	"Faculty, Other"	Yes	Yes
+4th Year	4.63	4.3	5	2	2	2	4	2	Other	Teaching/Learning	Yes	Yes
+4th Year	3.81	4.3	4	3	2	4	3	2	Faculty	Overall learning environment	Yes	Yes
+4th Year	4.81	4.4	3	4	4	4	2	2	Faculty	Overall learning environment	No	No
+2nd Year	3.69	4.4		5	3	3	4		Faculty	"Teaching/Learning, Overall learning environment"	No	Yes
+4th Year	3.19	4.3	5	2	3	3	3	3	Teaching/Learning	Overall learning environment	Yes	Yes
+2nd Year	3.96	4.1	5	5	3	4	5	5	Teaching/Learning	Resources	Yes	Yes
+2nd Year	4.39	4.2	5	5	4	4	5	5	Teaching/Learning	Teaching/Learning	No	
+2nd Year	5	3.4	5	3	2	3	4	3	Teaching/Learning	Faculty	Yes	Yes
+4th Year	5	4.8	4	4	3	3	4	4	Faculty	Faculty	Yes	Yes
+4th Year	4	3	5	5	3	3	4	4	Faculty	Resources	Yes	Yes
+2nd Year	4.44	5	5	4	3	3	4	3	Teaching/Learning	Teaching/Learning	Yes	Yes
+2nd Year	4.69	3.3	5	4	3	4	5	5	Faculty	Overall learning environment	Yes	Yes
+4th Year	5	4.6	3	4	3	2	2	5	Faculty	"Faculty, Resources, Teaching/Learning, Overall learning environment"	Yes	No
+3rd Year	4.88	4.9	5	3	2	3	3	3	Teaching/Learning	Resources	Yes	Yes
+4th Year	4.44	3.9	3	3	2	3	2	3	Teaching/Learning	"Faculty, Resources, Teaching/Learning"	Yes	No
+3rd Year	4.5	4.8	5	3	3	4	3	3	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment, Other"	Yes	Yes
+3rd Year	4.19	3.6	4	3	3	3	4	3	Faculty	Teaching/Learning	Yes	Yes
+2nd Year	5	5	5	5	4	4	4	3	Teaching/Learning	"Faculty, Resources"	No	Yes
+2nd Year	5	5	5	4	4	4	3	3	Teaching/Learning	Resources		
+2nd Year	5	4.8	5	3	2	2	4	4	Faculty	"Faculty, Resources, Teaching/Learning, Overall learning environment"	Yes	Yes
+2nd Year	3.93	3.65	4	5	4	4	5	5	Teaching/Learning	Teaching/Learning	No	Yes
+4th Year	3.86	3.5	5	4	4	4	5	2	Faculty	Teaching/Learning	Yes	Yes
+2nd Year	3.88	3.6	5	5	4	4	1	3	Teaching/Learning	Overall learning environment	Yes	Yes
+2nd Year	4.25	3.6	4	4	3	3	4	2	Faculty	"Resources, Teaching/Learning, Overall learning environment"	Yes	Yes
+2nd Year	4.69	3.8	4	4	3	3	4	2	Faculty	Teaching/Learning	Yes	Yes
+3rd Year	4.5	4.7	4	4	3	3	4	4	Teaching/Learning	Teaching/Learning	No	Yes
+4th Year	3.94	4	4	3	3	3	3	3	Teaching/Learning	Resources	Yes	Yes
+4th Year	3.69	2.6	4	4	3	3	4	4	Faculty	Other	Yes	Yes
+4th Year	4.94	5	3	3	3	3	4	4	Resources	Teaching/Learning	Yes	No
+4th Year	3.75	3.8	4	3	4	4	4	3	Faculty	"Faculty, Resources, Overall learning environment"	Yes	Yes
+4th Year	4.88	5	5	5	4	4	4	4	Teaching/Learning	Overall learning environment	Yes	Yes
+3rd Year	4.56	5	5	3	3	3	4	3	Faculty	Faculty	Yes	Yes
+1st Year	5	5	4	5	4	4	5	3	Faculty	Resources		
+1st Year	3.81	3.5										
+1st Year	5	4.25										
+1st Year	5	4.75										
+1st Year	4.81	4.17							Resources	"Faculty, Resources"	Yes	Yes
+1st Year	3.56	3.58	4	3	3	3	3	4	Faculty	Faculty	Yes	Yes
+1st Year	4.94	3	5	5	4	3	4	4	Faculty	Resources	Yes	Yes
+1st Year	3.88	3.5	4	3	3	3	5	5	Teaching/Learning	Other		
+1st Year	4.88	4.42									Yes	Yes
+	4.63	4.92	5	5	4	4	5	5		Faculty	Yes	
+1st Year	5	4.4										
+4th Year	3.88	4.3	5	4	3	4	4	4	Faculty	"Resources, Overall learning environment"	Yes	Yes
+4th Year	3.19	3.31	4	5	4	4	5	5	Teaching/Learning	Resources	Yes	Yes
+4th Year	3.44	3.1	4	4	3	3	4	4	Other	Other	Yes	Yes
+4th Year	3.56	3.67	5	5	4	4	5	5	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment, Other"	Yes	Yes
+4th Year	4.19	3.75	5	4	3	4	4	3	Teaching/Learning	Faculty	Yes	Yes
+4th Year	3.88	3	3	3	3	3	5	5	Other	Faculty	Yes	Yes
+4th Year	5	5	4	4	3	3	4	4	Faculty	"Teaching/Learning, Overall learning environment"	Yes	Yes
+4th Year	3.31	2.9	5	5	4	4	4	4	Faculty	"Faculty, Resources, Teaching/Learning, Overall learning environment, Other"	Yes	Yes
+4th Year	4.25	4.2	5	3	3	3	4	2	Teaching/Learning	Faculty	No	Yes
+1st Year	3.05	3.25	5	5	4	4		5	Faculty	Faculty	Yes	Yes
+2nd Year	4.56	4.4	5	4	3	3	4	4	Faculty	Resources	Yes	Yes
+2nd Year	4.69	5	5	5	4	4	4	5	Faculty	Resources		
+1st Year	4.56	5	4	3	3	3	4	4	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment"		Yes
+2nd Year	4.38	4.8	3	4	3	2	3	3	Teaching/Learning	Faculty	Yes	Yes
+4th Year	3.56	4.3	5	5	4	4	2	2	Faculty	Overall learning environment	No	Yes
+4th Year	5	4.7	5	3	3	3	4	5		Overall learning environment	Yes	Yes
+1st Year	4.94	4.6	5	5	4	4	5	5	Faculty	"Resources, Teaching/Learning"	Yes	Yes
+1st Year	4.88	5	5	5	4	4	5		Teaching/Learning	"Faculty, Resources"	Yes	Yes
+2nd Year	4.31	4	5	5	4	4	5	5	Faculty	Resources	Yes	Yes
+1st Year	4.06	3.9								"Faculty, Resources"	Yes	Yes
+2nd Year	5	4.5	4	4	4	3	4	4	Teaching/Learning	Overall learning environment	Yes	Yes
+2nd Year	4.56	4.5	4	4	3	3	4	4	Teaching/Learning	Overall learning environment	Yes	Yes
+2nd Year	5	3.9	4	4	3	3	4	4	Teaching/Learning	Overall learning environment	Yes	Yes
+4th Year	4	4	5	5	4	4	2	5	Faculty	Overall learning environment	No	No
+4th Year	5	4.5	5	5	4	4	2	5	Faculty	"Faculty, Resources, Teaching/Learning, Overall learning environment, Other"	No	No
+4th Year	3.75	3.9	5	3	4	4	5	5	Faculty	Overall learning environment	Yes	Yes
+2nd Year	5	5	1	2	2	2	2	2	Teaching/Learning	Faculty	No	Yes
+1st Year	3.63	2.33	4	3	2	3	4	3	Faculty	"Faculty, Resources, Teaching/Learning, Overall learning environment"	No	Yes
+1st Year	4.63	5	5	4	3	3	4	3	Teaching/Learning	"Faculty, Resources"	No	No
+1st Year	5	4.8	4	5	4	4	5	5	Teaching/Learning	Overall learning environment	Yes	Yes
+2nd Year	3.69	3.8	5	4	4	2	4	5	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment"	Yes	Yes
+4th Year	4	3	4	4	4	4	4	4	Teaching/Learning	Resources	Yes	Yes
+1st Year	3.85	4	5	5	4	4	5	5		"Faculty, Resources"	Yes	Yes
+2nd Year	4.44	4.7	5	4	3	4	5	2	Teaching/Learning	"Faculty, Resources, Overall learning environment"	Yes	Yes
+1st Year	4	4.1	5	4	4	3	3	2	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment, Other"		
+3rd Year	4.13	3.9	4	5	4	4	5	4	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment, Other"		
+2nd Year	5	5	5	4	4	4	3	3	Teaching/Learning	Resources	Yes	Yes
+1st Year	3	3	4	4	3	3		4	Faculty	Faculty	Yes	Yes
+2nd Year	3.94	3.88	5	4	4	3	3	3	Teaching/Learning	Resources	Yes	Yes
+4th Year	4.25	3.9	4	5	3	3	5	4	Faculty	"Teaching/Learning, Overall learning environment"	No	Yes
+2nd Year	4.69	4.9		5	4	4	5	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+4th Year	4.13	4.1	5	5	3	3	3	3	Faculty	Overall learning environment	Yes	Yes
+2nd Year	4.5	4.4	5	5	4	4	4	2	Teaching/Learning	Overall learning environment	No	No
+2nd Year	5	5	5	5	4	4	5	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+2nd Year	4.94	4.6	5	4	3	4	4	5	Faculty	Resources	Yes	No
+2nd Year	4.81	5	5	5	4	4	5	5	Faculty	Other	Yes	Yes
+2nd Year	3.5	4.4	5	4	3	3	5	5	Faculty	Teaching/Learning	Yes	Yes
+1st Year	3.75	3.75	5	5	4	4	5	5	Faculty	Faculty	Yes	Yes
+1st Year	3.75	3	5	5	4	4	5	5	Teaching/Learning	Faculty	Yes	Yes
+2nd Year	5	5	4	5	4	4	3	2	Faculty	Other	Yes	No
+2nd Year	4.38	4.9	5	3	4	2		4	Other	"Faculty, Resources, Teaching/Learning, Overall learning environment, Other"	No	No
+1st Year	3.69	3.75	5	5	3	4	5	5	Faculty	Faculty	Yes	Yes
+4th Year	4.38	3.75	4	3	3	3	4	3		Faculty	Yes	Yes
+1st Year	4.5	3.56	5	5	4	3		4	Teaching/Learning	Faculty	Yes	Yes
+1st Year	5	5	5	4	3	4	5	3	Teaching/Learning	Overall learning environment		
+1st Year	3.63	4	5	5	4	4	5	5		Faculty		
+1st Year	5	3.5	5	5	4	4	5	5	Faculty	Faculty	Yes	Yes
+4th Year	3.31	3.9	4	3	3	2	3	3	Faculty	Teaching/Learning	Yes	No
+2nd Year	4.81	4.2	5	5	4	4	5	5	Teaching/Learning	Overall learning environment	Yes	Yes
+4th Year	4.38	4.8	4	3	3	3	4	3	Faculty		Yes	Yes
+3rd Year	3.38	2.8	4	4	3	3	4	3	Other	Resources	Yes	Yes
+3rd Year	3.75	3.7	4	4	3	3	4	4	Other	Resources	Yes	Yes
+4th Year	3	3.2	5	5	4	4	5	3	Faculty	Faculty	Yes	Yes
+4th Year	4.75	4.2	3	4	3	3	4	4	Faculty	"Resources, Teaching/Learning, Overall learning environment"	Yes	Yes
+3rd Year	3.88	3.8	5	5	4	3	4	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+2nd Year	4	5	3	3	4	3	4	3	Teaching/Learning	"Faculty, Resources, Overall learning environment"	Yes	Yes
+4th Year	3	3	4	4	4	4	5	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+4th Year	3.75	2.3	4	4	3	4	5	5	Faculty	Faculty	Yes	Yes
+2nd Year	4.31	4.6	5	5	4	4	2	3	Faculty	Overall learning environment	No	No
+3rd Year	4.44	3.8	5	4	3	3	4	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+2nd Year	4.7	4.5	5	3	3	3	4	4	Faculty	Other	Yes	Yes
+4th Year	5	5	4	4	4	4	3	2	Other	"Faculty, Resources, Teaching/Learning, Overall learning environment"	No	No
+2nd Year	3.94	4.2	4	4	4	4	4	4	Teaching/Learning	Faculty	Yes	Yes
+2nd Year	3.56	4.5	5	3	3	3	3	4	Faculty	Teaching/Learning	Yes	
+2nd Year	3.69	3.8	4	5	4	4	5	5	Faculty	"Faculty, Resources, Teaching/Learning"	Yes	Yes
+2nd Year	4.5	4.6	4	4	3	3	4	3	Teaching/Learning	Teaching/Learning	Yes	Yes
+3rd Year	4.25	4.7	5	4	2	2	3	2	Faculty	"Resources, Overall learning environment, Other"	No	No
+2nd Year	4.19	3.8	5	5	4	4	3	2	Teaching/Learning	Overall learning environment	Yes	Yes
+2nd Year	4.25	3.9	4	4	2	3	3	4	Faculty	Resources	Yes	Yes
+2nd Year	4.13	4	4	3	4	3	4	2	Faculty	Teaching/Learning	Yes	Yes
+2nd Year	3.88	3.2	5	5	2	4	2	5	Faculty	Teaching/Learning	Yes	Yes
+2nd Year	3.75	4.7	4	4	4	4	4	5	Teaching/Learning	Overall learning environment	Yes	Yes
+2nd Year	4.63	5	5	5	3	3	5	4	Teaching/Learning	Overall learning environment	Yes	Yes
+4th Year	3.94	4.9	5	4	4	3	5	3	Teaching/Learning	Overall learning environment	No	Yes
+4th Year	4.13	4.8	5	5	4	4	5	5	Other	"Faculty, Resources, Overall learning environment"	Yes	Yes
+2nd Year	5	5	4	3	2	1	3	3	Faculty	Other	Yes	Yes
+4th Year	4.5	4	5	5	4	4	5	5	Resources	Other	Yes	Yes
+2nd Year	4.63	3.8	5	3	4	4	4	4	Faculty	"Resources, Overall learning environment"	Yes	Yes
+1st Year	4.63	4.5	5	5	4	4	4	5	Faculty	Resources		
+3rd Year	5	5	5	5	4		5	5	Faculty	Teaching/Learning	Yes	Yes
+1st Year	4.69	4.8	4	3	3	3	4	2	Teaching/Learning	Other	Yes	Yes
+3rd Year	4.75	3.4	4	4	3	3	3	4	Teaching/Learning	"Resources, Overall learning environment, Other"	Yes	No
+1st Year	5	4.8	5	4	3	4	3	2	Teaching/Learning	"Faculty, Resources, Overall learning environment"		
+1st Year	4.19	4.5	5	3	3		3	5	Faculty	"Faculty, Resources, Teaching/Learning, Overall learning environment"		
+1st Year	4.38	3.7	5	5	3	4	3	5	Faculty	"Faculty, Resources, Teaching/Learning, Overall learning environment, Other"	Yes	Yes
+3rd Year	4.25	4.7	5	5	4	4	3	5	Faculty	Teaching/Learning	No	Yes
+4th Year	4.69	5	5	5	4	4	3	5	Faculty	Overall learning environment	No	Yes
+2nd Year	4.63	4.2	5	5	4	3	5	5	Teaching/Learning	Other	Yes	Yes
+1st Year	4.88	3.9	4	4	2	1	4		Teaching/Learning	"Resources, Teaching/Learning"		
+2nd Year	5	5	5	5	4	3	3	2	Teaching/Learning	Faculty	Yes	Yes
+1st Year	4.5	4.3	4	4	2	2	3	4	Faculty	Overall learning environment		
+2nd Year	4.15	4.5	5	3	3	3	3	2	Teaching/Learning	Faculty	Yes	Yes
+1st Year	4.31	3.7	4	5	3	3	4	3	Faculty	Overall learning environment	Yes	Yes
+2nd Year	4.63	4	5	5	2	4	3	5	Faculty	"Faculty, Teaching/Learning, Overall learning environment"		No
+3rd Year	3.88	2.8	4	5	4	4	5	5	Teaching/Learning	Faculty	Yes	Yes
+4th Year	4.13	4.1	4	4	4	4	4	5	Teaching/Learning	Overall learning environment	Yes	Yes
+1st Year	5	3.5	5	5	4	4	5	1	Teaching/Learning	Other		
+4th Year	3.88	3.9	5	5	3	4	5	4	Faculty	Faculty	Yes	Yes
+3rd Year	5	5	5	5	4	4	5	5	Faculty	Overall learning environment	Yes	Yes
+4th Year	4.69	4.6	5	4	3	3	3	2	Faculty	"Resources, Overall learning environment"	Yes	No
+3rd Year	4.56	3.9	5	5	3	4	4	4	Teaching/Learning	Faculty	Yes	Yes
+3rd Year	3.81	4.6	5	3	3	3	3	3	Teaching/Learning	Teaching/Learning	Yes	Yes
+1st Year	4.1	4.4	5	5	4	4	5	5	Teaching/Learning	Other		
+2nd Year	4.31	4.11	5	5	4	4	5	5	Teaching/Learning	Other	Yes	Yes
+4th Year	3.19	3.6	3	3	2	3	3	3	Faculty	Overall learning environment	No	No
+3rd Year	4.31	4.8	5	2	4		4	2	Faculty	Overall learning environment	No	Yes
+2nd Year	5	4.6	5	4	3	4	5	3	Teaching/Learning	Resources	Yes	Yes
+4th Year	3.81	3.4	5	5	4	3	4	3	Faculty	Teaching/Learning	Yes	Yes
+2nd Year	3.13	2.6	5	3	4	4	3	2	Teaching/Learning	Teaching/Learning	No	No
+1st Year	4.25	4.2	5	3	2	2	2	5	Faculty	Overall learning environment	Yes	Yes
+3rd Year	4.19	3.89	5	2	4	4	4	2	Faculty	Teaching/Learning	No	Yes
+3rd Year	4.94	4.7	5	4	4	4	4	5	Teaching/Learning	Overall learning environment	Yes	Yes
+1st Year	4.88	4.9	5	4	4	3	4	5	Teaching/Learning			
+1st Year	4.44	4.2	5	3	2	3	4	5	Faculty	Overall learning environment		
+1st Year	4.75	4.8	5	3	3	4	4	2	Teaching/Learning	"Faculty, Resources, Teaching/Learning, Overall learning environment"	Yes	Yes
+1st Year	3.69	3.8	5	3	2	2	3	5	Faculty	Overall learning environment		
+1st Year	4	4	5	4	3	3	3	3	Teaching/Learning	Overall learning environment	Yes	Yes
+1st Year	5	4.1	5	3	4	4	4	5	Faculty	Overall learning environment		Yes
+1st Year	4.94	4.4	5	5	3	4	4	5	Faculty	Overall learning environment	Yes	Yes
+2nd Year	4.88	5	5	5	4	4	4	4	Faculty	Resources	Yes	Yes
+1st Year	4.25	3.8	5	5	4	4	5	5	Faculty	Faculty	Yes	Yes
+1st Year	4.7	4.5	5	5	4	4	5	5	Faculty	Faculty	Yes	Yes
+2nd Year	3.25	3.3	5	5	4	4	5	5	Faculty	Resources	Yes	Yes
+1st Year	3.88	3	5	5	4	4	5	5	Teaching/Learning	Other	Yes	Yes
+1st Year	4	5	4	3	2	3	4	5	Faculty	Overall learning environment		
+1st Year	5	3.17	5	5	4	4	5	5		Faculty	Yes	Yes
+1st Year	3.44	3.7	5	5	4	4	5	5	Faculty	Faculty	Yes	Yes
+1st Year	5	4.8	5	3	3	3	4	2	Teaching/Learning	Overall learning environment	Yes	Yes
+1st Year	3.38	3.17	5	5	4	4	5	5	Teaching/Learning	"Overall learning environment, Other"	Yes	Yes
+1st Year	4.38	2.92	5	4	2	2	4	3	Faculty	"Resources, Overall learning environment"	Yes	Yes
+1st Year	5	4.5	5	5	4	4	5	5	Teaching/Learning	Other	Yes	Yes
+1st Year	4.3	4.42	5	5	4	4	5	5	Teaching/Learning	Other	Yes	Yes
+	3.5	3.5	5	5	4	4	5	5	Teaching/Learning	Teaching/Learning	Yes	No
+2nd Year	3.69	4.3	5	5	4	4	5	5	Faculty	Teaching/Learning	Yes	Yes
+3rd Year	3.5	2.8	4		4	3	2	1	Teaching/Learning	Faculty	No	Yes
+2nd Year	4	3	5	4	4	3	4	4	Teaching/Learning	Overall learning environment	Yes	Yes
+3rd Year	2.86	4.94	5	5	4	4	5	5	Faculty	"Faculty, Teaching/Learning"	Yes	Yes
+3rd Year	4	3	1	1	1	1	1	1	Faculty	"Faculty, Teaching/Learning, Overall learning environment"	Yes	Yes
+3rd Year	3.81	3.5	5	5	4	4	5	5	Faculty	Faculty	Yes	Yes
+1st Year	4.38	5	5	5	4	4	5	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+1st Year	3.88	3.58	5	5	4	4	5	5	Faculty	Overall learning environment		
+2nd Year	5	3.9	5	5	4	4	5	4	Faculty	Overall learning environment	Yes	Yes
+2nd Year	3.5	3.44	5	5	4	4	5	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+1st Year	5	5	5	5	4	4	5	5				
+1st Year	3.44	4.6	4	4	3	3	4	4	Teaching/Learning	Teaching/Learning	Yes	Yes
+1st Year	3	4.27	5	5	4	4	5	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+3rd Year	3.75	3.7	5	5	2	4	4	5	Resources	Resources	Yes	Yes
+4th Year	4.13	4.8	5	5	4	4	5	5	Faculty	Faculty	Yes	Yes
+1st Year	5	5	4	3	2	3	3	2	Faculty	Overall learning environment		
+1st Year	3.56	3.07	5	3	3	3	4	5	Teaching/Learning	"Faculty, Resources, Overall learning environment"		
+1st Year	3.31	4.41	5	4	4	4	5	4	Faculty	"Faculty, Overall learning environment"	Yes	Yes
+1st Year	3.81	3.2	4	5	4	3	4	4	Faculty	Faculty	Yes	Yes
+1st Year	3.88	4.21	5	5	4	4	5	5	Teaching/Learning	Teaching/Learning	Yes	Yes
+1st Year	3.56	3.4	5	4	3	3	4	5		Teaching/Learning	Yes	Yes
+1st Year	4	4.7	4	4	3	3	4	4	Faculty	Faculty	Yes	Yes
+1st Year	5	5	5	3	4	4	3	5	Faculty	Overall learning environment		
+1st Year	5	4.75	4	3	3	3	4	4	Faculty	Faculty	Yes	Yes
+1st Year	4.44	3.8	3	2	3	3	3	4	Faculty	Faculty	Yes	Yes
+4th Year	3.96	4.1	5	4	3	4	3	3	Teaching/Learning	Faculty	No	Yes
+2nd Year	4.81	5	5	3	4	4	3	5	Faculty	Overall learning environment	Yes	Yes
+2nd Year	3.88	3.7	5	3	4	4		5	Faculty	Overall learning environment	Yes	Yes
+1st Year	4.65	4.4	4	3	2	3	3	5	Faculty	Overall learning environment	Yes	Yes
+1st Year	3.63	3.8	5	5	4	4	5	5	Faculty	Faculty	Yes	Yes
+2nd Year	4.63	5	2	2	2	4	5	4	Faculty	"Faculty, Resources, Overall learning environment"	No	No
+1st Year	3.06	3.5	5	4	4	4	4	4	Teaching/Learning	Teaching/Learning	No	No
+1st Year	4.13	3.9	4	4	3	3	4	4	Faculty	"Faculty, Resources, Overall learning environment"	No	No
+1st Year	4.44	4.6	4	5	4	4	4	5	Faculty	Overall learning environment	Yes	Yes
+1st Year	3.75	3.3	4	4	4	4	4	3	Faculty	Faculty		
+1st Year	5	5	5	5	4	4	5	5	Faculty	Resources		Yes
+1st Year	3.94	3.67	5	5	4	4	5	5	Faculty	Resources	Yes	Yes
+4th Year	4	2.75	5	5	4	4	5	5	Faculty	Resources		
+1st Year	4.44	4.1	5	5	4	4	5	5	Faculty	Teaching/Learning	Yes	Yes
+1st Year	4.63	4.83	5	5	4	4	5	5	Faculty	Other	Yes	Yes
+1st Year	3.94	4.58	3	4	3	3	4	4	Resources	Resources	Yes	Yes
+1st Year	4.69	5	1	1	1	1	1	1	Faculty	Faculty	Yes	Yes
+1st Year	5	5	5	5	4	4	5	5	Faculty	"Faculty, Resources"	Yes	Yes
+2nd Year	4.38	3.92	3	3	2	3	3	3	Faculty	Faculty	Yes	No
+1st Year	5	4.3	4	4	2	2	3	3	Faculty	"Faculty, Teaching/Learning"	No	No
+1st Year	3.13	4.33	3	2	2	2	2	2	Teaching/Learning	Resources	Yes	No
+1st Year	3.88	3.25	4	5	4	3	4	4	Other	Faculty	Yes	No
+1st Year	3	2.53	2	2	2	2	3	2	Resources	Teaching/Learning	Yes	No
