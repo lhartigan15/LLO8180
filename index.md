@@ -58,11 +58,11 @@ Each assignment (problem set) is worth 100 points. The problem sets should be up
 1. Your .Rmd code file
 2. Your "knit" assignment file. The knit file can be an html, word, or pdf document (please choose one and do not submit it in multiple formats). 
 
-There may be a penalty for submissions not meeting these requirements.
+There may be a penalty for submissions not meeting these requirements. Additionally, please be sure to review all instructions on the assignment pdf.
 
-| File      | Due Date          |
+| Files      | Due Date          |
 |:-------------|:------------------|
-
+|[Assignment 1 pdf](./Assignment-1-starter.pdf), [Assignmnet 1 .Rmd](./Assignment 1 starter.Rmd), [Student Survey Codebook](./Survey Questions.docx), [Student Survey Data](./survey.txt) | 09/08/21
 
 ### Additional Useful Files
 * [Base R Reference Card - Common Commands](./Base R Cheat Sheet.pdf)
