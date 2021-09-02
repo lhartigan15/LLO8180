@@ -1,6 +1,6 @@
 ## Welcome to Applied Statistics (LLO8180), Fall 2021
 
-This is a supplementary page for Professor Hartigan's section of LLO 8180 - Applied Statistics. Make sure you bookmark and check this page frequently for the most up-to-date files to use for live sessions and assignments. You should have R and RStudio installed prior to the first day of class. Instructions for installing/updating can be found [here](./Downloading Installing Updating R and RStudio.pdf). 
+This is a supplementary page for Professor Hartigan's section of LLO 8180 - Applied Statistics. Make sure you bookmark and check this page frequently for the most up-to-date files to use for live sessions and assignments. You should have R and RStudio installed prior to the first day of class. Instructions for installing/updating can be found [here](./Downloading Installing Updating R and RStudio.pdf). Also, we've prepared a slide deck with helpful information for navigating and setting up R, which can be found [here](./Intro to R_final.pptx).
 
 You can find the course syllabus [here](./llo_8180_syllabus.pdf). Additionally, you can find a spreadsheet with all quiz/assignment due dates for the semester [here](./Fall 2021 LLO8180 due dates.xlsx).
 
@@ -26,7 +26,7 @@ These are the RStudio files and datasets that we will use for our live session m
 
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
-* [Week 2 Polling]
+* [Week 2 Polling](./Week 2 Polling.docx)
 * [Week 3 Polling]
 * [Week 4 Polling]
 * [Week 5 Polling]
