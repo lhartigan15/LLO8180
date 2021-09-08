@@ -5,7 +5,7 @@
 ---
 title: "Applied Statistics - Assignment 2"
 author: "YOUR NAME HERE"
-date: "due 2/10/21"
+date: "due 9/22/21"
 output: 
   pdf_document: default
   html_document: default
@@ -20,7 +20,7 @@ Please identify students with whom you worked on this assignment here (MAX of fo
 ## 	1. [Week 3] Each participant in an experiment was given one of three tasks. Let these three tasks be symbolized by A~1~, A~2~, and A~3~. The number of errors each participant made in performing the task was recorded by use of the categories “0 errors,” “1 error,” and “2 or more errors.” Thus, every participant was classified in two ways, by task and by number of errors. The following table shows the probabilities for these joint events for any participant drawn at random. 
 
 ## Use these probabilities to find:
-\setlength{\leftskip}{1cm}
+
 ### a. The marginal probabilities of the task events A~1~, A~2~, and A~3~
 
 ### b. The marginal probabilities for the error events 0 error, 1 error, and 2 or more errors
@@ -33,7 +33,7 @@ Please identify students with whom you worked on this assignment here (MAX of fo
 
 
 
-\setlength{\leftskip}{0pt}
+
 ## 2.	[Week 4] Explain in your own words what the central limit theorem means.
 
 
@@ -41,7 +41,7 @@ Please identify students with whom you worked on this assignment here (MAX of fo
 
 ## 3.	[Week 3:(a)-(d), Week 4:(e)-(i)] Assume a normally distributed population of resting heart rates with $\mu = 76$ and $\sigma = 5$. *Please use R code to do each of these sub-questions (when possible).*
 
-\setlength{\leftskip}{1cm}
+
 ### a.	Compute the z-score for a heart rate of 73. 
 ```{r}
 
@@ -83,9 +83,9 @@ Please identify students with whom you worked on this assignment here (MAX of fo
 
 
 
-\setlength{\leftskip}{0cm}
+
 ## 4. [Week 4] Consider a population of size 10 and samples of size 4.
-\setlength{\leftskip}{1cm}
+
 ### a.	Compute the total possible samples using theoretical sampling.
 
 ### b.	Compute the total possible samples using experimental sampling.
