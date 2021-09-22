@@ -27,9 +27,9 @@ These are the RStudio files and datasets that we will use for our live session m
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
 * [Week 2 Polling](./Week 2 Polling.docx)
-* [Week 3 Polling]
-* [Week 4 Polling]
-* [Week 5 Polling]
+* [Week 3 Polling](./Week 3 Polling.docx)
+* [Week 4 Polling](./Week 4 polling - answers.pdf)
+* [Week 5 Polling](./Week 5 Polling.pdf)
 * [Week 6 Polling] & [Week 6 Question]
 * [Week 7 Polling]
 * [Week 8 Polling]
