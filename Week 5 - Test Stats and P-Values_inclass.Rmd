@@ -1,17 +1,12 @@
-```{r}
-REMOVE ME BEFORE BEGINNING!
-```
 ---
 title: "Week 5 - Test Statistics & P-values"
 author: "Lacey Hartigan"
-date: "2/10/21"
 output:
   pdf_document: default
-  html_document: default
-  word_document: default
 ---
 
 ```{r  include=FALSE}
+rm(list=ls())
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -28,12 +23,14 @@ First, let's write out our Null and Alternative hypotheses (in words AND in symb
 H_0: \mu_{satprep} = \mu_0 \\
 \end{aligned}
 \]
+H0: Mu_satprep = Mu_0
 There will be no difference in the means between students who took the SAT prep course and the general population of test takers.
 \[
 \begin{aligned}
 H_1: \mu_{satprep} \neq \mu_0 \\ 
 \end{aligned}
 \]
+H1: Mu_satprep != Mu_0
 There will be a difference in the means between students who took the SAT prep course and the general population of test takers.
 
 ### METHOD 1: Critical Value
@@ -52,7 +49,7 @@ Let's now use the p-value method to determine whether the difference between stu
 
 2a. Calculate the p-value using pnorm. Make sure you use the correct lower.tail argument (lower.tail=T for negative test statistics; lower.tail=F for positive test statistics)
 ```{r}
-2*pnorm(-3.307189, lower.tail = T)
+2*pnorm(-3.307189, lower.tail = TRUE)
 ```
 
 2b. Compare the p-value to our alpha (in this, and MOST cases, it's .05). Is p LESS than alpha? 
@@ -61,7 +58,7 @@ A: Yes, p is < .05. So, we reject the null. We DID find a statistically signific
 
 2b-1. We COULD have also entered all data into pnorm without calculating the test statistic first, right? 
 ```{r}
-2*pnorm(1350, mean=1400, sd=145/sqrt(28), lower.tail=T)
+2*pnorm(1350, mean=1400, sd=80/sqrt(28), lower.tail=T)
 ```
 Of course, this gets us the exact same answer.
 
@@ -69,41 +66,41 @@ Of course, this gets us the exact same answer.
 ### USING R FOR THE GROUP PROBLEM IN CLASS (after breakout groups)
 
 a. Identify each value given in the problem and write it with corresponding symbols.
-  Mu = 1050
-  sigma = 200
-  n = 40
-  M = 1080
+  Mu = 150.37
+  sigma = 8.59
+  n = 50
+  M = 155.56
 
 b. Calculate the standard error.
 ```{r}
-se <- 200/sqrt(40); se
+se <- 8.59/sqrt(50); se
 ```
 
 c. State the null and alt. hypothesis in symbols & in words
-  H0: Mu_satprep = 1050. The sat prep mean was not different than the population mean (1050).
-  H1: Mu_satprep (not=) 1050. The sat prep mean was different than the population mean (1050). 
+  H0: Mu_greprep = 150.37 The sat prep mean was not different than the population mean (150.37).
+  H1: Mu_greprep != 150.37. The sat prep mean was different than the population mean (150.37). 
 
 d. Perform a one-sample z-test using the CV method.
   CV = 1.96
   
 ```{r}
-z <- (1080-1050)/se
+z <- (155.56-150.37)/se
 z
 ```
-  Fail to reject the Null, because our test statistic is < 1.96 (less extreme).
+  Reject the Null, because our test statistic is > 1.96 (more extreme).
 
 
 e. Perform a one-sample z-test using the p-value approach. 
 ```{r}
-2*pnorm(1080, mean=1050, sd=se, lower.tail=FALSE)
+2*pnorm(155.56, mean=150.37, sd=se, lower.tail=FALSE)
 ```
-  p > 0.05, so we fail to reject the Null. 
+  p < 0.05, so we reject the Null. 
 
 f. What was our decision about the null? 
-  Fail to reject.
+  Reject.
 
 g. Did we find statistical significance?
-  NO, we did not.
+  Yes, we did.
 
 
 
