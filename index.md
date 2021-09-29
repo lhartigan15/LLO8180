@@ -2,7 +2,7 @@
 
 This is a supplementary page for Professor Hartigan's section of LLO 8180 - Applied Statistics. Make sure you bookmark and check this page frequently for the most up-to-date files to use for live sessions and assignments. You should have R and RStudio installed prior to the first day of class. Instructions for installing/updating can be found [here](./Downloading Installing Updating R and RStudio.pdf). Also, we've prepared a slide deck with helpful information for navigating and setting up R, which can be found [here](./Intro to R_final.pptx).
 
-You can find the course syllabus [here](./llo_8180_syllabus.pdf). Additionally, you can find a spreadsheet with all quiz/assignment due dates for the semester [here](./Fall 2021 LLO8180 due dates.xlsx).
+You can find the course syllabus [here](./llo_8180_syllabus.pdf). Additionally, you can find a spreadsheet with all quiz/assignment due dates for the semester [here - updated 9/29/21](./Fall 2021 LLO8180 due dates.xlsx).
 
 If you want to set up email alerts for updates/additions to this site, you can use the free version of a third-party program: [Distill](https://distill.io/). The free version will check for updates every 6 hours and send you alerts. Note: this is a platform that is not owned by Vanderbilt or me and you should review their data privacy and security to ensure you are comfortable with their practices.
 
