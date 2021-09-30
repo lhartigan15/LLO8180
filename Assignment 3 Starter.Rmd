@@ -5,7 +5,6 @@
 ---
 title: "Applied Statistics - Assignment 3"
 author: "YOUR NAME HERE"
-date: "due 2/24/21"
 output: 
   pdf_document: default
 ---
@@ -19,7 +18,7 @@ This is due prior to the beginning of live session on the due date. Please submi
 Please identify students with whom you worked on this assignment here (MAX of four to a group):
 
 ## 	1. [Week 5] According to ETS, the Graduate Record Exams (GRE) quantitative section has a population mean of 152.6 and population standard deviation of 8.8. Suppose a test prep company claims that test takers who have taken their quantitative prep courses score higher on the quantitative section. To evaluate the claim, you decided to take a random sample of 48 individuals who took the quantitative prep courses. You calculated the mean GRE quantitative section of the sample to be 155. For the following questions, assume we are conducting a two-tailed hypothesis test at an alpha = .05 level. 
-\setlength{\leftskip}{1cm}
+
 ### a.	Write the null hypothesis in symbols and words
 
 
@@ -42,9 +41,9 @@ Please identify students with whom you worked on this assignment here (MAX of fo
 ### f.	Make a decision about the null using the p-value approach
 
 
-\setlength{\leftskip}{0pt}
+
 ## 2. [Week 5] Suppose in the last question we decided to use a one-tailed test instead of a two-tailed test.
-\setlength{\leftskip}{1cm}
+
 ### a.	Rewrite the alternative hypothesis (in words and symbols) to reflect a one-tailed test
 
 
@@ -57,9 +56,9 @@ Please identify students with whom you worked on this assignment here (MAX of fo
 ### d.	Does this agree with the decision from the two-tailed test?
 
 
-\setlength{\leftskip}{0pt}
+
 ## 3.	[Week 6] A quality control division at a company is responsible for ensuring the weight of packages meets standards. To do this, the division routinely measures randomly selected packages. A random sample of 35 packages, whose packaging states that the contents weigh 10 pounds, is collected and weights are recorded (see weights.txt). For the following questions, assume we are conducting a two-tailed hypothesis test and the alpha = .05 level. 
-\setlength{\leftskip}{1cm}
+
 ### a.	Write the null hypothesis in symbols and words
 
 
