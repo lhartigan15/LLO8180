@@ -11,9 +11,12 @@ knitr::opts_chunk$set(echo = TRUE)
 #NOTE: if you don't have tidyverse installed yet, you need to install it. 
 #Type the following code into your CONSOLE (not your .Rmd file) and hit "enter": install.packages('tidyverse')
 library(tidyverse)
+library(haven)
 ```
 
 ## One-sample T-Test in R
+
+A psychologist studying the dynamics of marriage wanted to know how many hours per week the average American couple spends discussing marital problems. In this hypothetical study the sample mean of 70 randomly-selected couples turned out to be 2.6 hours, with s = 1.9. Suppose a European study had already estimated the population mean to be 3 hours per week for European couples. Are the American couples significantly different from the European couples?
 
 Let's use R to perform calculations for the "couples" example, comparing the amount of time American couples spend discussing marital problems to the amount of time European couples spend discussing marital problems. 
 
@@ -46,7 +49,7 @@ The only difference is that  have to specify the degress of freedom (df). We sti
 2*pt(1.76, df=69, lower.tail=FALSE)
 ```
 Decision: Fail to reject the H0.
-Conclusion: A one-sample t-test revealed that there was no SS difference between American Couples (M=2.6) and Euro couples (M=3) on time spent discussing marital problems; t(69) = -1.76, p > 0.05.
+Conclusion: A one-sample t-test revealed that there was no statistically significant difference between American Couples (M=2.6) and Euro couples (M=3) on time spent discussing marital problems; t(69) = -1.76, p > 0.05.
 
 
 Now, let's learn how to conduct a t-test when given a dataset. Let's look at sample data given for example 9.1 in the book. We're going to import this data (so that we get the practice). 
@@ -70,7 +73,8 @@ sd(OCD$OCD)
 ```
 
 FINDINGS/CONCLUSION (in APA style):
-A one-sample two-tailed t-test at alpha level .05 revealed a statistically significant difference between our sample mean (M=62) and our population (Mu=77.43), t(17) = -3.13, p < 0.05, d = -0.74. Cohen's d signified a moderate effect. 
+A one-sample two-tailed t-test at alpha level .05 revealed a statistically significant difference between our sample mean (M=62) and our population (Mu=77.43), t(17) = -3.13, 
+p < 0.05, d = -0.74. Cohen's d signified a moderate effect. 
 
 Set-up for reporting stats in APA (one-sample t-test): 
 t(DF)=TSTAT, p(lessthanorgreaterthan)0.05, [if significant] d=COHENSVALUE.
