@@ -1,0 +1,94 @@
+---
+title: "Week 8 - Confidence Intervals for T-Tests"
+author: "Lacey Hartigan"
+output:
+  pdf_document: default
+---
+  
+```{r include=FALSE}
+rm(list=ls())
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+This week we show how to build confidence intervals in R for t-tests. There is actually no new code here because, by default, t.test() gives the CI in the output.
+
+First, let's revisit the one-sample t-test example from last week, where we were given a population Mu of 77.43
+```{r}
+#load the data
+OCDdata <- read.table("OCD.txt", header=TRUE, sep="\t")
+```
+
+```{r}
+#run the one sample t-test
+t.test(OCDdata$OCD, mu=77.43, conf.level=.95)
+```
+Q: Using the CI method - would we reject/fail to reject the null? Why?
+
+A: We would reject the H0 because our population mu (77.43) was outside our confidence interval [51.59, 72.41]. NOTE how we display confidence intervals (using brackets and a comma in between the lower and upper bound).
+
+Now, let's write the interpretation for the CI [51.59, 72.41].
+Interpretation: We are 95% confident that the CI [51.59, 72.41] contains the true population mean for OCD. 
+NOTE: We can interpret the CI whether or not we reject/fail to reject (interpretation of the CI doesn't affect rejection and vice versa.
+
+Now, let's look at an Independent samples t-test -- two ways (based on data structure)
+#1
+```{r}
+#load the data
+consumed1<-read.table("caloriesnum.txt", header=T, sep="\t")
+#run the test
+t.test(consumed1$Slow, consumed1$Fast, var.equal=T)
+```
+
+#2
+```{r}
+#load the data
+consumed2<-read.table("calorieschar.txt", header=T, sep="\t")
+#run the test
+t.test(consumed2$Calories ~ consumed2$Group, var.equal=T)
+```
+
+Q: Using the CI method - would we reject/fail to reject the null? Why?
+
+A: We would fail to reject b/c the CI contains 0. 
+
+Interpretation: We are 95% confident that the CI [-134.19, 234.19] contains the true mean difference. That is, if we took 100 samples and constructed CIs in the same way, 95 of them would contain the true mean difference.
+
+APA conclusion: An independent samples t-test revealed no statistically significant difference between the fast (M=650, SD=130.38) and slow (M=600, SD=154.92) eaters on calorie consumption; t(10)=0.60, p>0.05.
+
+Related samples t-test (process is the same; code differs slightly)
+```{r}
+grades<-read.table("grades.txt", header=T, sep="\t")
+
+t.test(grades$Posttest, grades$Pretest, paired=T)
+```
+
+Q: Using the CI method - would we reject/fail to reject the null? Why?
+A: We would reject the null, because the CI [2.11, 10.56] does not contain 0.
+
+Interpretation: We are 95% confident that the true mean difference lies within the CI [2.11, 10.56].
+
+Since we found significance, what would our next step be?
+Calculate cohen's d
+```{r}
+#Dbar/SDdiff (recall how we found these last week)
+6.33/5.5 #d = 1.15 large effect
+```
+
+```{r}
+#pull descriptive stats for our write-up
+mean(grades$Pretest)
+sd(grades$Pretest)
+mean(grades$Posttest)
+sd(grades$Posttest)
+```
+
+APA conclusion: A related samples t-test revealed a statistically significant difference between pre-test (M=70.22, SD=9.22) and post-test (M=76.56, SD=9.30) grades; t(8)=3.45, p<0.05, d=1.15. Cohen's d signified a large effect.
+
+
+
+
+
+
