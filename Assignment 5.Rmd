@@ -1,0 +1,45 @@
+---
+title: "Applied Statistics - Assignment 5"
+author: "YOUR NAME HERE"
+date: "due 11/8/21"
+output: 
+  pdf_document: default
+---
+
+This is due prior to the beginning of live session on the due date. Please submit your knit file (you can use html, pdf, or word) to the LMS. Round all reported statistics (when applicable) to the nearest hundredths place (i.e., two decimal places). 
+
+Please identify students with whom you worked on this assignment here (MAX of four to a group):
+
+## 1.[Week 9] An administrator wants to use the undergrad student survey from their university (survery.txt) to examine if there are differences for each class year (Year) in whether students felt their social-emotional needs were met (SocExpect). Examine this research question using a one-way ANOVA.
+```{r}
+#Note: use the following code to import the original data
+#we are missing a lot of data on "Year"; so we're going to filter out that missing data
+#and use the newsurvey dataset for analysis
+
+survey <- read.table("survey.txt", header=T, sep="\t", na.strings = "") 
+#added na.strings here to define missing values
+
+library(tidyverse)
+
+newsurvey<-survey%>%
+    filter(!is.na(Year)) #this filters out any observation that is missing on Year
+```
+### a. Write the null hypothesis in symbols and words.
+### b. Write the alternative hypothesis in symbols and words.
+### c. By hand, calculate each degrees of freedom (use the analytical sample size of N = 418). Show calculations.
+### d. Use the anova function in R to obtain the test statistic and p-value. Report the ANOVA table.
+### e. Make a decision about the null using the p-value approach.
+### f. If appropriate, calculate and interpret the effect size. If not, state why.
+### g. Use R to conduct a post hoc analysis and interpret results.
+```{r}
+
+```
+### h. Write the conclusion in APA style.
+
+## 2.[Week 10] A developmental psychologist placed children in a social situation in which they were either rewarded or punished (Factor A: consequence) by a parent, sibling, or stranger (Factor B: type of adult). Following this social situation, children were placed back in the same social situation, and the time it took them (in seconds) to engage in the punished or rewarded behavior was recorded. The hypothetical data are given in behavior.txt.
+### a. Write the null hypotheses in words
+### b. Write the alternative hypotheses in words
+### c. Use the anova function in R to obtain the test statistics and p-values. Report the ANOVA table.
+### d. Make a decision about each null hypotheses using the p-value approach.
+### e. Write conclusion in APA style.
+### f.	Use R create an interaction plot. Give a brief interpretation in context of the variables.
