@@ -1,0 +1,66 @@
+---
+title: "Applied Statistics - Assignment 4"
+author: "YOUR NAME HERE"
+date: "due 10/27/21"
+output: 
+  pdf_document: default
+---
+
+
+This is due prior to the beginning of live session on the due date. Please submit your knit file (you can use html, pdf, or word) to the LMS. Round all reported statistics (when applicable) to the nearest hundredths place (i.e., two decimal places). 
+
+Please identify students with whom you worked on this assignment here (MAX of four to a group):
+
+## 1.[Week 7: (a)-(f), Week 8: (g)-(j)] In Assignment 1, we considered two variables from the undergrad student survey: high school GPA (HSGPA) and college GPA (CollegeGPA). We examined the sample means to determine differences between high school GPA and college GPA in the sample. Let's now extend this to the population to determine if there is a difference (or not) in the population means using a t-test.
+
+### a. Would an independent or related samples t-test be appropriate for this? Why?
+
+### b. Write the null hypothesis in symbols and words.
+
+### c. Write the alternative hypothesis in symbols and words.
+
+### d. By hand, calculate the degrees of freedom. Show calculation.
+
+### e. Use the t-test function in R to obtain the test statistic and p-value.
+```{r}
+
+```
+### f. Make a decision about the null using the p-value approach.
+
+### g. Write the conclusion in APA style.
+
+### h. Using R, compute and report the 95% CI.
+```{r}
+
+```
+### i. Interpret the 95% CI.
+
+### j. Using the CI, make a decision about the null hypothesis. Be sure to explain your reasoning.
+
+### k. Does this agree with your decision from part (e)?
+
+## 2.[Week 7: (a)-(f), Week 8: (g)-(j)] Researchers were interested in the effect of sleep on memory consolidation. Twenty-four participants were randomly assigned to either a “Sleep” or “No-Sleep” group, such that there were 12 participants in each group. On the first day, all participants were flashed pictures of 15 different objects on a computer screen and asked to remember as many objects as possible. That night, the “Sleep” group got an ordinary night’s sleep. The “No-Sleep” group was kept awake until the second night. All participants got an ordinary night’s sleep on the second and third nights. On the fourth day, all participants were tested to see how many of the original 15 objects they remembered. The data are in sleep.txt. Conduct an independent samples t-test, two-tailed, alpha = .05. 
+
+### a. Write the null hypothesis in symbols and words.
+
+### b. Write the alternative hypothesis in symbols and words.
+
+### c. By hand, calculate the degrees of freedom. Show calculation.
+
+### d. Use the t-test function in R to obtain the test statistic and p-value.
+```{r}
+
+```
+### e. Make a decision about the null using the p-value approach.
+
+### f. Write the conclusion in APA style.
+
+### g. Using R, compute and report the 95% CI.
+```{r}
+
+```
+### h. Interpret the 95% CI.
+
+### i. Using the CI, make a decision about the null hypothesis. Be sure to explain your reasoning.
+
+### j. Does this agree with your decision from part (e)?
