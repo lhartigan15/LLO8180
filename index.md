@@ -32,7 +32,7 @@ Answers to in-class polling questions (updated after each class session).
 * [Week 5 Polling](./Week 5 Polling.pdf)
 * [Week 6 Polling](./Week 6 polling - answers.pdf) & [Week 6 Question](./Week 6 question - with answers.docx)
 * [Week 7 Polling](./Week 7 Polling - with answers.pdf)
-* [Week 8 Polling]
+* [Week 8 Polling](./Week 8 polling - with answers.pdf)
 * [Week 9 Polling]
 * [Week 10 Polling]
 * [Week 11 Polling]
