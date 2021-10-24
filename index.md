@@ -62,11 +62,11 @@ Note that you must upload BOTH files BEFORE you hit "submit" in the LMS; if you 
 
 | Files      | Due Date          |
 |:-------------|:------------------|
-|[Assignment 1 pdf](./Assignment-1-starter.pdf), [Assignmnet 1 .Rmd Starter](./Assignment 1 starter.Rmd), [Student Survey Codebook](./Survey Questions.docx), [Student Survey Data](./survey.txt) | 09/08/21 |
-|[Assignment 2 pdf](./Assignment-2.pdf), [Assignment 2 .Rmd Starter](./Assignment 2 Starter.Rmd) | 09/22/21 |
-|[Assignment 3 pdf](./Assignment-3-Starter.pdf), [Assignment 3 .Rmd Starter](./Assignment 3 Starter.Rmd), [weights data](./weights.txt) | 10/13/21 |
-|[Assignment 4 pdf](./Assignment-4---updated.pdf), [Assignment 4 .Rmd Starter](./Assignment 4 - updated.Rmd), [survey data](./survey.txt), [sleep data](./sleep.txt) | 10/27/21 |
-|[Assignment 5 pdf](./Assignment-5.pdf), [Assignment 5 .Rmd Starter](./Assignment 5.Rmd), [survey data](./survey.txt) | 11/10/21 |
+|[Assignment 1 pdf](./Assignment-1-starter.pdf), [Assignmnet 1 .Rmd Starter](./Assignment 1 starter.Rmd), [Student Survey Codebook](./Survey Questions.docx), [Student Survey Data](./survey.txt), [A1 points](./Assignment1Points.csv) | 09/08/21 |
+|[Assignment 2 pdf](./Assignment-2.pdf), [Assignment 2 .Rmd Starter](./Assignment 2 Starter.Rmd), [A2 points](./Assignment2Points.csv) | 09/22/21 |
+|[Assignment 3 pdf](./Assignment-3-Starter.pdf), [Assignment 3 .Rmd Starter](./Assignment 3 Starter.Rmd), [weights data](./weights.txt), [A3 points](./Assignment3Points.csv) | 10/13/21 |
+|[Assignment 4 pdf](./Assignment-4---updated.pdf), [Assignment 4 .Rmd Starter](./Assignment 4 - updated.Rmd), [survey data](./survey.txt), [sleep data](./sleep.txt), [A4 points](./Assignment4Points.csv)  | 10/27/21 |
+|[Assignment 5 pdf](./Assignment-5.pdf), [Assignment 5 .Rmd Starter](./Assignment 5.Rmd), [survey data](./survey.txt), [A5 points](./Assignment5Points.csv)  | 11/10/21 |
 
 ### Additional Useful Files
 * [Base R Reference Card - Common Commands](./Base R Cheat Sheet.pdf)
