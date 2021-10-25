@@ -2,13 +2,14 @@ Question,TotalPoints
 1a,4
 1b,4
 1c,4
-1d,6
-1e,4
-1f,6
+1d,4
+1e,6
+1f,4
 1g,6
 1h,6
 1i,6
 1j,4
+1k,4
 2a,4
 2b,4
 2c,4
@@ -17,5 +18,5 @@ Question,TotalPoints
 2f,6
 2g,6
 2h,6
-2i,6
+2i,4
 2j,4
