@@ -1,7 +1,6 @@
 ---
 title: "Applied Statistics - Assignment 5"
 author: "YOUR NAME HERE"
-date: "due 11/8/21"
 output: 
   pdf_document: default
 ---
@@ -26,7 +25,7 @@ newsurvey<-survey%>%
 ```
 ### a. Write the null hypothesis in symbols and words.
 ### b. Write the alternative hypothesis in symbols and words.
-### c. By hand, calculate each degrees of freedom (use the analytical sample size of N = 418). Show calculations.
+### c. By hand, calculate each degrees of freedom (use the analytical sample size of N = 405; this is after removing missing on Year & SocExpect). Show calculations.
 ### d. Use the anova function in R to obtain the test statistic and p-value. Report the ANOVA table.
 ### e. Make a decision about the null using the p-value approach.
 ### f. If appropriate, calculate and interpret the effect size. If not, state why.
