@@ -85,7 +85,8 @@ library(ggplot2) #you could load tidyverse here instead, because that contains G
 # Basic scatter plot
 ggplot(phd_data, aes(x=Time, y=Pubs))+ 
   geom_point(size=2, shape=16, color="blue")+
-  labs(x="Time Since PhD Grad (in years)", y="Publications")
+  labs(x="Time Since PhD Grad (in years)", y="Publications")+
+  theme_classic() #this removes the gray/grid background
 ```
 
 
