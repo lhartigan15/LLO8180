@@ -19,7 +19,7 @@ These are the RStudio files and datasets that we will use for our live session m
 8. Week 8 - [Confidence Intervals for t-tests](./Week 8 - Confidence Intervals_inclass.Rmd), [Calories-char data](./calorieschar.txt), [Calories-num data](./caloriesnum.txt), [Grades data](./grades.txt), [OCD data](./OCD.txt)
 9. Week 9 - [One-way ANOVA](./Week 9 - One-wayANOVA_inclass.Rmd), [Depression data](./week9_Depression.txt)
 10. Week 10 - [Two-way ANOVA](./Week 10 - Two-wayANOVA_inclass.Rmd), [Sleep data](./week10_sleepdata.txt)
-11. Week 11 - [Correlations](./Week 11 - Correlations.Rmd), [BYOD data](./week11_byod.txt), [English data](./week11_english.txt), [Graduate data](./week11_graduate.txt), [PhD data](./week11_phd.txt)
+11. Week 11 - [Correlations - updated 11/10/21](./Week 11 - Correlations_inclass.Rmd), [BYOD data](./week11_byod.txt), [English data](./week11_english.txt), [Graduate data](./week11_graduate.txt), [PhD data](./week11_phd.txt)
 12. Week 12 - [Linear Regression](./Week 12 - Simple Linear Regression.Rmd), [PhD data](./week12_phd.txt), [Week 12 Slides with OLS](./Week_12_slides_withOLS.pdf)
 13. Week 13 - [Multiple Linear Regression](./Week 13 - Multiple Linear Regression.Rmd), [PhD data](./week13_phd2.txt)
 14. Week 14 - [Chi Square](./Week 14 - Chisquare.Rmd), [Grad data](./week14_graduate.txt)
