@@ -75,3 +75,4 @@ Note that you must upload BOTH files BEFORE you hit "submit" in the LMS; if you 
 * [Another R Markdown Reference Card](./rmarkdown-cheatsheet.pdf)
 * [Interaction effects in ANOVA - note, the code in here is in SPSS, not R, so disregard that](https://pages.uoregon.edu/stevensj/interaction.pdf)
 * [Which statistical test should I use?](https://help.xlstat.com/s/article/which-statistical-test-should-you-use?language=en_US)
+* [Effect size calculator](http://www.psychometrica.de/effect_size.html)
