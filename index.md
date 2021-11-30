@@ -68,6 +68,7 @@ Note that you must upload BOTH files BEFORE you hit "submit" in the LMS; if you 
 |[Assignment 4 pdf](./Assignment-4---updated.pdf), [Assignment 4 .Rmd Starter](./Assignment 4 - updated.Rmd), [survey data](./survey.txt), [sleep data](./sleep.txt), [A4 points](./Assignment4Points.csv)  | 10/27/21 |
 |[Assignment 5 pdf](./Assignment-5.pdf), [Assignment 5 .Rmd Starter](./Assignment 5.Rmd), [survey data](./survey.txt), [behavior data](./behavior.txt), [A5 points](./Assignment5Points.csv)  | 11/10/21 |
 |[Assignment 6 pdf](./Assignment-6.pdf), [Assignment 6 .Rmd Starter](./Assignment 6.Rmd), [activity data](./activity.txt), [laptop data](./laptop.txt), [A6 points](./Assignment6Points.csv)  | 12/1/21 |
+|[Assignment 7 pdf](./Assignment-7_starter.pdf), [Assignment 7 .Rmd Starter](./Assignment 7_starter.Rmd), [blood pressure data](./Bloodpressure.txt), [political data](./political.txt), [A7 points](./Assignment7Points.csv) | 12/15/21
 
 ### Additional Useful Files
 * [Base R Reference Card - Common Commands](./Base R Cheat Sheet.pdf)
