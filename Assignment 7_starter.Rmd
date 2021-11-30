@@ -1,10 +1,7 @@
-```{r}
-REMOVE ME
-```
 ---
 title: "Applied Statistics - Assignment 7"
 author: "YOUR NAME HERE"
-date: "due 4/28/21"
+date: "due 12/15/21"
 output:
   pdf_document: default
 ---
@@ -18,12 +15,12 @@ Please identify students with whom you worked on this assignment here (MAX of fo
 ## Independent variable X_1: Body Size, measured by Quetelet (QUET) Index 100(weight/height2)
 ## Independent variable X_2: Age
 
-### a. Using R, carry out MLR analyses to obtain raw and standardized regression coefficients. **Mean center age and QUET.**
+### a. Using R, carry out MLR analyses to obtain raw AND standardized regression coefficients. Mean center age and QUET.
 ```{r}
 
 ```
 
-#### i. Write the regression equation.
+#### i. Write the regression equation (use the raw coefficients). 
 
 #### ii. Interpret the intercept.
 
@@ -47,8 +44,8 @@ Please identify students with whom you worked on this assignment here (MAX of fo
 
 ```
 
-## 2. [Week 14] The Better Business Bureau (BBB) wants to determine whether a certain business is engaging in fair hiring practices. The BBB finds that a local business employs 66 men and 34 women. The general population of workers in this industry is 60% men and 40% women. Conduct a chi-square goodness-of-fit test at the alpha = .05 significance level.
 
+## 2. [Week 14] The Better Business Bureau (BBB) wants to determine whether a certain business is engaging in fair hiring practices. The BBB finds that a local business employs 66 men and 34 women. The general population of workers in this industry is 60% men and 40% women. Conduct a chi-square goodness-of-fit test at the alpha = .05 significance level.
 ### a. Write the null and alternative hypotheses.
 
 ### b. Using the chisq.test function in R, calculate the tests statistic and p-value.
@@ -60,9 +57,8 @@ Please identify students with whom you worked on this assignment here (MAX of fo
 
 ### d. Write a conclusion in APA format.
 
-## 3. [Week 14] A researcher tests whether the political affliction of individuals is related to or independent of whether they have positive views of the economy. The researcher records the political affiliations and economic viewpoints of 105 participants. The data are contained in political.txt (Affiliation: 1 = Democrat, 0 = Republican, Economy: 1 = Positive, 0 = Negative).
-
-### a. Using R, make a table summarizing the data (just need to report the table).
+## 3. [Week 14] A researcher tests whether the political affiliation of individuals is related to or independent of whether they have positive views of the economy. The researcher records the political affiliations and economic viewpoints of 105 participants. The data are contained in political.txt (Affiliation: 1 = Democrat, 0 = Republican, Economy: 1 = Positive, 0 = Negative).
+### a. Using R, make a table summarizing the data.
 ```{r}
 
 ```
@@ -76,4 +72,4 @@ Please identify students with whom you worked on this assignment here (MAX of fo
 
 ### d. Make a decision about each null hypotheses using the critical value approach.
 
-### e. Write a conclusion in APA format.
+### e. Write the conclusion in APA format.
