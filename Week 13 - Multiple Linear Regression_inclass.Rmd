@@ -64,11 +64,11 @@ summary(phd.mlrreg)
 
 Let's write the regression line equation. Note, I am using mathematical notation for .Rmd files here. For more info on that, you can go [here](https://rpruim.github.io/s341/S19/from-class/MathinRmd.html). Also, if you click on and then hover over the notation, you get a preview of what it will look like in the knit document. 
 
-$\hat{Y}$ = 4.55 + 1.77$x_{time}$ + 0.0002$x_{salary-54815.76}$ + 0.04$x_{citations}$
+$\hat{Y} = 4.55 + 1.77x_{time} + 0.0002x_{salary-54815.76} + 0.04x_{citations}$
 
 Here's another way to write the equation, if you prefer to NOT include the mean subtraction from salary. You STILL need to indicate that it was mean centered!
 
-$\hat{Y}$ = 4.55 + 1.77$x_{time}$ + 0.0002$x_{meancenteredsalary}$ + 0.04$x_{citations}$
+$\hat{Y} = 4.55 + 1.77x_{time} + 0.0002x_{meancenteredsalary} + 0.04x_{citations}$
 
 Now let's interpret our findings.
 
@@ -105,9 +105,9 @@ library(QuantPsyc)
 lm.beta(phd.mlrreg)
 ```
 Now, let's write the standardized regression equation.
-$\hat{Z_{y}}$ = 0.54$Z_{x_{time}}$ + 0.15$Z_{x_{salary}}$ + 0.05$Z_{x_{citations}}$
+$\hat{Z_{y}} = 0.54Z_{x_{time}} + 0.15Z_{x_{salary}} + 0.05Z_{x_{citations}}$
 
-In addition to R squared (which tells us the total variance in Y accounted for by our preditors, maybe we also want to understand the UNIQUE contribution of each predictor. There are two different calculations we can use for this (depending on what we want): the squared semi-partial correlations and squared partial correlations. We need the ppcor package to find these (uncomment line 115 to install).
+In addition to R squared (which tells us the total variance in Y accounted for by our predictors, maybe we also want to understand the UNIQUE contribution of each predictor. There are two different calculations we can use for this (depending on what we want): the squared semi-partial correlations and squared partial correlations. We need the ppcor package to find these (uncomment line 115 to install).
 ```{r}
 #install.packages("ppcor")
 library(ppcor)
