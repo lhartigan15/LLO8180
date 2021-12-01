@@ -4,10 +4,16 @@ output:
   pdf_document: default
 ---
 
+This file will require the following packages: `plot3D`, `QuantPsyc`, and `ppcor`. Be sure to install them before trying to run this code. 
+
 ```{r setup, include=FALSE}
 rm(list=ls())
 
 knitr::opts_chunk$set(echo = TRUE)
+
+library(plot3D)
+library(QuantPsyc)
+library(ppcor)
 ```
 
 This week we will learn how to conduct a multiple linear regression (MLR) in R.
@@ -20,8 +26,6 @@ Remember - LOOK AT THE DATA after you read it in!!!
 
 In case you're interested here is the code to run the 3D scatterplot from async. We will not review this code in class, but this way you have it if you want to tinker with it. If you do want to run it yourself, remember to un-comment out line 23 and install the necessary package.
 ```{r}
-#install.packages("plot3D")
-require(plot3D)
 attach(phd_mlr)
 
 fit <- lm(PUBS ~ TIME+SALARY)
@@ -94,12 +98,7 @@ An MLR revealed that time, salary, and citations significantly predicted the num
 confint(phd.mlrreg)
 ```
 
-If we want to obtain **standardized** regression coefficients, then we can use the QuantPsyc package (uncomment out line 102 to install the package). Think about WHY we might want to standardize. Again, this is NOT the same thing as mean centering. How come? 
-```{r}
-#install.packages("QuantPsyc")
-library(QuantPsyc)
-```
-
+If we want to obtain **standardized** regression coefficients, then we can use the QuantPsyc package. Think about WHY we might want to standardize. Again, this is NOT the same thing as mean centering. How come? 
 ```{r}
 #pull standardized betas
 lm.beta(phd.mlrreg)
@@ -107,11 +106,7 @@ lm.beta(phd.mlrreg)
 Now, let's write the standardized regression equation.
 $\hat{Z_{y}} = 0.54Z_{x_{time}} + 0.15Z_{x_{salary}} + 0.05Z_{x_{citations}}$
 
-In addition to R squared (which tells us the total variance in Y accounted for by our predictors, maybe we also want to understand the UNIQUE contribution of each predictor. There are two different calculations we can use for this (depending on what we want): the squared semi-partial correlations and squared partial correlations. We need the ppcor package to find these (uncomment line 115 to install).
-```{r}
-#install.packages("ppcor")
-library(ppcor)
-```
+In addition to R squared (which tells us the total variance in Y accounted for by our predictors, maybe we also want to understand the UNIQUE contribution of each predictor. There are two different calculations we can use for this (depending on what we want): the squared semi-partial correlations and squared partial correlations. We need the ppcor package to find these.
 
 *Semi-partial correlations*
 ```{r}
