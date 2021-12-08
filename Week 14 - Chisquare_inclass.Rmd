@@ -50,7 +50,7 @@ gradtable<-table(graduate$Business, graduate$Doctorate) #look at the table after
 gradtable
 ```
 
-This next piece is optional, but looking at the talbe with labels may help ensure that we're reading the table right.
+This next piece is optional, but looking at the table with labels may help ensure that we're reading the table right.
 ```{r}
 graduate<-graduate%>%
     add_labels(Business, labels=c('non-biz'=0, 'biz'=1))%>%
