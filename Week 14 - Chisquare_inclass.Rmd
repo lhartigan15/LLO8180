@@ -1,0 +1,98 @@
+---
+title: "Week 14 - Chi-Square"
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(sjlabelled)
+library(expss)
+library(tidyverse)
+```
+
+This week we will learn how to conduct a chi-square test in R. 
+
+We will start with the goodness-of-fit test (only ONE discrete var compared to EXPECTED information). 
+
+Let's look at the test format data from async
+```{r}
+format <- c(17,54,64)
+```
+
+We will run the chi-square test using chisq.test. We need to plug in the expected proportions for each group (all equally weighted in this example). 
+
+We have three groups; so we have 1/3 expected in each group. 
+```{r}
+chisq.test(format, p=c(1/3, 1/3, 1/3))
+#Note: unless you're given data for the expected frequencies, use an equal distribution of data
+```
+
+```{r}
+anotherexample <-c(36, 38, 27, 33) #note - there are four groups here
+chisq.test(anotherexample, p=c(1/4, 1/4, 1/4, 1/4))
+```
+
+Now, let's look at the chi-square test for independence (this one is the one we use more commonly). Here we're trying to answer the question: is there an association between two discrete variables?
+
+Import the data
+```{r}
+graduate <- read.table("week14_graduate.txt", header=TRUE, sep="\t")
+```
+
+First, let's create a table displaying the two-way frequencies of Business v. Doctorate. 
+```{r}
+gradtable<-table(graduate$Business, graduate$Doctorate) #look at the table after you create it
+gradtable
+```
+
+This next piece is optional, but looking at the talbe with labels may help ensure that we're reading the table right.
+```{r}
+graduate<-graduate%>%
+    add_labels(Business, labels=c('non-biz'=0, 'biz'=1))%>%
+    add_labels(Doctorate, labels=c('non-doc'=0, 'doc'=1))
+
+cro(graduate$Business, graduate$Doctorate); gradtable
+```
+
+Chi-square test for independence
+```{r}
+chisq.test(gradtable, correct=F)
+#Note: we use correct = F to get the same test statistic we computed by hand (no continuity correction)
+#Note2: we used our non-labeled/non-pretty frequency table for the analysis, since we just need the numbers
+```
+
+We could also input the values from the frequency table directly into a table and run the analysis that way. You can see the results are exactly the same. 
+```{r}
+gradtable2 <- data.frame(c(574,176), c(185,3))
+
+chisq.test(gradtable2, correct=F)
+```
+
+APA Conclusion:
+A chi-square test for independence revealed a statistically significant association between majoring in business and credential pursues (doctorate or masters), X^2(1)=46.57, p<0.05.
+
+Now let's calculate the odds ratio for pursuing a doctorate for business majors compared to non-business majors. (Note: this is just ONE way to look at this data, but you can calculate the odds for other comparisons as well).  
+```{r}
+#using epitools package
+oddsratio.wald(gradtable)
+
+#by hand
+(3/185)/(176/574)
+```
+Interpreting the odds ratio (<1 equals lower odds, >1 equals higher odds, =1 equals same odds; there are no negative odds ratios!). Interpreting ORs can be tricky for people to understand. 
+
+Here's a great way to talk about ORs - convert them to percent change. You do this by taking your OR - 1. For example:
+OR = 0.05 - 1 = -.95
+
+There was a 95% decrease in the odds of pursuing a doctorate for business majors compared to non-business majors (OR=0.05).
+
+Remember - OR is a measure of EFFECT SIZE... so we don't calculate them if we don't have a statistically significant chi-square.
+
+
+Updating my APA conclusion above, to include effect size:
+A chi-square test for independence revealed a statistically significant association between majoring in business and credential pursues (doctorate or masters), X^2(1)=46.57, p<0.05, OR=0.05. There was a 95% decrease in the odds of pursuing a doctorate for business majors compared to non-business majors (OR=0.05).
+
