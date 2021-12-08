@@ -11,6 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(sjlabelled)
 library(expss)
+library(epitools)
 library(tidyverse)
 ```
 
