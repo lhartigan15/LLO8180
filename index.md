@@ -22,7 +22,7 @@ These are the RStudio files and datasets that we will use for our live session m
 11. Week 11 - [Correlations - updated 11/10/21](./Week 11 - Correlations_inclass.Rmd), [BYOD data](./week11_byod.txt), [English data](./week11_english.txt), [Graduate data](./week11_graduate.txt), [PhD data](./week11_phd.txt)
 12. Week 12 - [Linear Regression](./Week 12 - Simple Linear Regression_inclass.Rmd), [PhD data](./week12_phd.txt), [Week 12 Slides with OLS](./Week_12_slides_withOLS.pdf)
 13. Week 13 - [Multiple Linear Regression](./Week 13 - Multiple Linear Regression_inclass.Rmd), [PhD data](./week13_phd2.txt)
-14. Week 14 - [Chi Square](./Week 14 - Chisquare.Rmd), [Grad data](./week14_graduate.txt)
+14. Week 14 - [Chi Square](./Week 14 - Chisquare_inclass.Rmd), [Grad data](./week14_graduate.txt)
 
 ### Weekly Polling Questions (with answers)
 Answers to in-class polling questions (updated after each class session).
@@ -37,7 +37,8 @@ Answers to in-class polling questions (updated after each class session).
 * [Week 10 Polling](./Week 10 polling - with answers.pdf)
 * [Week 11 Polling](./Week 11 polling_with answers.pdf)
 * [Week 12 Polling](./Week 12 polling_answers.pdf)
-* [Week 13 Polling]
+* [Week 13 Polling](./Week 13 polling answers.pdf)
+* [Week 14 Polling]
 
 ### Weekly Formula Slides
 * [Week 2 Formulas](./Week 2 Formulas.pptx)
